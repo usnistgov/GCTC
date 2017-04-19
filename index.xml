@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Global City Team Challenge</title>
+    <link>https://pages.nist.gov/GCTC/index.xml</link>
+    <description>Recent content on Global City Team Challenge</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2016 - 2017, Global City Team Challenge all rights reserved.</copyright>
+    <lastBuildDate>Mon, 17 Apr 2017 12:43:33 -0400</lastBuildDate>
+    <atom:link href="https://pages.nist.gov/GCTC/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>expo presentations</title>
+      <link>https://pages.nist.gov/GCTC/event/gctc-expo-2017/expo-presentations/</link>
+      <pubDate>Mon, 17 Apr 2017 12:43:33 -0400</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/event/gctc-expo-2017/expo-presentations/</guid>
+      <description>&lt;p&gt;Coming Soon&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>news</title>
+      <link>https://pages.nist.gov/GCTC/event/gctc-expo-2017/news/</link>
+      <pubDate>Mon, 17 Apr 2017 12:43:23 -0400</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/event/gctc-expo-2017/news/</guid>
+      <description>&lt;p&gt;Coming Soon&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>logistics</title>
+      <link>https://pages.nist.gov/GCTC/event/gctc-expo-2017/logistics/</link>
+      <pubDate>Mon, 17 Apr 2017 12:43:19 -0400</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/event/gctc-expo-2017/logistics/</guid>
+      <description>&lt;p&gt;Coming Soon&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>exhibit</title>
+      <link>https://pages.nist.gov/GCTC/event/gctc-expo-2017/exhibit/</link>
+      <pubDate>Mon, 17 Apr 2017 12:43:14 -0400</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/event/gctc-expo-2017/exhibit/</guid>
+      <description>&lt;p&gt;Coming Soon&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>agenda</title>
+      <link>https://pages.nist.gov/GCTC/event/gctc-expo-2017/agenda/</link>
+      <pubDate>Mon, 17 Apr 2017 12:41:52 -0400</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/event/gctc-expo-2017/agenda/</guid>
+      <description>&lt;p&gt;Coming Soon&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>partners</title>
+      <link>https://pages.nist.gov/GCTC/partners/</link>
+      <pubDate>Thu, 13 Apr 2017 11:07:01 -0400</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/partners/</guid>
+      <description>&lt;p&gt;Coming Soon&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Action Clusters</title>
+      <link>https://pages.nist.gov/GCTC/action-clusters/</link>
+      <pubDate>Thu, 06 Apr 2017 09:56:37 -0400</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/action-clusters/</guid>
+      <description>&lt;p&gt;There are more than 200 organizations participating in GCTC smart city technology projects, called Action Clusters. These participants include representatives from U.S. cities and states, major cities in other countries, government agencies, private companies, non-profits, universities, hospitals, and a variety of municipal-focused organizations.&lt;/p&gt;
+
+&lt;table class=&#34;table&#34;&gt;
+
+&lt;thead&gt;&lt;tr class=&#34;tableizer-firstrow&#34;&gt;&lt;th&gt;Action Cluster&lt;/th&gt;&lt;th&gt;Municipal Governments&lt;/th&gt;&lt;th&gt;Members&lt;/th&gt;&lt;th&gt;Team Lead Name&lt;/th&gt;&lt;th&gt;Team Lead E-mail&lt;/th&gt;&lt;th&gt;Sector&lt;/th&gt;&lt;th&gt;Description&lt;/th&gt;&lt;th&gt;External Web Site&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
+
+&lt;tr&gt;&lt;td&gt;A Smart Crime-Curbing System&lt;/td&gt;&lt;td&gt;Chattanooga, TN&lt;/td&gt;&lt;td&gt;Electrical Power Board (EPB), Chattanooga Enterprise Center, CoLab, UTC Police, UTC CSE department&lt;/td&gt;&lt;td&gt;Li Yang&lt;/td&gt;&lt;td&gt;Li-Yang@utc.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Abuja City Integrated Transportation System&lt;/td&gt;&lt;td&gt;Abuja City, Nigeria&lt;/td&gt;&lt;td&gt;NITDA&lt;/td&gt;&lt;td&gt;Bernard Weich&lt;/td&gt;&lt;td&gt;bewah@nitda.gov.ng&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Advanced Flood Warning and Environmental Awareness System for the City of Rohnert Park (AFWEAR) - IoT Based&lt;/td&gt;&lt;td&gt;City of Rohnert Park CA, City of Santa Rosa CA, Sonoma County CA Board of Supervisors&lt;/td&gt;&lt;td&gt;Sonoma County Water Agency, Center for Environmental Inquiry, Sonoma State University Engineering Science Department, Sonoma State University Facilities, Intel, IBM, Dew Mobility- a division of Dew Software Inc.&lt;/td&gt;&lt;td&gt;Shivakumar Mathapathi, Farid Farahmand&lt;/td&gt;&lt;td&gt;shiva@dewmobility.com, farid.farahmand@sonoma.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Air Quality Sensing Wherever You Go in Taipei&lt;/td&gt;&lt;td&gt;Taipei (Taiwan)&lt;/td&gt;&lt;td&gt;Ling-Jyh Chen (Academia Sinica); EDIMAX Technology Co., Ltd.;Realtek Semiconductor Corp.&lt;/td&gt;&lt;td&gt;Poh-Shi Ko&lt;/td&gt;&lt;td&gt;ic-saimonko@mail.taipei.gov.tw&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Amsterdam IoT Living Laboratory &amp; Beacon mile&lt;/td&gt;&lt;td&gt;Amsterdam, Netherlands&lt;/td&gt;&lt;td&gt;KPN, IBM, HvA (school) , Sensemakers meetup, Appsterdam meetup, TELE2 ODINE&lt;/td&gt;&lt;td&gt;Jonathan Carter&lt;/td&gt;&lt;td&gt;jc@glimworm.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Applying Open Data to inform future Smart City Design&lt;/td&gt;&lt;td&gt;Kansas City, MO&lt;/td&gt;&lt;td&gt;PlatIT Impact; Prof. Praveen Rao, University of Missouri, Kansas City; Prof Vladimir Krstic, Director the Kansas City Design Center (KU/KSU)&lt;/td&gt;&lt;td&gt;Dominique Davison&lt;/td&gt;&lt;td&gt;ddavison@planitimpact.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;BigClouT - Big data meets cloud of things for improving the quality of experience of citizens and visitors&lt;/td&gt;&lt;td&gt;Grenoble (France), Fujisawa (Japan), Bristol (UK) and Tsukuba (Japan)&lt;/td&gt;&lt;td&gt;CEA (France); Engineering SpA (Italy); Institute of Communication and Computer Systems (Greece); Lancaster Univ. (UK); Absiskey (France); NTT East Corporation; NTT R&amp;D; Keio University; National Institute of Informatics (NII); University of Tsukuba;&lt;/td&gt;&lt;td&gt;Levent Gürgen&lt;/td&gt;&lt;td&gt;levent.gurgen@cea.fr&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Busan Smart City: Safe School Zone (OneM2M Platform Based)&lt;/td&gt;&lt;td&gt;Busan, South Korea&lt;/td&gt;&lt;td&gt;Jason Noh; SK Telecom; Pluxity; Namoo I&amp;C; nTels; DELI-i, etc&lt;/td&gt;&lt;td&gt;Eunkwang Kim&lt;/td&gt;&lt;td&gt;eunkwang@sk.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Campus Array Node (CAN)/Array of Things (AoT) Network Dual Deployment (&#34;the Project&#34;)&lt;/td&gt;&lt;td&gt;City of Atlanta, GA&lt;/td&gt;&lt;td&gt;Georgia Tech Research Institute, Argonne National Labs&lt;/td&gt;&lt;td&gt;Jennifer Clark; Margaret Loper&lt;/td&gt;&lt;td&gt;jennifer.clark@gatech.edu; Margaret.Loper@gtri.gatech.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Chula Vista Smart Waterfront&lt;/td&gt;&lt;td&gt;City of Chula Vista, CA; Port of San Diego, CA&lt;/td&gt;&lt;td&gt;Black &amp; Veatch, Cleantech San Diego, OSIsoft, Qualcomm, Cisco, AT&amp;T, Ed Davalos&lt;/td&gt;&lt;td&gt;Dennis Gakunga; Michelle White&lt;/td&gt;&lt;td&gt;DGakunga@ci.chula-vista.ca.us&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Clarity Amidst Chaos: Artificial Intelligence as a Tool for Emergency Responders&lt;/td&gt;&lt;td&gt;San Francisco, CA; Alameda County, CA&lt;/td&gt;&lt;td&gt;One Concern, Inc; San Francisco, CA; Alameda County, CA&lt;/td&gt;&lt;td&gt;Ahmad Wani, CEO of One Concern, Inc.&lt;/td&gt;&lt;td&gt;ahmad@oneconcern.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Combating Urban Blight in the New York Capital Region and Mohawk Valley: A Multi-City Building Code Enforcement Information Sharing Pilot Project&lt;/td&gt;&lt;td&gt;City of Schenectady, NY; City of Amsterdam, NY; City of Gloversville, NY; City of Troy, NY&lt;/td&gt;&lt;td&gt;City of Schenectady NY; University at Albany&lt;/td&gt;&lt;td&gt;Gary R. McCarthy, Mayor, City of Schenectady NY; Meghan Cook, Program Director; Derek Werthmuller, Director of Technology and Innovation Services, Center for Technology in Government, University at Albany.&lt;/td&gt;&lt;td&gt;GMcCarthy@schenectadyny.gov; mcook@ctg.albany.edu; dwerthmu@ctg.albany.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Community Traffic Guidance and Control System in Supporting Natural Disaster Emergency Response&lt;/td&gt;&lt;td&gt;Taichung City, Taiwan&lt;/td&gt;&lt;td&gt;National Center for High Performance Computing, National Applied Research Labs, Taiwan. Water resources agency, Taiwan. Private companies working with exiting systems.&lt;/td&gt;&lt;td&gt;Hui-Ming Huang&lt;/td&gt;&lt;td&gt;k4114@taichung.gov.tw&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Crowdsourcing Preference Data for Transportation Infrastructure&lt;/td&gt;&lt;td&gt;City of Atlanta, GA&lt;/td&gt;&lt;td&gt;Georgia Institute of Technology&lt;/td&gt;&lt;td&gt;Chris LeDantec&lt;/td&gt;&lt;td&gt;ledantec@gatech.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Deployable Communications and Incident Command System for Emergency Response and Disaster Recovery&lt;/td&gt;&lt;td&gt;Fire Department, City of Denton&lt;/td&gt;&lt;td&gt;University of North Texas, Civil Air Patrol, Penn State University, AirRobot, Dean Skidmore, LTE+IoT, Unmanned Experts&lt;/td&gt;&lt;td&gt;Kamesh Namuduri&lt;/td&gt;&lt;td&gt;Kamesh.Namuduri@unt.edu&lt;/td&gt;&lt;td&gt;Public Safety/Emergency/Disaster/Resilience&lt;/td&gt;&lt;td&gt;The Deployable Communicarion System (DCS) is intended for enabling communications in emergency scenarios when terrestrial infrastrcture is not functioning due to natural or man-made disasters. The DCS inlcudes a portable LTE node airlifted by a UAV.&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Deploying Real-Time, Multi-Pollutant Sensors (RAMP) in East Liberty&lt;/td&gt;&lt;td&gt;Pittsburgh, PA; Allegheny County PA&lt;/td&gt;&lt;td&gt;CMU, the City of Pittsburgh, and Allegheny County&lt;/td&gt;&lt;td&gt;Albert Presto; R. Subramanian&lt;/td&gt;&lt;td&gt;apresto@andrew.cmu.edu; subu@cmu.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Development of IoT based Smart Energy Management System for Smart Green City&lt;/td&gt;&lt;td&gt;Suwon City, Korea&lt;/td&gt;&lt;td&gt;Korea Institute of Civil Engineering and Building Technology; Suwon Research Institute&lt;/td&gt;&lt;td&gt;Suwon Song (Korea Institute of Civil Engineering and Building Technology)&lt;/td&gt;&lt;td&gt;swsong@kict.re.kr&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Eindhoven, Brainport Living Lab Smart Mobility&lt;/td&gt;&lt;td&gt;City of Helmond, City of Tilburg (The Netherlands); Province of Brabant / Rijkswaterstaat (National Traffic Authority)&lt;/td&gt;&lt;td&gt;Various Companies: a.o. NXP, Tom Tom, TNOSiemens, Dynniq, but also SMEs.&lt;/td&gt;&lt;td&gt;Daniel de Klein&lt;/td&gt;&lt;td&gt;d.de.klein@helmond.nl&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Eindhoven/CityPulse&lt;/td&gt;&lt;td&gt;City of Eindhoven/ Brainport region Eindhoven (Netherlands)&lt;/td&gt;&lt;td&gt;ATOS International&lt;/td&gt;&lt;td&gt;Guus Sluijter&lt;/td&gt;&lt;td&gt;g.sluijter@eindhoven.nl&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Eindhoven/Strijp-S Smart&amp; Connnected Community&lt;/td&gt;&lt;td&gt;City of Eindhoven,City of Helmond / Brainport International, Netherlands&lt;/td&gt;&lt;td&gt;VolkerWessels Telecom; VolkerWessels iCity&lt;/td&gt;&lt;td&gt;Johann Beelen&lt;/td&gt;&lt;td&gt;j.beelen@brainportdevelopment.nl&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Envision Austin: Community-Focused, Data-Driven, Mobile-Powered Design &amp; Optimization of Communities and Cities&lt;/td&gt;&lt;td&gt;City of Austin, TX&lt;/td&gt;&lt;td&gt;Vizias, HubCiti , Living PlanIT&lt;/td&gt;&lt;td&gt;Jay Boisseau; Allison Warner&lt;/td&gt;&lt;td&gt;jay@vizias.com; allison@vizias.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Envision Upstate SC (EUSC) 2016-2020 (Name updated 04.07)&lt;/td&gt;&lt;td&gt;Greenville, SC&lt;/td&gt;&lt;td&gt;Greenville County, Pickens County&lt;/td&gt;&lt;td&gt;Fred Payne&lt;/td&gt;&lt;td&gt;FPayne@greenvillecounty.org&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;EnvyPorto&lt;/td&gt;&lt;td&gt;City of Porto (Portugal)&lt;/td&gt;&lt;td&gt;Citibrain (Portugal), InterInnov (France), Technical University Madrid (Spain)&lt;/td&gt;&lt;td&gt;Rui A. Cota, Citibrain; Jacques Magen (InterInnov)&lt;/td&gt;&lt;td&gt;rcosta@ubiwhere.com; jmagen@interinnov.eu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;FIWARE and OASC - Enabling smarter car navigation through cities&lt;/td&gt;&lt;td&gt;Santander (Spain), Seville (Spain), Porto (Portugal), Antwerpen (Belgium)&lt;/td&gt;&lt;td&gt;Telefonica (Spain), HERE Maps (Germany), Ubiwhere (Portugal), Technical University of Madrid (Spain), UCAN (Spain), Wellness Telecom (Spain), TM Forum (USA), InterInnov (France)&lt;/td&gt;&lt;td&gt;José Manuel Cantera&lt;/td&gt;&lt;td&gt;josemanuel.canterafonseca@telefonica.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Galway Smart City: Light Pollution, Air Quality and Noise Monitoring Smart System - IoT Based&lt;/td&gt;&lt;td&gt;Galway City; Mayo; Sligo; Leitrim; Roscommon&lt;/td&gt;&lt;td&gt;Dew Mobility - a division of Dew Software, Inc; Insight Centre for Data Analytics at National University of Ireland Galway; Galway City Council&lt;/td&gt;&lt;td&gt;Shivakumar Mathapathi; Martin Serrano&lt;/td&gt;&lt;td&gt;shiva@dewmobility.com; martin.serrano@insight-centre.org&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Game-based Risk and Loss Management System with integrated Driver Reward Program for the New York City Livery Industry&lt;/td&gt;&lt;td&gt;New York, NY&lt;/td&gt;&lt;td&gt;Qualcomm, Intrinsyc, Orbcomm and multiple communications network providers, insurance companies, universities, large livery leasing companies and livery service providers&lt;/td&gt;&lt;td&gt;Tim Brogan; Michal Koenig&lt;/td&gt;&lt;td&gt;tbrogan@assurenet.us; mkoenig@qti.qualcomm.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;GEO Fencing Predictive Policing solutions to reduce response times for first responders and provide valid data for evidence&lt;/td&gt;&lt;td&gt;City of Conover, NC&lt;/td&gt;&lt;td&gt;Paramount Global Holdings, Inc; Dean Skidmore&lt;/td&gt;&lt;td&gt;Kimberly Calhoun&lt;/td&gt;&lt;td&gt;Kimberly@guardianator.com (new email)&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Hyperlocal Testbeds for Citizen Science&lt;/td&gt;&lt;td&gt;Boston, MA&lt;/td&gt;&lt;td&gt;Categorical Informatics; Bitsence; MIT&lt;/td&gt;&lt;td&gt;Joshua Tan&lt;/td&gt;&lt;td&gt;tanj@mit.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Illuminating Smart Cities: Kansas City Runs on IoT Platform&lt;/td&gt;&lt;td&gt;Kansas City, MO&lt;/td&gt;&lt;td&gt;Sensity Systems, Cisco Systems, Think Big Partners&lt;/td&gt;&lt;td&gt;Sean Harrington, Amy Lee&lt;/td&gt;&lt;td&gt;sharrington@sensity.com, alee@sensity.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Improving Cross Departmental Communications, Operational Efficiencies and Customer Interaction through a Smart Cities Dashboard in the City of Bellevue, WA&lt;/td&gt;&lt;td&gt;City of Bellevue, WA&lt;/td&gt;&lt;td&gt;CH2M Hill; Microsoft, Mtuity&lt;/td&gt;&lt;td&gt;Ken Thompson&lt;/td&gt;&lt;td&gt;ken.thompson@ch2m.com&lt;/td&gt;&lt;td&gt;City Data Platform/Dashboard&lt;/td&gt;&lt;td&gt;Develop a water module for the City of Bellevue Smart City Portal using web-service interfaces with existing systems, data analytics, and GIS Visualization dashbaord. The Water Module will look at quality, quantity, and cost of water systems.&lt;/td&gt;&lt;td&gt;N/A&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Interactive optimization of city support for bicycling and other non-motorized transportation&lt;/td&gt;&lt;td&gt;City of Oakland, CA&lt;/td&gt;&lt;td&gt;UC Berkeley; UC Berkeley Real Estate; City of Oakland&lt;/td&gt;&lt;td&gt;David Culler; K. Shankari&lt;/td&gt;&lt;td&gt;culler@berkeley.edu; shankari@eecs.berkeley.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;IoT based waste management system - Smart Garbage Monitoring System (SGMS)&lt;/td&gt;&lt;td&gt;City of San Leandro, CA&lt;/td&gt;&lt;td&gt;Santa Clara University, Dew Moblity, IBM, Intel; San Leandro Chamber of Commerce; San Leandro Improvement Association (SLIA)&lt;/td&gt;&lt;td&gt;Shivakumar Mathapathi, Prof. Vasu Kadambi&lt;/td&gt;&lt;td&gt;shiva@dewmobility.com, vkadambi@scu.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;IoT Education &amp; Workforce Development&lt;/td&gt;&lt;td&gt;Montgomery County, MD; Arlington County, VA (Note: This cluster is working with schools in the Kansas City area, but does not have a municipal partner there)&lt;/td&gt;&lt;td&gt;IoT Dev Labs, Internet of Things DC, Earth Networks, Virginia Tech, Intel, Cisco, Think Big Partners, Texas Instruments, Centeye, George Mason University, community volunteers&lt;/td&gt;&lt;td&gt;Greg Toth&lt;/td&gt;&lt;td&gt;gtoth@iotdc.org&lt;/td&gt;&lt;td&gt;General (Everything else)&lt;/td&gt;&lt;td&gt;Preparing students and the broader workforce for an increasingly sensor-driven environment in smart cities and communities.&lt;/td&gt;&lt;td&gt;http://ioteducation.org&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;IoT-Based Healthcare Services&lt;/td&gt;&lt;td&gt;Daegu City, South Korea&lt;/td&gt;&lt;td&gt;South Korea Ministry of Security, ICT, Future Planning; Jongtae Park, Daily Healthcare Demonstration Complex Construction Agency&lt;/td&gt;&lt;td&gt;Jong-Tae Park&lt;/td&gt;&lt;td&gt;jtpark@ee.knu.ac.kr&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Kaduna State Integrated Learning System&lt;/td&gt;&lt;td&gt;Kaduna North, Zaria &amp; Jama&#39;a Local Governments (Nigeria)&lt;/td&gt;&lt;td&gt;Ministry of Budget and Planning; Ministry of Education, Science &amp; Technology; Ministry for Local Government &amp; Chieftaincy Affairs; Ministry of Works &amp; Transport; Ministry for Lands &amp; Country Planning; National Information Technology Development Agency&lt;/td&gt;&lt;td&gt;Idris Muhammmad&lt;/td&gt;&lt;td&gt;idris166@yahoo.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Leisurity: &#34;Revitalizing the city through smart leisure&#34;&lt;/td&gt;&lt;td&gt;City of Valencia (Spain), City of Lindale (TX, USA)&lt;/td&gt;&lt;td&gt;Fundación InnDEA Valencia (Spain), City of Lindale (USA), Verizon Wireless (USA), Prodevelop (Spain), Visiona (Spain), Technical University of Madrid (Spain), InterInnov (France)&lt;/td&gt;&lt;td&gt;Paula Llobet&lt;/td&gt;&lt;td&gt;paula.llobet@inndeavalencia.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Lindale - The Genius City Mixed Use Development&lt;/td&gt;&lt;td&gt;City of Lindale, TX&lt;/td&gt;&lt;td&gt;Gregory Brown, Advanced Solutions Architect, Verizon Wireless; Lindale CDC LLC; Pink Pistol; Tyler Junior College&lt;/td&gt;&lt;td&gt;Craig Lindholm&lt;/td&gt;&lt;td&gt;craigl@lindaletx.gov&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;LinkNYC&lt;/td&gt;&lt;td&gt;New York, NY&lt;/td&gt;&lt;td&gt;Qualcomm Incorporated, Intersection, and CiviQ Smartscapes&lt;/td&gt;&lt;td&gt;Al Jenkins; Michal Koenig&lt;/td&gt;&lt;td&gt;aljenkins@doitt.nyc.gov; mkoenig@qti.qualcomm.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;MAGIC Smart Home/Smart Community Project&lt;/td&gt;&lt;td&gt;The City of Westminster, MD&lt;/td&gt;&lt;td&gt;The Mid-Atlantic Gigabit Innovation Collaboratory (MAGIC); Target Community and Educational Services; Westminster Security Company; K4Connect; EntryPoint Networks; The City of Westminster; Ting; Intel; Carroll Hospital; LifeBridge&lt;/td&gt;&lt;td&gt;Robert Wack&lt;/td&gt;&lt;td&gt;rwack@magicinc.org; robert.p.wack@gmail.com&lt;/td&gt;&lt;td&gt;Healthcare&lt;/td&gt;&lt;td&gt;A multi-partner collaboration demonstrating a variety of broadband enabled technologies in a residential setting; gathers a wide variety of data, provides intelligent monitoring, analysis, and alerting, to make a measurable positive impact on the quality of life of residents; combines telemedicine and in-home monitoring and controls, to decrease: Emergency Department visits, unplanned medical appointments, staff time spent on unplanned medical care; initial study population of medically fragile adults with intellectual disabilities will eventually generalize to wider population of elderly, aging in place, medically fragile, and chronic disease management populations.&lt;/td&gt;&lt;td&gt;http://www.magicinc.org/smart-home-project/&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Microgrid Cloud: An IoT-enabled Integrative Framework for Community Microgrid Monitoring, Analytics and Optimization&lt;/td&gt;&lt;td&gt;City of Hartford, CT, Town of Windham, CT&lt;/td&gt;&lt;td&gt;UConn, CCAT (Connecticut Center for Advanced Technology)&lt;/td&gt;&lt;td&gt;Peng Zhang&lt;/td&gt;&lt;td&gt;peng@engr.uconn.edu; peng.zhang@uconn.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Multi-Time Scale Logistical Scheduling, Maintenance and Dispatch engine for emergency services, Name update Integrated Analytics and Scheduling of Emergency Responders Under Uncertainty&lt;/td&gt;&lt;td&gt;Nashville TN Fire Department&lt;/td&gt;&lt;td&gt;Venderbilt University&lt;/td&gt;&lt;td&gt;Gautam Biswas; Abhishek Dubey; Eugene Vorobeychik&lt;/td&gt;&lt;td&gt;gautam.biswas@Vanderbilt.Edu; abhishek.dubey@Vanderbilt.Edu; yev@isis.vanderbilt.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;NC RIoT Intelligence Led Public Safety (ILPS)&lt;/td&gt;&lt;td&gt;Police, Fire Department and EMS from City of Raleigh, Town of Wake Forest and City of Cary. State of NC FirstNet&lt;/td&gt;&lt;td&gt;Wireless Research Center of North Carolina, NC RIoT, North Carolina State University, ASSIST, Smashing Boxes, ST Micro, SAS, Connected Development, NC Department of Information Technology, Broadband Infrastructure Office, FirstNet NC Program&lt;/td&gt;&lt;td&gt;Larry Steffann&lt;/td&gt;&lt;td&gt;Larry Steffann &lt;larry@ncriot.org&gt;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Next Generation, Resilient Warning Systems for Tornados and Flash Floods&lt;/td&gt;&lt;td&gt;North Central Texas Council of Governments; City of Midlothian, TX; City of Fort Wort, TX&lt;/td&gt;&lt;td&gt;University of Massachusetts, Colorado State University, North Central Texas Council of Governments&lt;/td&gt;&lt;td&gt;Brenda Philips; V. Chandrasekar; Michael Zink&lt;/td&gt;&lt;td&gt;bphilips@engin.umass.edu; chandra@engr.colostate.edu; zink@ecs.umass.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Non-Revenue Water Monitoring and Reduction Using Advanced LTE Communications , Gwinnet County Department of Water Resources&lt;/td&gt;&lt;td&gt;Gwinnett County Regional Water Authority&lt;/td&gt;&lt;td&gt;Qualcomm, AT&amp;T, Neptune Meters, Capstone Meters, Trimble/Telog, Krohne, Fathom&lt;/td&gt;&lt;td&gt;Ken Thompson&lt;/td&gt;&lt;td&gt;ken.thompson@ch2m.com&lt;/td&gt;&lt;td&gt;Energy/Water/Waste Management&lt;/td&gt;&lt;td&gt;Design and Pilot an innovative approach to identifying and controlling non-revenue water using Advance Netering Infrastructure, Pressure Transient Sensors, Data  Analytics, and visualization spatial dashboard&lt;/td&gt;&lt;td&gt;N/A&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;OPEN Data and Predictive Analytics in the City of Glasgow.&lt;/td&gt;&lt;td&gt;Glasgow, Edinburgh, Perth, Stirling, Dundee and Inverness (Scotland)&lt;/td&gt;&lt;td&gt;IDE-International; Glasgow City Centre Retailers Association; Glasgow Chamber of Commerce; University of Strathclyde; Scottish Enterprise / Scottish Development International&lt;/td&gt;&lt;td&gt;Ross Hamilton&lt;/td&gt;&lt;td&gt;ross.hamilton@ide-international.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Open platform for scalable and multi-domain IoT applications for smart cities (previously: Prevention of environmental disasters in the city through data mining)&lt;/td&gt;&lt;td&gt;Genoa Municipality (Italy); Milan Municipality (Italy); Torino Municipality (Italy(&lt;/td&gt;&lt;td&gt;Engineering Ingegneria Informatica SpA (Italy); ENEA - Italian national Agency for new technologies, energy and sustainable economic development (Italy); FGB; ISMB; Bocconi University - IEFE - Center for Research on Energy and Environmental Economics and Policy (Italy); Integrated Planning Policy and Regulation Action Cluster - European Innovation Partnership for Smart cities (EU)&lt;/td&gt;&lt;td&gt;Paolo Castiglieri, Comune di Genova&lt;/td&gt;&lt;td&gt;pcastiglieri@comune.genova.it&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;OpenMove, plug&amp;play platform for mobile ticketing&lt;/td&gt;&lt;td&gt;Trento (Italy) and the entire province of Trento&lt;/td&gt;&lt;td&gt;OpenMove (Italy), Technical University of Madrid (Spain), InterInnov (France)&lt;/td&gt;&lt;td&gt;Lorenzo Modena&lt;/td&gt;&lt;td&gt;lorenzo.modena@openmove.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;PA 2040 Enhanced CCTV Public Safety&lt;/td&gt;&lt;td&gt;Washington, DC&lt;/td&gt;&lt;td&gt;MPD; DDOT; NCPC&lt;/td&gt;&lt;td&gt;Anil Sharma; Troy Icenhour&lt;/td&gt;&lt;td&gt;Anil.Sharma@dc.gov; Troy.Icenhour@dc.gov&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;PA2040 Environmental Sensing&lt;/td&gt;&lt;td&gt;Washington, DC&lt;/td&gt;&lt;td&gt;MetroLab partners currently include senior administrators at Georgetown, George Washington, American, Howard and UDC.&lt;/td&gt;&lt;td&gt;Don DuRousseau; , Kenneth Walton&lt;/td&gt;&lt;td&gt;ddurousseau@gwu.edu; kenneth.walton@ncpc.gov&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;PA2040 Smart Parking (renamed on 5/23/2016, previously Smart DC Data Hub Kiosks)&lt;/td&gt;&lt;td&gt;Washington, DC&lt;/td&gt;&lt;td&gt;Golden Triangle BID; Metropolitan Washington Council of Governments&lt;/td&gt;&lt;td&gt;David Koch&lt;/td&gt;&lt;td&gt;david.koch@dc.gov&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Platform for Enabling optimal Multi-Modal Transportation Planning Service&lt;/td&gt;&lt;td&gt;Nashville TN&lt;/td&gt;&lt;td&gt;Vanderbilt Univ, Nashville MTA, Siemens Corporate Technology&lt;/td&gt;&lt;td&gt;Abhishek Dubey, Gautam Biswas, Doug Schmidt, Vanderbilt University; Martin Lehofer, Siemens, CT&lt;/td&gt;&lt;td&gt;abhishek.dubey@Vanderbilt.Edu; martin.lehofer@siemens.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Portland: Connected Intelligent Transportation&lt;/td&gt;&lt;td&gt;Portland Oregon, Porto Portugal&lt;/td&gt;&lt;td&gt;City of Portland, Portland State University, the Technology Association of Oregon, INTEL, the IBI Group, NetCity, urban.systems, OpenBike, DKS, Seaborne, Sera Architects, Urbi, Ubiware, Pangea Motors, InterInnov (France), Technical University Madrid (Spain)&lt;/td&gt;&lt;td&gt;Skip Newberry, Wilfred Pinfold&lt;/td&gt;&lt;td&gt;skip.newberry@techoregon.org; wilfred.pinfold@urban.systems&lt;/td&gt;&lt;td&gt;Transportation&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;REAL TIME RESILIENCE - Resilience data treatment tools towards Real Time decisions making.&lt;/td&gt;&lt;td&gt;City of Genoa (Italy), City of Florence (Italy), City of Bari (Italy)&lt;/td&gt;&lt;td&gt;Leonardo Finmeccanica S.p.A. (Italy); CIMA Research Foundation - International Centre on environmental monitoring (Italy); ENEA - Italian national Agency for new technologies, energy and sustainable economic development (Italy); Integrated Planning Policy and Regulation Action Cluster - European Innovation Partnership for Smart cities (EU)&lt;/td&gt;&lt;td&gt;Paolo Castiglieri&lt;/td&gt;&lt;td&gt;pcastiglieri@comune.genova.it&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;From Monitoring Underground Infrastructure to Shared IoT Infrastructure: Path toward a Viable Business Model for Cities and Businesses&lt;/td&gt;&lt;td&gt;Daxing District, Beijing, China&lt;/td&gt;&lt;td&gt;Washington State University, Prescient Designs, Beijing GTI IOT Technology, EBDA&lt;/td&gt;&lt;td&gt;Andrew Wang; Sandip Roy; Haibo Lv&lt;/td&gt;&lt;td&gt;andy.wang@prescientdesigns.com, sroy@eecs.wsu.edu; lvhaibo@gti.net.cn&lt;/td&gt;&lt;td&gt;Public Safety/Emergency/Disaster/Resilience&lt;/td&gt;&lt;td&gt;Low-power wide-area wireless sensor networks are deployed for flexible monitoring of diverse underground infrastructure components, including manhole-cover fidelity, toxic gas levels and floodwater in tunnels. A profit-sharing model is created to expand the usage of these wireless sensor networks to other public and private applications.&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Recycle Please!&lt;/td&gt;&lt;td&gt;City of Austin, TX&lt;/td&gt;&lt;td&gt;Open Austin, Redeuces, Vizias&lt;/td&gt;&lt;td&gt;Derek Sinns; Marco Pineda&lt;/td&gt;&lt;td&gt;derek.sinns@gmail.com; mapineda1222@gmail.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Reducing the Frequency and Morbidity of Pediatric Asthma Attacks&lt;/td&gt;&lt;td&gt;Dayton &amp; Montgomery County OH; Cuyahoga County, OH&lt;/td&gt;&lt;td&gt;Dayton Children&#39;s Hospital, OneCommunity&lt;/td&gt;&lt;td&gt;Marv Schwartz&lt;/td&gt;&lt;td&gt;mschwartz@onecommunity.org&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;ROSE - Real Time Operational Smart Grid for Europe&lt;/td&gt;&lt;td&gt;Municipality of Genova (Italy)&lt;/td&gt;&lt;td&gt;Maps s.p.a. (Italy); Genova University (Savona Campus Energy Grid); ENEA - National Agency for new technologies, energy and sustainable economic development - Italy; ENEL www.enel.it; Clarify Austin http://clarify.io/; Integrated Planning Policy and Regulation Action Cluster - European Innovation Partnership for Smart cities (EU)&lt;/td&gt;&lt;td&gt;Giuseppe Franceschelli; Sabatino Gallotta&lt;/td&gt;&lt;td&gt;giuseppe.franceschelli@mapsgroup.it; Sabatino.Gallotta@mapsgroup.it&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Safe Community Awareness and Alerting Network (SCALE)&lt;/td&gt;&lt;td&gt;Montgomery County, MD&lt;/td&gt;&lt;td&gt;Intel, IBM, Senseware, Sigfox, IoT Dev Labs, Victory Housing, UC Irvine, University of Texas Dallas, N5 Sensors, University of Maryland Baltimore County&lt;/td&gt;&lt;td&gt;Dan Hoffman, Director, Thingstitute; Brandon Bedford&lt;/td&gt;&lt;td&gt;Daniel.hoffman@montgomerycountymd.gov; Brandon.bedford@montgomerycountymd.gov&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Safe Town of Shirahama: Preparing for Disasters with Resilient Communication Platform &#34;NerveNet&#34;&lt;/td&gt;&lt;td&gt;Shirahama Town, Wakayama Prefecture, Japan&lt;/td&gt;&lt;td&gt;Shirahama Town (Japan), NICT (Japan), HIRAKAWA HEWTECH Corporation (Japan), Nassua Solutions Corporation (Japan)&lt;/td&gt;&lt;td&gt;Masugi Inoue&lt;/td&gt;&lt;td&gt;inoue@nict.go.jp&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;This project is deploying a resilient communication platform called NerveNet to secure local communications and connectivity to the Internet even if the town is hit by huge earthquakes and tsunamis. In order to sustain this system, Nervenet is used as a public Wi-Fi at ordinaly times in this project.&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Security System to checkmate activities and proper care of Internally Displaced Persons (IDPs) a.k.a IoT - based IDP Tracking and Monitoring System&lt;/td&gt;&lt;td&gt;Jalingo Local Government; Ardo-Kola Local Government; Bali Local Government; Gassol Local Government; Ibi Local Government; Wukari Local Government; Takum Local Government&lt;/td&gt;&lt;td&gt;Bernard Kijie Ewah, Head, E-Government, National Information Technology Development Agency, 28, Port Harcourt Crescent, Area 11 Abuja, Nigeria; Cosmas Ayakudo, Landgate Consultancy Ltd. ; IDEAs Hub, NIGERIA, IBM&lt;/td&gt;&lt;td&gt;Grace A. James&lt;/td&gt;&lt;td&gt;fenshon@gmail.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Sense, Report, Act, and Refine: A Smart City Collaboration&lt;/td&gt;&lt;td&gt;Washington DC;&lt;/td&gt;&lt;td&gt;Enevo; Krumbs; National Institute of Standards and Technologies; Carnegie Melon University; University of California Irvine; DC Business Improvement District Council; Maalka; Victor Stanley; Keep America Beautiful&lt;/td&gt;&lt;td&gt;Scott Pomeroy&lt;/td&gt;&lt;td&gt;scott@downtowndc.org&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Sensor-based Measurement of Transportation Management Performance&lt;/td&gt;&lt;td&gt;City of Austin, TX&lt;/td&gt;&lt;td&gt;The University of Texas at Austin, Center for Transportation Research&lt;/td&gt;&lt;td&gt;Jennifer Duthie&lt;/td&gt;&lt;td&gt;jduthie@mail.utexas.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Serving the Underserved with IoT Solutions&lt;/td&gt;&lt;td&gt;City of Las Vegas, NV&lt;/td&gt;&lt;td&gt;PTC; Thingworx; Ingenu; Arrow; Google&lt;/td&gt;&lt;td&gt;Don Jacobson &amp; Tiana McNeil&lt;/td&gt;&lt;td&gt;tiana.mcneil@ingenu.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Smart Agriculture&lt;/td&gt;&lt;td&gt;Montgomery County, MD&lt;/td&gt;&lt;td&gt;Microsoft, Link Labs, Fibertower, Patton Electronics, Earth Networks, IoT Dev Labs, University of Maryland Baltimore County&lt;/td&gt;&lt;td&gt;Dan Hoffman, Director, Thingstitute), Brandon Bedford&lt;/td&gt;&lt;td&gt;Daniel.hoffman@montgomerycountymd.gov, Brandon.bedford@montgomerycountymd.gov&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Smart Car-Talk&lt;/td&gt;&lt;td&gt;Daegu City, South Korea&lt;/td&gt;&lt;td&gt;Korea Automotive Technology Institute(KATECH), Korea Intelligent Automotive Parts(KIAPI), Renault Samsung Motors, Fusion Soft , Intelligent Transport Society of Korea(ITSK), Korea Telecom(KT), LOGIFOCUS, Sambo Motors, Research and Ubiquitous(RnU), Digital Imaging Lab(DILAB), SECO Interface, Radius Mobility Revolution, Infobank, Bayless, Seoul National University(SNU) Big Data Institute, Hanyang University;&lt;/td&gt;&lt;td&gt;Sujin Kwag; Taewoo Lee&lt;/td&gt;&lt;td&gt;sjkwag@katech.re.kr; twlee@katech.re.kr&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Smart Cities Optimized&lt;/td&gt;&lt;td&gt;Montgomery County, MD, Greenville, SC, Gwinnett County, GA, Chula Vista, CA&lt;/td&gt;&lt;td&gt;AT&amp;T, Qualcomm, Intel, GE, IBM, CH2M, Machfu, Black &amp; Veatch, Mactusa, Landwave, MotionLoft, ShotGun Spotter, Mueller Water, Big Belly&lt;/td&gt;&lt;td&gt;Ed Davalos&lt;/td&gt;&lt;td&gt;ed.davalos@att.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Smart Cities San Diego (an initiative of Cleantech San Diego)&lt;/td&gt;&lt;td&gt;City of San Diego, City of Chula Vista, Pot of San Diego, San Diego International Airport&lt;/td&gt;&lt;td&gt;Cleantech San Diego, UC San Diego, Qualcomm, Black &amp; Veatch, OSIsoft, GE, SDG&amp;E and others&lt;/td&gt;&lt;td&gt;Jason Anderson&lt;/td&gt;&lt;td&gt;jasona@cleantechsandiego.org&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;SMART Emergency Medical Teams&lt;/td&gt;&lt;td&gt;FairFax County, VA&lt;/td&gt;&lt;td&gt;Fairfax Fire &amp; Rescue, Inova Fairfax Hospital, George Mason University, Inflow Interactive, Newport News, VA, ASC Consulting, USPHS&lt;/td&gt;&lt;td&gt;Brenda Bannan PhD George Mason University Jeff Segall MA, MBA Inflow Interactive&lt;/td&gt;&lt;td&gt;brenda.bannan@gmail.com; jeff@inflowinteractive.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Smart Emergency Response System (SERS)&lt;/td&gt;&lt;td&gt;City of Denton, TX&lt;/td&gt;&lt;td&gt;Denton Fire Department; Fire Services in Nw Public Services Training, a department of Tarrant County College&lt;/td&gt;&lt;td&gt;Yan Wan; Shengli Fu&lt;/td&gt;&lt;td&gt;Yan.Wan@unt.edu; shengli.fu@unt.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Smart Insight Amsterdam&lt;/td&gt;&lt;td&gt;Cities of Amsterdam, Enschede, Zaanstad (Netherlands)&lt;/td&gt;&lt;td&gt;Pecan Street, Alliander (Bram Reijnders, Paul Voskuilen), University of Twente, ABN AMRO, Smart City Amsterdam, Zaanstad, Enschede, Overijssel, Kennispark Twente&lt;/td&gt;&lt;td&gt;Paul Simmeren; Chantal Mas&lt;/td&gt;&lt;td&gt;p.simmeren@ipsumenergy.com; chantal.mas@rvo.nl&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Smart Replicable Solutions to Water-Energy Nexus Challenges&lt;/td&gt;&lt;td&gt;Washington DC; Cleveland, OH&lt;/td&gt;&lt;td&gt;University of California, Irvine (Prof. Nalini Venkatasubramanian, Computer Science; Prof. Stanley Grant, Civil and Environmental Engineering); CB&amp;I Federal Services; Roietronics, Senet, Senformatics, Graphet; Information Technology and Engineering LLC&lt;/td&gt;&lt;td&gt;Sudhir Kshirsagar, President, Global Quality Corp.&lt;/td&gt;&lt;td&gt;sudhir@gqc.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Smart Transit Hubs/ B&#39;Smart&lt;/td&gt;&lt;td&gt;Baltimore, MD&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;Jill Sorensen&lt;/td&gt;&lt;td&gt;jats@bilyan.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;SmartAppCity: global mobile solutions for Smart Cities.&lt;/td&gt;&lt;td&gt;City of Logroño (Spain)&lt;/td&gt;&lt;td&gt;JIG Internet Consulting (Spain), Get-App Spain, Technical University of Madrid (Spain), InterInnov (France)&lt;/td&gt;&lt;td&gt;Ignacio Gurría de la Torre&lt;/td&gt;&lt;td&gt;igurria@jig.es&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;SmartCU - Covenant University Smart City&lt;/td&gt;&lt;td&gt;Ado-Odo/Ota Local Government, Nigeria&lt;/td&gt;&lt;td&gt;Covenant University, Santa Clara University, Dew Mobility, Intel, IBM&lt;/td&gt;&lt;td&gt;Aderemi A. Atayero, Tokunbo Ogunfunmi, Shivakumar Mathapathi&lt;/td&gt;&lt;td&gt;atayero@covenantuniversity.edu.ng, togunfunmi@scu.edu, shiva@dewmobility.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;SmartShuttle - A Scalable and Replicable Architecture for Low Speed Automated Shuttles in Smart Cities&lt;/td&gt;&lt;td&gt;City of Columbus, OH; Greenville, SC; City of Portland, OR; City of Boston, MA; Washington DC&lt;/td&gt;&lt;td&gt;OSU Center for Automotive Research, Mid-Ohio Regional Planning Commission, GE, Cisco, the Idea Foundry, IBM, Easton Town Center, Innova UEV, (Local Motors &#34;partner in discussion&#34;).&lt;/td&gt;&lt;td&gt;Randy Bowman; Levent Guvenc&lt;/td&gt;&lt;td&gt;RJBowman@columbus.gov; guvenc.1@osu.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;SMOOTH(2) - Smart Mobile Operation OSU Transportation Hub II&lt;/td&gt;&lt;td&gt;City of Columbus, OH&lt;/td&gt;&lt;td&gt;OSU Center for Automotive Research, OSU College of Medicine, Mid-Ohio Regional Planning Commission, Battelle, GE, Cisco, the Idea Foundry, IBM, USDOT, Innova UEV (manufacturer of the DASH EV neighborhood electric vehicle)&lt;/td&gt;&lt;td&gt;Randall Bowman; Bilin Aksun Guvenc&lt;/td&gt;&lt;td&gt;RJBowman@columbus.gov; aksunguvenc.1@osu.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Solar smart charging for electrical vehicle and vehicle for smart charging&lt;/td&gt;&lt;td&gt;Stedin; municipality of Utrecht (Netherlands)&lt;/td&gt;&lt;td&gt;Elaad, Lomboxnet, GE, Renault, Vidyn, Last Mile Solutions&lt;/td&gt;&lt;td&gt;Eugenie Lindeman&lt;/td&gt;&lt;td&gt;Eugenie.lindeman@stedin.net&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;StormSense&lt;/td&gt;&lt;td&gt;City of Newport News, VA, City of Virginia Beach, City of Norfolk, City of Hampton, City of Portsmouth, City of Chesapeake, City of Williamsburg, York County, VA&lt;/td&gt;&lt;td&gt;Virginia Institute of Marine Science (VIMS), Commonwealth Center for Recurrent Flooding Resilience, State of VA, Department of Health&lt;/td&gt;&lt;td&gt;Jon &#39;Derek&#39; Loftis; Andy Stein&lt;/td&gt;&lt;td&gt;The StormSense Project is an inundation forecasting research initiative to advance the field of emergency preparedness for flooding resulting from storm surge, rain, and tides. The scope of the project encompasses the interests of coastal local governments wishing to enhance their emergency preparedness via a network of &#39;Internet of Things&#39; (IoT)-enabled water level sensors, collaborating with the hydrodynamic flood modeling and forecasting capabilities of the Virginia Institute of Marine Science and their TideWatch Network.&lt;/td&gt;&lt;td&gt;Public Safety/Emergency/Disaster/Resilience&lt;/td&gt;&lt;td&gt;The StormSense Project is an inundation forecasting research initiative to advance the field of emergency preparedness for flooding resulting from storm surge, rain, and tides. The scope of the project encompasses the interests of coastal local governments wishing to enhance their emergency preparedness via a network of &#39;Internet of Things&#39; (IoT)-enabled water level sensors, collaborating with the hydrodynamic flood modeling and forecasting capabilities of the Virginia Institute of Marine Science (VIMS) and their VIMS TideWatch Network.&lt;/td&gt;&lt;td&gt;http://stormsense.com &lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Sustainable Transportation through Ridesharing using Urban Electric Vehicles (Sustainable Transportation through Ride Sharing)&lt;/td&gt;&lt;td&gt;City of Madison, City of Monona, UW-Madison campus (CIO&#39;s office)&lt;/td&gt;&lt;td&gt;University of Wisconsin-Madison, Innova&lt;/td&gt;&lt;td&gt;Suman Banerjee&lt;/td&gt;&lt;td&gt;suman@cs.wisc.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Sustainable, resilient, mobile power for today&#39;s challenges and tomorrow&#39;s disasters&lt;/td&gt;&lt;td&gt;San Francisco, CA&lt;/td&gt;&lt;td&gt;FreeWire Technologies; San Francisco, CA&lt;/td&gt;&lt;td&gt;Torben Spitzer&lt;/td&gt;&lt;td&gt;torben@freewiretech.com&lt;/td&gt;&lt;td&gt;Public Safety/Emergency/Disaster/Resilience&lt;/td&gt;&lt;td&gt;The Mobi Microgrid project aims to support the resilience of cities from the ground up. By replacing non connected and outdated emergency response equipment such as diesel generator with connected intellgent devices such as mobile battery storage systems, cities will be able to respond more agile to emergency situations. Cities will also be able to utilize otherwise unused assets for smart grid and smart transportation applications. The cornerstones of the project are the connected battery solutions Mobi and the intelligence layer with modern asset management software. With that cities and partnering utilities can leverage the distributed emergency response equipment to tackle the biggest challenges in climate change and urbanization by setting up mobile microgrids on demand that supply power for communities and traffic and use as much renewable power as possible.&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;The Hague/From vision to smart Solution&lt;/td&gt;&lt;td&gt;City of The Hague, Netherlands&lt;/td&gt;&lt;td&gt;KPN&lt;/td&gt;&lt;td&gt;Pim Stevens&lt;/td&gt;&lt;td&gt;Pim.stevens@kpn.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;The Hague: 2 citizen engagement big data applications&lt;/td&gt;&lt;td&gt;The Hague, Rotterdam, Leiden, Barendrecht, Dordrecht, Alphen aan de Rijn, Schiedam&lt;/td&gt;&lt;td&gt;Overmorgen / Dutch-Ates&lt;/td&gt;&lt;td&gt;Gerwin Hop; Tim Kreukniet&lt;/td&gt;&lt;td&gt;gerwin.hop@overmorgen.nl; tim@dutch-ates.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;The Next Generation Business Emergency Operations Center (NextGen BEOC)&lt;/td&gt;&lt;td&gt;Lafayette, LA; Annapolis, MD&lt;/td&gt;&lt;td&gt;Informatics Research Institute, University of Louisiana at Lafayette; START Center, University of Maryland; Louisiana Governor&#39;s Office of Homeland Security and Emergency Preparedness; Maryland Emergency Management Agency; Siemens Corporation; Steelcase, Incorporated; TCecure, LLC&lt;/td&gt;&lt;td&gt;Michael Dunaway&lt;/td&gt;&lt;td&gt;mdunaway@louisiana.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Smart and Accessible Transportation Hub&lt;/td&gt;&lt;td&gt;NJ Passaic County; NJ Transit; NYC Mayor&#39;s Office for People with Disabilities (MOPD); NYS Commission for the Blind (NYSCB)&lt;/td&gt;&lt;td&gt;CUNY City College, Rutgers University&lt;/td&gt;&lt;td&gt;Zhigang Zhu, Jie Gong&lt;/td&gt;&lt;td&gt;zhu@cs.ccny.cuny.edu; jg931@rci.rutgers.edu&lt;/td&gt;&lt;td&gt;Transportation&lt;/td&gt;&lt;td&gt;This GCTC Team aims to systematically investigate a novel cyber-physical infrastructure framework that can effectively and efficiently transform existing transportation hubs into smart facilities. The Smart and Accessible Transportation Hub (SAT-Hub) is capable of providing better location-awareness services (e.g. finding terminals, improving travel experience, obtaining security alters) to the traveling public, especially for the underserved populations including those with visual impairment, Autism Spectrum Disorder (ASD), or simply navigation challenges.&lt;/td&gt;&lt;td&gt;https://youtu.be/_hxdXqTVG7I&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Transactive Energy for Smart Cities&lt;/td&gt;&lt;td&gt;City of Manila (Philippines)&lt;/td&gt;&lt;td&gt;MaCT USA, IEEE SA, Copperpillar, Rowan University, University of Philippines, City of Durham (NC), City of Manila (Philippines)&lt;/td&gt;&lt;td&gt;William J. Miller&lt;/td&gt;&lt;td&gt;Mact-usa@att.net&lt;/td&gt;&lt;td&gt;Energy/Water/Waste Management&lt;/td&gt;&lt;td&gt;This project utilizes the concepts of Transactive energy to maintain balance of the power grid. It also now offers a means to obtain energy credits in the form of Bitcoin. This capaiblity can benefit people to be able to paid their energy bill but may be used for other transactions.&lt;/td&gt;&lt;td&gt;http://www.powermatcher.us&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Transit Community Spotlight Project&lt;/td&gt;&lt;td&gt;Montgomery County, MD&lt;/td&gt;&lt;td&gt;Montgomery County, MD, Thingstitute,&lt;/td&gt;&lt;td&gt;Dan Hoffman, Director, Thingstitute; Brandon Bedford&lt;/td&gt;&lt;td&gt;Daniel.hoffman@montomerycounty.md&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Underground Infrastructure Sensing and Mapping for Smart Maintenance, Sustainability, Usage and Resilience&lt;/td&gt;&lt;td&gt;Winooski, VT, Burlington, VT&lt;/td&gt;&lt;td&gt;BTV Ignite, City of Burlington, VT ; Kardinal Microsystems, University of Vermont; City of Winooski, VT&lt;/td&gt;&lt;td&gt;Dryver Huston, Tian Xia&lt;/td&gt;&lt;td&gt;dryver.huston@uvm.edu, txia@uvm.edu&lt;/td&gt;&lt;td&gt;Energy/Water/Waste Management&lt;/td&gt;&lt;td&gt;Build 3-d maps and information databases of underground infrastructure with combination of ground penetrating radar and combine with networked sensors to better manage operations, maintenance and construction of underground utiliies, including water, sewer, electric, energy and telecommunications. &lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Unraveling the Intersection of Incarceration, Homelessness, and Mental Health&lt;/td&gt;&lt;td&gt;Washoe County, NV, Wake County, NC, City of Reno, NV&lt;/td&gt;&lt;td&gt;SAS&lt;/td&gt;&lt;td&gt;Jennifer Robinson&lt;/td&gt;&lt;td&gt;Jennifer.Robinson@sas.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Urban waste and cleaning service level dashboard&lt;/td&gt;&lt;td&gt;City of Guadalajara (Spain)&lt;/td&gt;&lt;td&gt;Valoriza-Grupo Sacyr (Spain), Telefonica (Spain), Technical University of Madrid (Spain), InterInnov (France)&lt;/td&gt;&lt;td&gt;Javier Paniagua&lt;/td&gt;&lt;td&gt;javier.paniaguasanz@telefonica.com&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;User-centered Heterogeneous Data Fusion for Multi-networked City Mobility, UHDNetCity (Name change 04.07)&lt;/td&gt;&lt;td&gt;Tallahassee, Florida&lt;/td&gt;&lt;td&gt;Florida State University, Internet2 , StanTec&lt;/td&gt;&lt;td&gt;Reza Arghandeh, Florida State University; Eren Ozguven, Florida State University&lt;/td&gt;&lt;td&gt;arghandehr@gmail.com; eozguven@fsu.edu&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;WiseTown: web information stream enhancer city dashboard&lt;/td&gt;&lt;td&gt;City of Perugia (Italy)&lt;/td&gt;&lt;td&gt;TeamDev (Italy), Fiware Foundation, University of Perugia (Italy)&lt;/td&gt;&lt;td&gt;Andrea Cruciani, TeamDev &amp; Fiware Foundation;&lt;/td&gt;&lt;td&gt;andrea@teamdev.it;&lt;/td&gt;&lt;td&gt;City Data Platform/Dashboard&lt;/td&gt;&lt;td&gt;WiseTown is a cloud ecosystem for the advanced management of relationship between citizens and local government with regard to urban quality, safety and shared planning that integrates social networks, open data and IoT. It provides Decision Support System, Spatial Analisys, Forecasts and analytics other than vertical solutions to manage partecipative and inclusive processes. &#34;We like Smart Cities but we prefer Wise Towns&#34;&lt;/td&gt;&lt;td&gt;http://wise.town/&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Air Quality Monitoring in London&lt;/td&gt;&lt;td&gt;Greenwich Borough (UK)&lt;/td&gt;&lt;td&gt;Greenwich Borough, GSMA, Telefonica, Everimpact, Ordnance Survey, NEC&lt;/td&gt;&lt;td&gt;Mathieu Carlier&lt;/td&gt;&lt;td&gt;mc@everimpact.org&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;td&gt;The Greenwich Borough is deploying an Air Pollution monitoring solution to improve air quality for its citizens.&lt;/td&gt;&lt;td&gt;www.everimpact.org&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td&gt;Saitama Smart Town Consortium Using Smart Community Information Platform for Providing Future Town Services&lt;/td&gt;&lt;td&gt;City of Saitama, Saitama, Japan&lt;/td&gt;&lt;td&gt;Hiroaki Nishi, Keio University; Toru Namerikawa, Keio University; Ryogo Kubo, Keio Univeristy; Yusuke Nakajima, Kougakuin University; Kanae Matsui, Tokyo Denki University; Kazuyuki Minato, AEON Retailing; Akito Fujita, IIJ-II; Nobuyuki Ariyama, Saitama City; Yuki Okamoto, Misono Town Management; Kazuya Suetsugu, Misono Town Management; Sadahide Morioka, Misono Town Management; Perry Yang GeorgiaTech; Ellen Yi-Luen Do GeorgiaTech; Prof.Joshi（Georgia Institute of Technology); Dr.Hendrik（IBM) T.J. Watson Research Center&lt;/td&gt;&lt;td&gt;Hiroaki Nishi&lt;/td&gt;&lt;td&gt;gctc@udcmi.org west@sd.keio.ac.jp&lt;/td&gt;&lt;td&gt;General (Everything else)&lt;/td&gt;&lt;td&gt;UDCMi is a Smart Community/Smart Town project of 230-hectare area of Misono in Saitama City and is going to provide Smart Town services for 32,000 residents. In UDCMi, Smart Houses, BLE and Wi-Fi area infrastructures, town monitoring systems, smat emergy, smart mobility, and helth servicers will be provided. This project is suppoted by a consortium consists of retailing information and service (AEON), security service (SECOM), data management platform (Keio Univ, IBM), town signage (HITACHI), medical care (TANITA and local hospitals), and other information and services. UDCMi develops Smart Community Information Platform (SCIP) for achieving security and privacy in smart city data management and providing smart city data services considering time and privacy critical problems.&lt;/td&gt;&lt;td&gt;http://www.misono-tm.org (In Japanese)&lt;/td&gt;&lt;/tr&gt;
+
+&lt;/tbody&gt;&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SuperClusters</title>
+      <link>https://pages.nist.gov/GCTC/super-clusters/</link>
+      <pubDate>Tue, 04 Apr 2017 14:13:43 +0000</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/super-clusters/</guid>
+      <description>
+
+&lt;p class=&#34;&#34;&gt;A SuperCluster is a collaboration of Action Clusters with participation from additional individual entities. This approach enables project teams to join forces and pursue shared objectives and common approaches for collaborative deployment across multiple communities/cities. Examples of grand challenges to be tackled include multi-city resilience to large-scale natural disasters, intelligent transportation systems that work in any city, and regional air quality improvements through coordinated local action.&lt;/p&gt;
+&lt;p class=&#34;&#34;&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;superclusters-are-categorized-into-the-following-sectors&#34;&gt;&lt;strong&gt;SuperClusters are categorized into the following sectors:&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;span style=&#34;font-size: 1rem;&#34;&gt;&lt;/span&gt;
+&lt;span style=&#34;font-size: 1rem;&#34;&gt;&lt;ol&gt;&lt;li&gt;Transportation&lt;br&gt;&lt;/li&gt;&lt;li&gt;City Data Platform/Municipal Dashboards&lt;br&gt;&lt;/li&gt;&lt;li&gt;Public Safety, Emergency Preparedness, Disaster Recovery, and Resilience&lt;br&gt;&lt;/li&gt;&lt;li&gt;Energy, Utilities, Water, and Waste Management&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Public WiFi&lt;br&gt;&lt;/li&gt;&lt;li&gt;Healthcare&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&#34;&#34;&gt;&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About GCTC</title>
+      <link>https://pages.nist.gov/GCTC/about/</link>
+      <pubDate>Mon, 03 Apr 2017 10:58:28 -0400</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;learn-about-the-global-city-teams-challenge&#34;&gt;Learn about the Global City Teams Challenge&lt;/h2&gt;
+
+&lt;p&gt;Internet of Things (IoT) and Cyber-Physical Systems (CPS) involve connecting smart devices and systems—in diverse sectors such as transportation, energy, manufacturing, and healthcare—in fundamentally new ways. These technologies will enable cities and communities to improve services, promote economic growth, and enhance the quality of life. With 54 percent of the world&amp;rsquo;s population now living in cities, the development of &amp;ldquo;smart cities&amp;rdquo; and &amp;ldquo;smart communities&amp;rdquo; is becoming a major focus around the globe.&lt;/p&gt;
+
+&lt;p&gt;Because many of today&amp;rsquo;s smart city/community development efforts are isolated and customized projects, NIST, launched the Global City Teams Challenge (GCTC) to encourage collaboration and the development of standards. GCTC’s long-term goal is &amp;ldquo;to establish and demonstrate replicable, scalable, and sustainable models for incubation and deployment of interoperable, standard-based IoT solutions and demonstrate their measurable benefits in Smart Communities/Cities.&amp;rdquo; To put it simply, this program will help communities benefit from the experience of others to improve efficiency and lower costs.&lt;/p&gt;
+
+&lt;p&gt;NIST, along with its partners, acts as a matchmaker and incubator —facilitating, advising, encouraging, nurturing, and publicizing the action clusters and their projects. Since the programs launched in September 2014, GCTC has recruited and incubated over 160 with participation from over 150 cities and 400 companies/organizations from around the world.&lt;/p&gt;
+
+&lt;p&gt;For further information, contact the organizer, Dr. Sokwoo Rhee (&lt;a href=&#34;mailto:sokwoo.rhee@nist.gov&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;), Associate Director, Cyber-Physical Systems Program, NIST.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pages.nist.gov/GCTC/event/gctc-expo-2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/event/gctc-expo-2017/</guid>
+      <description>&lt;!doctype html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+&lt;meta charset=&#34;utf-8&#34;&gt;
+&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge&#34;&gt;
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1&#34;&gt;
+
+&lt;title&gt;The 2017 Global City Teams Challenge (GCTC) Expo&lt;/title&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://pages.nist.gov/nist-header-footer/css/nist-combined.css&#34;&gt;
+  &lt;script src=&#34;https://pages.nist.gov/nist-header-footer/js/nist-header-footer.js&#34; type=&#34;text/javascript&#34; defer=&#34;defer&#34;&gt;&lt;/script&gt;
+  
+&lt;link rel=&#34;stylesheet&#34; href=&#34;//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&#34;&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&#34; integrity=&#34;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&#34; crossorigin=&#34;anonymous&#34;&gt;
+
+&lt;link href=&#34;https://pages.nist.gov/cpspwg/static/css/nist_github_header.css&#34; type=&#34;text/css&#34; rel=&#34;stylesheet&#34;&gt;
+&lt;link href=&#34;https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:100,400,400i,700,900&#34; rel=&#34;stylesheet&#34;&gt;
+  &lt;!-- Css animations  --&gt;
+  &lt;link href=&#34;{{ .Site.BaseURL }}css/animate.css&#34; rel=&#34;stylesheet&#34;&gt;
+
+  &lt;!-- Theme stylesheet, if possible do not edit this stylesheet --&gt;
+  {{ if and (isset .Site.Params &#34;style&#34;) .Site.Params.style }}
+    &lt;link href=&#34;{{ .Site.BaseURL }}css/style.{{ .Site.Params.style }}.css&#34; rel=&#34;stylesheet&#34; id=&#34;theme-stylesheet&#34;&gt;
+  {{ else }}
+    &lt;link href=&#34;{{ .Site.BaseURL }}css/style.default.css&#34; rel=&#34;stylesheet&#34; id=&#34;theme-stylesheet&#34;&gt;
+  {{ end }}
+&lt;link href=&#34;{{ .Site.BaseURL }}css/custom.css&#34; rel=&#34;stylesheet&#34;&gt;
+&lt;style&gt;
+	html, body {padding: 0;margin: 0;}
+	body {font-family: &#39;Open Sans&#39;, sans-serif;font-size:18px; overflow-x: hidden;line-height: 1.6;}
+	h1, h2, h3, h4, h5 {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 700;}
+	.lead {font-size:28px;}
+	h1, h2 {font-size:74px;}
+	a {opacity:1; transition: opacity .25s ease-in-out; }
+	a:hover {opacity: 0.6;}
+	#site-header {text-align:center;padding:20px 0;}
+	#hero {background:url(http://sites.energetics.com/temp/gtct/images/pexels-photo-238634.jpeg) no-repeat 50% 0; background-size:cover;min-height:680px;position:relative;}
+	#hero h1 {color:#fff;border-top:11px solid #3E9FBA;border-bottom: 11px solid #3E9FBA;display:block;text-align: center;margin: 100px auto 0 auto;max-width: 720px;font-size:74px;line-height: 89px;padding:20px 0;text-shadow:2px 2px 0px rgba(0,0,0,1.0), -1px -1px 22px rgba(0,0,0,0.5);}
+	#hero #date, #hero #location {display: inline-block;font-size:35px;font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 300;color:#fff;text-align:center;line-height: 1;text-shadow:2px 2px 0px rgba(0,0,0,1.0), -1px -1px 22px rgba(0,0,0,0.5);}
+	#hero .wrap {margin:20px auto;width:50%;text-align: center;padding-left: 35px;}
+	/* #hero #date::after {content:&#34;&#34;;display: inline-block;background:url(images/logo-icon.png) no-repeat 50% 50%;width:50px;height:64px;margin:10px 0 0 0;} */	
+	#intro {background-color:#3E9FBA;color:#fff;padding:40px 0;background-image:none;}
+	
+	.row.no-gutter {}
+	.no-gutter &gt; [class*=&#39;col-&#39;] {
+		padding-right:0;
+		padding-left:0;
+	}
+	
+	#cta { background: #C1B8AF;}
+	#cta .lead {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 300;}
+	.customBtn {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 700;font-size:74px;color:#fff;border-radius:2px;background:url(http://sites.energetics.com/temp/gtct/images/btn-icon.png) right center no-repeat #3E9FBA;padding:10px 120px 10px 40px;}
+	
+	
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;div class=&#34;navbar-affixed-top&#34; data-spy=&#34;affix&#34; data-offset-top=&#34;200&#34;&gt;
+
+    &lt;div class=&#34;navbar navbar-default yamm&#34; role=&#34;navigation&#34; id=&#34;navbar&#34;&gt;
+
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;div class=&#34;navbar-header&#34;&gt;
+                &lt;a class=&#34;navbar-brand home&#34; href=&#34;{{ .Site.BaseURL }}&#34;&gt;
+                    &lt;img src=&#34;{{ .Site.BaseURL }}img/GCTC_logo_344x80.png&#34; alt=&#34;{{ .Title }} logo&#34; class=&#34;hidden-xs hidden-sm&#34;&gt;
+                    &lt;img src=&#34;{{ .Site.BaseURL }}img/GCTC_logo-small.png&#34; alt=&#34;{{ .Title }} logo&#34; class=&#34;visible-xs visible-sm&#34;&gt;
+                    &lt;span class=&#34;sr-only&#34;&gt;{{ .Title }} - {{ i18n &#34;navHome&#34; }}&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;div class=&#34;navbar-buttons&#34;&gt;
+                    &lt;button type=&#34;button&#34; class=&#34;navbar-toggle btn-template-main&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#navigation&#34;&gt;
+                      &lt;span class=&#34;sr-only&#34;&gt;{{ i18n &#34;navToggle&#34; }}&lt;/span&gt;
+                        &lt;i class=&#34;fa fa-align-justify&#34;&gt;&lt;/i&gt;
+                    &lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!--/.navbar-header --&gt;
+
+            &lt;div class=&#34;navbar-collapse collapse&#34; id=&#34;navigation&#34;&gt;
+                &lt;ul class=&#34;nav navbar-nav navbar-right&#34;&gt;
+                  {{ range .Site.Menus.main }}
+                  &lt;li class=&#34;dropdown&#34;&gt;
+                    {{ if .HasChildren }}
+                      &lt;a href=&#34;#&#34; class=&#34;dropdown-toggle&#34; data-toggle=&#34;dropdown&#34; role=&#34;button&#34; aria-haspopup=&#34;true&#34; aria-expanded=&#34;false&#34;&gt;{{ .Name }} &lt;span class=&#34;caret&#34;&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;ul class=&#34;dropdown-menu&#34;&gt;
+                      {{ range .Children }}
+                        &lt;li&gt;&lt;a href=&#34;{{ .URL }}&#34;&gt;{{ .Name }}&lt;/a&gt;&lt;/li&gt;
+                      {{ end }}
+                    &lt;/ul&gt;
+                    {{ else }}
+                    &lt;a href=&#34;{{ .URL }}&#34;&gt;{{ .Name }}&lt;/a&gt;
+                    {{ end  }}
+                  &lt;/li&gt;
+                  {{ end }}
+                &lt;/ul&gt;
+				
+				&lt;ul id=&#34;expoNav&#34; class=&#34;nav navbar-nav navbar-right&#34; style=&#34;clear:both;&#34;&gt;
+                  {{ range .Site.Menus.expomenu }}
+                  &lt;li class=&#34;dropdown&#34;&gt;
+                    {{ if .HasChildren }}
+                      &lt;a href=&#34;#&#34; class=&#34;dropdown-toggle&#34; data-toggle=&#34;dropdown&#34; role=&#34;button&#34; aria-haspopup=&#34;true&#34; aria-expanded=&#34;false&#34;&gt;{{ .Name }} &lt;span class=&#34;caret&#34;&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;ul class=&#34;dropdown-menu&#34;&gt;
+                      {{ range .Children }}
+                        &lt;li&gt;&lt;a href=&#34;{{ .URL }}&#34;&gt;{{ .Name }}&lt;/a&gt;&lt;/li&gt;
+                      {{ end }}
+                    &lt;/ul&gt;
+                    {{ else }}
+                    &lt;a href=&#34;{{ .URL }}&#34;&gt;{{ .Name }}&lt;/a&gt;
+                    {{ end  }}
+                  &lt;/li&gt;
+                  {{ end }}
+                &lt;/ul&gt;
+				
+            &lt;/div&gt;
+            &lt;!--/.nav-collapse --&gt;
+
+            &lt;div class=&#34;collapse clearfix&#34; id=&#34;search&#34;&gt;
+
+                &lt;form class=&#34;navbar-form&#34; role=&#34;search&#34;&gt;
+                    &lt;div class=&#34;input-group&#34;&gt;
+                        &lt;input type=&#34;text&#34; class=&#34;form-control&#34; placeholder=&#34;Search&#34;&gt;
+                        &lt;span class=&#34;input-group-btn&#34;&gt;
+
+                    &lt;button type=&#34;submit&#34; class=&#34;btn btn-template-main&#34;&gt;&lt;i class=&#34;fa fa-search&#34;&gt;&lt;/i&gt;&lt;/button&gt;
+
+                &lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/form&gt;
+
+            &lt;/div&gt;
+            &lt;!--/.nav-collapse --&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- /#navbar --&gt;
+
+&lt;/div&gt;
+
+&lt;!-- *** NAVBAR END ***--&gt;
+
+
+
+
+
+&lt;div class=&#34;container-fluid&#34; id=&#34;hero&#34;&gt;
+	&lt;div class=&#34;row&#34;&gt;
+		&lt;div class=&#34;col-md-12&#34;&gt;
+			&lt;h1&gt;GLOBAL CITY TEAMS CHALLENGE EXPO 2017&lt;/h1&gt;
+			&lt;div class=&#34;wrap&#34;&gt;
+				&lt;p id=&#34;date&#34;&gt;AUGUST 28-29 &lt;img class=&#34;mobile-hide&#34; style=&#34;padding:0 15px 0 15px; margin-left:20px;&#34; alt=&#34;icon&#34; src=&#34;http://sites.energetics.com/temp/gtct/images/logo-icon.png&#34;&gt; WASHINGTON, DC&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;container-fluid&#34; id=&#34;intro&#34;&gt;
+	&lt;div class=&#34;row&#34;&gt;
+		&lt;div class=&#34;col-md-6 col-md-offset-3&#34;&gt;
+			&lt;p class=&#34;lead&#34;&gt;The 2017 Global City Teams Challenge (GCTC) Expo will bring together over 100 cities and communities around the world in partnership with more than 300 companies, universities, non-profits, and federal government agencies to share and exhibit their smart city projects and the impacts to their communities.&lt;/p&gt;
+			&lt;p&gt;SuperClusters will announce smart city blueprints that document real-world examples and best practices among smart city plans and solutions gleaned from cities around the world. Over 100 action clusters will exhibit and present their projects.&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;container-fluid&#34; id=&#34;cta&#34;&gt;
+	&lt;div class=&#34;row no-gutter&#34;&gt;
+		&lt;div class=&#34;col-md-6&#34;&gt;
+			&lt;img src=&#34;http://sites.energetics.com/temp/gtct/images/AdobeStock_22332317.jpg&#34; alt=&#34;THE WALTER E. WASHINGTON CONVENTION CENTER&#34; class=&#34;img-responsive&#34;&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;col-md-6&#34;&gt;
+			&lt;div style=&#34;background: #646469;overflow: hidden;padding: 20px 40px;color:#fff;&#34;&gt;
+				&lt;h2&gt;AUGUST 28-29, 2017&lt;/h2&gt;
+				&lt;p class=&#34;lead&#34; style=&#34;margin-bottom: 0;padding-bottom:0;&#34;&gt;&lt;a href=&#34;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none;color:#ffffff;&#34;&gt;THE WALTER E. WASHINGTON CONVENTION CENTER&lt;/a&gt;&lt;/p&gt;
+				&lt;p style=&#34;margin: 0;padding:0;&#34;&gt;&lt;small&gt;801 Mt. Vernon Place NW, Washington, DC, USA&lt;/small&gt;&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div style=&#34;overflow: hidden;padding: 40px;color:#181818;&#34;&gt;
+				&lt;p&gt;&lt;a class=&#34;customBtn&#34; href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with your name, title, and affiliation.&#34;&gt;RVSP Now&lt;/a&gt;&lt;/p&gt;
+				&lt;p&gt;&lt;strong&gt;Registration is free&lt;/strong&gt;. To register for the event, please click on the RSVP button above. Please RSVP with your name, title, and affiliation. For general questions regarding the Global City Teams Challenge and/or Expo, click &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;		
+	&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;!-- Latest compiled and minified JavaScript --&gt;
+&lt;script src=&#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&#34; integrity=&#34;sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pages.nist.gov/GCTC/expo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/expo/</guid>
+      <description>&lt;!doctype html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+&lt;meta charset=&#34;utf-8&#34;&gt;
+&lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge&#34;&gt;
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1&#34;&gt;
+
+&lt;title&gt;The 2017 Global City Teams Challenge (GCTC) Expo&lt;/title&gt;
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&#34; integrity=&#34;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&#34; crossorigin=&#34;anonymous&#34;&gt;
+&lt;link href=&#34;https://pages.nist.gov/cpspwg/static/css/nist_github_header.css&#34; type=&#34;text/css&#34; rel=&#34;stylesheet&#34;&gt;
+&lt;link href=&#34;https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:100,400,400i,700,900&#34; rel=&#34;stylesheet&#34;&gt;
+  &lt;!-- Css animations  --&gt;
+  &lt;link href=&#34;{{ .Site.BaseURL }}css/animate.css&#34; rel=&#34;stylesheet&#34;&gt;
+
+  &lt;!-- Theme stylesheet, if possible do not edit this stylesheet --&gt;
+  {{ if and (isset .Site.Params &#34;style&#34;) .Site.Params.style }}
+    &lt;link href=&#34;{{ .Site.BaseURL }}css/style.{{ .Site.Params.style }}.css&#34; rel=&#34;stylesheet&#34; id=&#34;theme-stylesheet&#34;&gt;
+  {{ else }}
+    &lt;link href=&#34;{{ .Site.BaseURL }}css/style.default.css&#34; rel=&#34;stylesheet&#34; id=&#34;theme-stylesheet&#34;&gt;
+  {{ end }}
+&lt;link href=&#34;{{ .Site.BaseURL }}css/custom.css&#34; rel=&#34;stylesheet&#34;&gt;
+&lt;style&gt;
+	html, body {padding: 0;margin: 0;}
+	body {font-family: &#39;Open Sans&#39;, sans-serif;font-size:18px; overflow-x: hidden;line-height: 1.6;}
+	h1, h2, h3, h4, h5 {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 700;}
+	.lead {font-size:28px;}
+	h1, h2 {font-size:74px;}
+	a {opacity:1; transition: opacity .25s ease-in-out; }
+	a:hover {opacity: 0.6;}
+	#site-header {text-align:center;padding:20px 0;}
+	#hero {background:url(http://sites.energetics.com/temp/gtct/images/hero_bg.jpg) no-repeat 50% 0; background-size:cover;min-height:680px;position:relative;}
+	#hero h1 {color:#fff;border-top:11px solid #3E9FBA;border-bottom: 11px solid #3E9FBA;display:block;text-align: center;margin: 100px auto 0 auto;max-width: 720px;font-size:74px;line-height: 89px;padding:20px 0;}
+	#hero #date, #hero #location {display: inline-block;font-size:35px;font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 300;color:#fff;text-align:center;line-height: 1;}
+	#hero .wrap {margin:20px auto;width:50%;text-align: center;padding-left: 35px;}
+	/* #hero #date::after {content:&#34;&#34;;display: inline-block;background:url(images/logo-icon.png) no-repeat 50% 50%;width:50px;height:64px;margin:10px 0 0 0;} */	
+	#intro {background-color:#3E9FBA;color:#fff;padding:40px 0;background-image:none;}
+	
+	.row.no-gutter {}
+	.no-gutter &gt; [class*=&#39;col-&#39;] {
+		padding-right:0;
+		padding-left:0;
+	}
+	
+	#cta { background: #C1B8AF;}
+	#cta .lead {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 300;}
+	.customBtn {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 700;font-size:74px;color:#fff;border-radius:2px;background:url(http://sites.energetics.com/temp/gtct/images/btn-icon.png) right center no-repeat #3E9FBA;padding:10px 120px 10px 40px;}
+	
+	footer {background-color: #000;height:55px;}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;header class=&#34;nist-header&#34;&gt;
+	&lt;h1&gt;
+	  &lt;a class=&#34;nist-logo&#34; href=&#34;http://www.nist.gov/cps&#34; title=&#34;Go to nist.gov&#34;&gt;National Institute of Standards and Technology&lt;/a&gt;
+	&lt;/h1&gt;
+	&lt;div class=&#34;nist-links&#34;&gt;
+	  &lt;a class=&#34;nist-links-button&#34; href=&#34;http://www.nist.gov&#34;&gt;NIST Website&lt;/a&gt;
+	  &lt;a class=&#34;nist-links-button mobile-hide&#34; href=&#34;http://www.nist.gov/public_affairs/nandyou.cfm&#34;&gt;About NIST&lt;/a&gt;
+	  &lt;a class=&#34;nist-links-button mobile-hide&#34; href=&#34;https://github.com/usnistgov&#34;&gt;usnistgov on Github&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/header&gt;
+
+    &lt;div class=&#34;navbar-affixed-top&#34; data-spy=&#34;affix&#34; data-offset-top=&#34;200&#34;&gt;
+
+    &lt;div class=&#34;navbar navbar-default yamm&#34; role=&#34;navigation&#34; id=&#34;navbar&#34;&gt;
+
+        &lt;div class=&#34;container&#34;&gt;
+            &lt;div class=&#34;navbar-header&#34;&gt;
+                &lt;a class=&#34;navbar-brand home&#34; href=&#34;{{ .Site.BaseURL }}&#34;&gt;
+                    &lt;img src=&#34;{{ .Site.BaseURL }}img/GCTC_logo_344x80.png&#34; alt=&#34;{{ .Title }} logo&#34; class=&#34;hidden-xs hidden-sm&#34;&gt;
+                    &lt;img src=&#34;{{ .Site.BaseURL }}img/GCTC_logo-small.png&#34; alt=&#34;{{ .Title }} logo&#34; class=&#34;visible-xs visible-sm&#34;&gt;
+                    &lt;span class=&#34;sr-only&#34;&gt;{{ .Title }} - {{ i18n &#34;navHome&#34; }}&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;div class=&#34;navbar-buttons&#34;&gt;
+                    &lt;button type=&#34;button&#34; class=&#34;navbar-toggle btn-template-main&#34; data-toggle=&#34;collapse&#34; data-target=&#34;#navigation&#34;&gt;
+                      &lt;span class=&#34;sr-only&#34;&gt;{{ i18n &#34;navToggle&#34; }}&lt;/span&gt;
+                        &lt;i class=&#34;fa fa-align-justify&#34;&gt;&lt;/i&gt;
+                    &lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;!--/.navbar-header --&gt;
+
+            &lt;div class=&#34;navbar-collapse collapse&#34; id=&#34;navigation&#34;&gt;
+                &lt;ul class=&#34;nav navbar-nav navbar-right&#34;&gt;
+                  {{ range .Site.Menus.main }}
+                  &lt;li class=&#34;dropdown&#34;&gt;
+                    {{ if .HasChildren }}
+                      &lt;a href=&#34;#&#34; class=&#34;dropdown-toggle&#34; data-toggle=&#34;dropdown&#34; role=&#34;button&#34; aria-haspopup=&#34;true&#34; aria-expanded=&#34;false&#34;&gt;{{ .Name }} &lt;span class=&#34;caret&#34;&gt;&lt;/span&gt;&lt;/a&gt;
+                    &lt;ul class=&#34;dropdown-menu&#34;&gt;
+                      {{ range .Children }}
+                        &lt;li&gt;&lt;a href=&#34;{{ .URL }}&#34;&gt;{{ .Name }}&lt;/a&gt;&lt;/li&gt;
+                      {{ end }}
+                    &lt;/ul&gt;
+                    {{ else }}
+                    &lt;a href=&#34;{{ .URL }}&#34;&gt;{{ .Name }}&lt;/a&gt;
+                    {{ end  }}
+                  &lt;/li&gt;
+                  {{ end }}
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;!--/.nav-collapse --&gt;
+
+            &lt;div class=&#34;collapse clearfix&#34; id=&#34;search&#34;&gt;
+
+                &lt;form class=&#34;navbar-form&#34; role=&#34;search&#34;&gt;
+                    &lt;div class=&#34;input-group&#34;&gt;
+                        &lt;input type=&#34;text&#34; class=&#34;form-control&#34; placeholder=&#34;Search&#34;&gt;
+                        &lt;span class=&#34;input-group-btn&#34;&gt;
+
+                    &lt;button type=&#34;submit&#34; class=&#34;btn btn-template-main&#34;&gt;&lt;i class=&#34;fa fa-search&#34;&gt;&lt;/i&gt;&lt;/button&gt;
+
+                &lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/form&gt;
+
+            &lt;/div&gt;
+            &lt;!--/.nav-collapse --&gt;
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- /#navbar --&gt;
+
+&lt;/div&gt;
+
+&lt;!-- *** NAVBAR END ***--&gt;
+
+
+
+
+
+&lt;div class=&#34;container-fluid&#34; id=&#34;hero&#34;&gt;
+	&lt;div class=&#34;row&#34;&gt;
+		&lt;div class=&#34;col-md-12&#34;&gt;
+			&lt;h1&gt;GLOBAL CITY TEAMS CHALLENGE EXPO 2017&lt;/h1&gt;
+			&lt;div class=&#34;wrap&#34;&gt;
+				&lt;p id=&#34;date&#34;&gt;AUGUST 28-29 &lt;img class=&#34;mobile-hide&#34; style=&#34;padding:0 15px 0 15px; margin-left:20px;&#34; alt=&#34;icon&#34; src=&#34;http://sites.energetics.com/temp/gtct/images/logo-icon.png&#34;&gt; WASHINGTON, DC&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;container-fluid&#34; id=&#34;intro&#34;&gt;
+	&lt;div class=&#34;row&#34;&gt;
+		&lt;div class=&#34;col-md-6 col-md-offset-3&#34;&gt;
+			&lt;p class=&#34;lead&#34;&gt;The 2017 Global City Teams Challenge (GCTC) Expo will bring together over 100 cities and communities in partnership with more than 300 companies, universities, non-profits, and federal government agencies to share and exhibit their smart city projects and the impacts to their communities.&lt;/p&gt;
+			&lt;p&gt;SuperClusters will announce smart city blueprints that document real-world examples and best practices among smart city plans and solutions gleaned from cities around the world. Over 100 action clusters will exhibit and present their projects.&lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;container-fluid&#34; id=&#34;cta&#34;&gt;
+	&lt;div class=&#34;row no-gutter&#34;&gt;
+		&lt;div class=&#34;col-md-6&#34;&gt;
+			&lt;img src=&#34;http://sites.energetics.com/temp/gtct/images/AdobeStock_22332317.jpg&#34; alt=&#34;THE WALTER E. WASHINGTON CONVENTION CENTER&#34; class=&#34;img-responsive&#34;&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;col-md-6&#34;&gt;
+			&lt;div style=&#34;background: #646469;overflow: hidden;padding: 20px 40px;color:#fff;&#34;&gt;
+				&lt;h2&gt;AUGUST 28-29, 2017&lt;/h2&gt;
+				&lt;p class=&#34;lead&#34; style=&#34;margin-bottom: 0;padding-bottom:0;&#34;&gt;&lt;a href=&#34;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none;color:#ffffff;&#34;&gt;THE WALTER E. WASHINGTON CONVENTION CENTER&lt;/a&gt;&lt;/p&gt;
+				&lt;p style=&#34;margin: 0;padding:0;&#34;&gt;&lt;small&gt;801 Mt. Vernon Place NW, Washington, DC, USA&lt;/small&gt;&lt;/p&gt;
+			&lt;/div&gt;
+			&lt;div style=&#34;overflow: hidden;padding: 40px;color:#181818;&#34;&gt;
+				&lt;p&gt;&lt;a class=&#34;customBtn&#34; href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with your name, title, and affiliation.&#34;&gt;RVSP Now&lt;/a&gt;&lt;/p&gt;
+				&lt;p&gt;&lt;strong&gt;Registration is free&lt;/strong&gt;. To register for the event, please click on the RSVP button above. Please RSVP with your name, title, and affiliation. For general questions regarding the Global City Teams Challenge and/or Expo, click &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;		
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;footer&gt;
+	
+	
+&lt;/footer&gt;
+&lt;div&gt;
+&lt;p style=&#34;color:#777;font-size:12px;line-height:110%;padding-top:20px;padding-left:50px;padding-right:50px;padding-bottom:10px;&#34;&gt;
+PLEASE NOTE: This is a collaborative website. NIST does not endorse the views expressed, or necessarily concur with the information presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. All the material on this website is in the public domain and is intended for unrestricted use by interested parties, including any text, diagrams, or images, unless indicated explicitly.
+&lt;br&gt;&lt;br&gt;Don&#39;t share anything on this site that you do not want to be public. Do not post any proprietary documents, information or data Anything placed on this site is considered public disclosure and it shall be deemed to have been disclosed on a non-confidential basis, without any restrictions on use by anyone, except that no valid copyright or patent right shall be deemed to have been waived by such disclosure. 
+&lt;br&gt;&lt;br&gt;Certain commercial equipment, instruments, materials, systems, software, and trade names may be identified throughout this site in order to specify or identify technologies adequately. Such identification is not intended to imply recommendation or endorsement by NIST or any other party, nor is it intended to imply that the systems or products identified are necessarily the best available for the purpose. All data and other information posted on this site is provided as a public service and is provided �AS IS.�  NIST MAKES NO WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND DATA ACCURACY.  
+&lt;br&gt;&lt;br&gt;By selecting external links, you will be leaving NIST webspace. Links to other websites are provided because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other websites that are more appropriate for your purpose.
+&lt;br&gt;&lt;a href=&#34;http://www.nist.gov/public_affairs/privacy.cfm#privpolicy&#34;&gt;Privacy Policy&lt;/a&gt; | &lt;a href=&#34;http://www.nist.gov/public_affairs/privacy.cfm#secnot&#34;&gt;Security Notice&lt;/a&gt; | &lt;a href=&#34;http://www.nist.gov/public_affairs/privacy.cfm#accesstate&#34;&gt;Accessibility Statement&lt;/a&gt; | &lt;a href=&#34;mailto:sgwikisupport@nist.gov?subject=Feedback%20on%20NistPagesTemplate%20Web%20Site&#34;&gt;Send feedback&lt;/a&gt;
+
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;!-- Latest compiled and minified JavaScript --&gt;
+&lt;script src=&#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&#34; integrity=&#34;sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://pages.nist.gov/GCTC/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/contact/</guid>
+      <description>
+
+&lt;h1 id=&#34;we-are-here-to-help-you&#34;&gt;We are here to help you&lt;/h1&gt;
+
+&lt;p&gt;Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.&lt;/p&gt;
+
+&lt;p&gt;Please feel free to contact us, our customer service center is working for you &lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://pages.nist.gov/GCTC/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/faq/</guid>
+      <description>
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
+
+&lt;h2 id=&#34;1-what-to-do-if-i-have-still-not-received-the-order&#34;&gt;1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?&lt;/h2&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;li&gt;Vestibulum auctor dapibus neque.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;2-what-are-the-postal-rates&#34;&gt;2. WHAT ARE THE POSTAL RATES?&lt;/h2&gt;
+
+&lt;p&gt;Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven&amp;rsquo;t heard of them accusamus labore sustainable VHS.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-do-you-send-overseas&#34;&gt;3. DO YOU SEND OVERSEAS?&lt;/h2&gt;
+
+&lt;p&gt;Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven&amp;rsquo;t heard of them accusamus labore sustainable VHS.&lt;/p&gt;
+
+&lt;h2 id=&#34;4-why-are-you-more-expensive-than-others&#34;&gt;4. WHY ARE YOU MORE EXPENSIVE THAN OTHERS?&lt;/h2&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;li&gt;Vestibulum auctor dapibus neque.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;5-another-important-question&#34;&gt;5. ANOTHER IMPORTANT QUESTION&lt;/h2&gt;
+
+&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+&lt;li&gt;Vestibulum auctor dapibus neque.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In case you haven&amp;rsquo;t found the answer for your question please feel free to contact us, our customer support will be happy to help you.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

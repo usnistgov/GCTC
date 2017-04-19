@@ -1,0 +1,76 @@
+/* your styles go here */
+
+.nist-header__search input[type=text]{font-size:17.6px;}
+
+.box-image-text .image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+
+div#navbar {
+    min-height: 100px;
+}
+
+body {font-family: 'Open Sans', sans-serif;}
+h1, h2, h3, h4, h5 {font-family: 'Roboto Condensed', sans-serif;font-weight: 700;}
+ol, ul {padding-left:25px;}
+.navbar ul.nav > li > a {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+    letter-spacing: normal;
+    border-top: 0;
+    border-bottom: 0;
+    margin: 20px 4px 0 4px;
+    padding: 10px;
+}
+.navbar ul.nav > li > a:hover {border-top:0;text-decoration: none;}
+.lead {font-size:28px;}
+.home-carousel h1 {font-size:68px;letter-spacing: normal;text-shadow:2px 2px 0px rgba(0,0,0,1.0), -1px -1px 22px rgba(0,0,0,0.5);}
+.navbar ul.nav > li > a {font-size: 14px;}
+.home-carousel .owl-theme .owl-controls .owl-page span {background-color:#ccc;}
+
+.features .box-simple p, .features .box-simple li{text-align: left;}
+.features .box-simple p {color:inherit;}
+
+.introWrap .col-sm-4{background:#eee;margin-top:0px;}
+
+#footer {background: #196378;color:#fff;padding:0;margin-top:50px;border-bottom:1px solid #eee;}
+.nist-footer__menu a {font-size:14.4px;}
+#copyright {background-color: #196378;color:#fff;}
+
+.customBtn {font-family: 'Roboto Condensed', sans-serif;font-weight: 700;font-size:34px;color:#fff;border-radius:2px;background:url(../img/btn-icon.png) right center no-repeat #3E9FBA;padding:10px 120px 10px 40px;}
+.customBtn2 {font-family: 'Roboto Condensed', sans-serif;font-weight: 700;font-size:22px;color:#fff;border-radius:2px;background:#3E9FBA;padding:10px 60px;margin-bottom:10px;}
+
+.table {overflow-x:scroll; table-layout: fixed;}
+td {
+    word-break: break-word;
+}
+.table th:nth-child(5), .table td:nth-child(5) { display:none; }
+
+ul#expoNav {
+    background: #3FA2BD;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+#expoNav li {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+#expoNav li a {
+    margin: 5px 22px;
+    padding: 3px;
+    text-decoration: none;
+    background: transparent;
+    color: #fff;
+	font-weight:normal;
+}
+
+div#govListing {line-height:26px;word-spacing:8px;}
