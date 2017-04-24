@@ -76,7 +76,7 @@
       <pubDate>Thu, 06 Apr 2017 09:56:37 -0400</pubDate>
       
       <guid>https://pages.nist.gov/GCTC/action-clusters/</guid>
-      <description>&lt;p&gt;There are more than 200 organizations participating in GCTC smart city technology projects, called Action Clusters. These participants include representatives from U.S. cities and states, major cities in other countries, government agencies, private companies, non-profits, universities, hospitals, and a variety of municipal-focused organizations.&lt;/p&gt;
+      <description>&lt;p&gt;There are more than 300 organizations participating in GCTC smart city technology projects, called Action Clusters. These participants include representatives from U.S. cities and states, major cities in other countries, government agencies, private companies, non-profits, universities, hospitals, and a variety of municipal-focused organizations. (More information to be added soon.)&lt;/p&gt;
 
 &lt;table class=&#34;table&#34;&gt;
 
@@ -280,15 +280,91 @@
       <guid>https://pages.nist.gov/GCTC/super-clusters/</guid>
       <description>
 
-&lt;p class=&#34;&#34;&gt;A SuperCluster is a collaboration of Action Clusters with participation from additional individual entities. This approach enables project teams to join forces and pursue shared objectives and common approaches for collaborative deployment across multiple communities/cities. Examples of grand challenges to be tackled include multi-city resilience to large-scale natural disasters, intelligent transportation systems that work in any city, and regional air quality improvements through coordinated local action.&lt;/p&gt;
-&lt;p class=&#34;&#34;&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: rgb(40, 40, 40); font-size: 2.1em; word-spacing: 0.5px;&#34;&gt;Transportation SuperCluster (TSC)&lt;/span&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;superclusters-are-categorized-into-the-following-sectors&#34;&gt;&lt;strong&gt;SuperClusters are categorized into the following sectors:&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;This supercluster was formed and is managed by forward looking municipalities interested in preparing their infrastructure for new technologies that look set to provide better, more equitable services at lower cost. It explores the opportunities provided by first and last mile vehicles including shared, low speed and autonomous. It explores the opportunities for building vibrant communities around transfer points and mobility hubs and it addresses how these vehicles and hubs can play a role in the last mile delivery of packages and other freight. To support these opportunities the supercluster works with teams developing new and advanced transportation models and environmental sensors that allow both the prediction of probable outcomes and the measurement of actual outcomes of introducing these technologies. Finally the supercluster works with teams implementing a smart citySDK to ensure the portability and interchangeability of solutions and propose regulatory and policy changes that support the safe deployment of these technologies.&lt;/p&gt;
 
-&lt;p&gt;&lt;span style=&#34;font-size: 1rem;&#34;&gt;&lt;/span&gt;
-&lt;span style=&#34;font-size: 1rem;&#34;&gt;&lt;ol&gt;&lt;li&gt;Transportation&lt;br&gt;&lt;/li&gt;&lt;li&gt;City Data Platform/Municipal Dashboards&lt;br&gt;&lt;/li&gt;&lt;li&gt;Public Safety, Emergency Preparedness, Disaster Recovery, and Resilience&lt;br&gt;&lt;/li&gt;&lt;li&gt;Energy, Utilities, Water, and Waste Management&amp;nbsp;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Public WiFi&lt;br&gt;&lt;/li&gt;&lt;li&gt;Healthcare&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;co-chars&#34;&gt;Co-Chars:&lt;/h3&gt;
 
-&lt;p class=&#34;&#34;&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wilfred Pinfold, CEO, Urban Systems&lt;/strong&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/04/19/Wilfred_Pinfold.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Skip Newbery, President and CEO, Technology Associates of Oregon&lt;/strong&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/04/19/skip_newberry.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;leadership-team&#34;&gt;Leadership Team:&lt;/h3&gt;
+
+&lt;p&gt;City of Portland OR, City of Columbus OH, Technology Associates of Oregon, Urban.Systems Inc., Baltimore Electric Vehicle Initiative, IsoftStone North America, Pacific Northwest National Laboratory, Portland State University, Ohio State University, Ubiwhere&lt;/p&gt;
+
+&lt;h2 id=&#34;city-platform-dashboard-supercluster-cpsc&#34;&gt;City Platform/Dashboard SuperCluster (CPSC)&lt;/h2&gt;
+
+&lt;p&gt;The cities of Kansas City, Missouri and Bellevue, Washington are teaming with 20 other cities and several corporate partners including Cisco and XAQT to lead the GCTC City Platform Supercluster. We believe that the heart of a Smart City is data. We believe that technology can make a city cool, but data (its collection, analysis and integration into a decision support platform) makes it smart.  We are seeking to discover the common set of things we all measure and understand how we can standardize that list. By agreeing on what we measure, all cities can then apply the data in a manner that allows each of us to address our unique challenges regardless of the size, governance or location of our municipality.&lt;/p&gt;
+
+&lt;h3 id=&#34;chair&#34;&gt;Chair:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Bob Bennett, Chief Innovation Officer, Kansas City, MO&lt;/strong&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/04/19/Bob%20Bennett%203-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;leadership-team-1&#34;&gt;Leadership Team:&lt;/h3&gt;
+
+&lt;p&gt;Kansas City MO, City of Bellevue WA, KC Digital Drive, ThinkBig Pargners, Cisco, XAQT&lt;/p&gt;
+
+&lt;h2 id=&#34;public-safety-supercluster-pssc&#34;&gt;Public Safety SuperCluster (PSSC)&lt;/h2&gt;
+
+&lt;p&gt;The Public Safety SuperCluster (PSSC) of the US Ignite-sponsored Global City Teams Challenge is a public-private partnership dedicated to identifying technologies, processes and strategies from among GCTC members to enhance public safety and resilience within smart connected communities, and improve the preparedness, response and recovery of modern society from the complex challenges, hazards and risks that threaten local and regional stability. The broad goal of the PSSC is to develop, integrate and pilot technology applications and test new operating procedures and employment methods in collaboration with first responders, public safety officials, and government agencies, to improve situational awareness before, during, and after an incident or civil emergency in order to protect human life, maintain community functions and infrastructure, and ensure public safety.  Moreover, the PSSC aims to improve policies and procedures for integration of advanced communications methods and decision systems to enhance interagency planning and coordination of resources within smart and connected communities. The PSSC focuses specific attention on the integration of current and future Internet of Things (IoT) technologies to build resilience and sustainability into the technology ecosystem that comprises smart, connected communities.  The PSSC was launched in 2016 by GCTC member communities engaged in developing public-safety focused technologies, and is currently open to membership by all communities, private sector enterprises, non-governmental organizations, and government agencies (at all levels), who share an interes in addressing current and future challenges in public safety, disaster preparedness, and community resilience through the development and integration of advanced technologies.&lt;/p&gt;
+
+&lt;h3 id=&#34;chair-1&#34;&gt;Chair:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Michael Dunaway, Director, NIMSAT, Informatics Research Institute (IRI), University of Louisiana at Lafayette&lt;/strong&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/04/19/Michael%20Dunaway.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;leadership-team-2&#34;&gt;Leadership Team:&lt;/h3&gt;
+
+&lt;p&gt;Washington DC, New York City, NY, Austin, TX, University of Louisiana at Lafayette , George Mason University, Mimocloud, IDC, Everbridge, Cisco, New Urban Informatics, Dean Skidmore&lt;/p&gt;
+
+&lt;h2 id=&#34;energy-water-waste-management-supercluster-ewsc&#34;&gt;Energy/Water/Waste Management SuperCluster (EWSC)&lt;/h2&gt;
+
+&lt;p&gt;The GCTC Utility SuperCluster purpose is to address leading sustainability issues in cities for Energy, Water and Waste by bringing cities and counties together in the United States and around the world with academia and technology partners to demonstrate real world class examples and best practices. The SuperCluster is managed in three groups with each group managed with its own working group chair. Each Energy, Water and Waste working group is responsible for managing active projects with a common goal to develop a common blueprint.  The blueprint will represent best practices and serve as a practical guide for the implementation IoT technologies/&lt;/p&gt;
+
+&lt;p&gt;Objectives for the Utility SuperCluster include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Reduce water lost through leaks in water transmission and distribution utility infrastructure&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Increase water revenues with new and innovative metering technologies&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Increase water conservation adoption with weather analytics bases solutions&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Address city resilience needs with a focus on energy&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Develop and implement new strategies for zero waste&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Make it easy for cities to have access to public private partners funding models and government grant information&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;chair-2&#34;&gt;Chair:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Ed Davalos, Director of Internet of Things and Smart Cities, AT&amp;amp;T&lt;/strong&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/04/19/Ed%20Davalos%20-%20Pic%201.1.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;leadership-team-3&#34;&gt;Leadership Team:&lt;/h3&gt;
+
+&lt;p&gt;City of Atlanta GA, Gwinnett County, GA, City of San Leandro CA, AT&amp;amp;T, CH2M, ZipPower, Scalable Strategies&lt;/p&gt;
+
+&lt;h2 id=&#34;public-wifi-supercluster-pwsc&#34;&gt;Public WiFi SuperCluster (PWSC)&lt;/h2&gt;
+
+&lt;p&gt;The GCTC Public Wi-Fi SuperCluster is focused on development of best practices for the deployment of high-speed, public Wi-Fi systems. As wireless internet connectivity has grown to become a critical part of our society, municipalities have discovered that wireless service in public spaces can be more than just a nice amenity; it can be a tool for economic development, a lever for tackling the digital divide and homework gap, and serve as core infrastructure in IoT networks, supporting smart city applications such as public safety, energy, lighting, transportation, and more.&lt;/p&gt;
+
+&lt;p&gt;Yet, for all of its promise, the goals of deploying ubiquitous, public Wi-Fi connectivity and the building and sustaining a municipally-owned wireless system remain difficult to achieve. As a result, many municipalities have struggled to deploy and sustain these systems. The Public Wi-Fi SuperCluster will address these issues by analysis aimed at uncovering the best practices for successful deployments from municipalities themselves. These best practices will come in the form of interviews, workshops, and case studies covering four broad areas: technical design; financial, legal, and marketing; project management; and outcomes &amp;amp; use cases.&lt;/p&gt;
+
+&lt;p&gt;By collecting, analyzing, and reporting this information in aggregate, the Public Wi-Fi SuperCluster aims to publish a blueprint for municipalities of any kind - whether large or small, urban or rural - to successfully deploy public Wi-Fi by learning from those who have done it already.&lt;/p&gt;
+
+&lt;h3 id=&#34;co-chairs&#34;&gt;Co-chairs:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;David Witkowski, Executive Director, Wireless Communications Initiative, Joint Venture Silicon Valley&lt;/strong&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/04/19/David%20Witkowski_Jacket_1920_1920-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jon Walton, Chief Information Officer, San Mateo County, CA&lt;/strong&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/04/19/JonWalton%20Image-2.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tony Batalla, IT Manager/Director, City of San Leandro, CA&lt;/strong&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/04/19/Tony_Battala.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;leadership-team-4&#34;&gt;Leadership Team:&lt;/h3&gt;
+
+&lt;p&gt;San Mateo County CA, City of San Leandro CA, City of Schenectady NY, Joint Venture Silicon Valley, Ruckus Wireless, Sensity/Verizon, Smart Connections LLC, Oku Solutions LLC, National Telecommunications and Information Administration&lt;/p&gt;
 </description>
     </item>
     
@@ -308,7 +384,11 @@
 
 &lt;p&gt;NIST, along with its partners, acts as a matchmaker and incubator —facilitating, advising, encouraging, nurturing, and publicizing the action clusters and their projects. Since the programs launched in September 2014, GCTC has recruited and incubated over 160 with participation from over 150 cities and 400 companies/organizations from around the world.&lt;/p&gt;
 
-&lt;p&gt;For further information, contact the organizer, Dr. Sokwoo Rhee (&lt;a href=&#34;mailto:sokwoo.rhee@nist.gov&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;), Associate Director, Cyber-Physical Systems Program, NIST.&lt;/p&gt;
+&lt;p&gt;For further information, contact the organizer, Dr. Sokwoo Rhee (&lt;a href=&#34;mailto:sokwoo.rhee@nist.gov&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dr. Sokwoo Rhee, Associate Director, Cyber-Physical Systems Program, NIST&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/04/19/Sokwoo%20Rhee-1.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -327,8 +407,6 @@
 
 &lt;title&gt;The 2017 Global City Teams Challenge (GCTC) Expo&lt;/title&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://pages.nist.gov/nist-header-footer/css/nist-combined.css&#34;&gt;
-  &lt;script src=&#34;https://pages.nist.gov/nist-header-footer/js/nist-header-footer.js&#34; type=&#34;text/javascript&#34; defer=&#34;defer&#34;&gt;&lt;/script&gt;
   
 &lt;link rel=&#34;stylesheet&#34; href=&#34;//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&#34;&gt;
   &lt;link rel=&#34;stylesheet&#34; href=&#34;//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&#34; integrity=&#34;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&#34; crossorigin=&#34;anonymous&#34;&gt;
@@ -369,14 +447,23 @@
 	
 	#cta { background: #C1B8AF;}
 	#cta .lead {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 300;}
-	.customBtn {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 700;font-size:74px;color:#fff;border-radius:2px;background:url(http://sites.energetics.com/temp/gtct/images/btn-icon.png) right center no-repeat #3E9FBA;padding:10px 120px 10px 40px;}
-	
-	
+	.customBtn {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 700;font-size:74px;color:#fff;border-radius:2px;background:url(http://sites.energetics.com/temp/gtct/images/btn-icon.png) right center no-repeat #3E9FBA;padding:10px 120px 10px 40px;}	
+		
+	#intro a {color:#fff;text-decoration:underline;}
 &lt;/style&gt;
 &lt;/head&gt;
 
 &lt;body&gt;
-
+    &lt;header class=&#34;nist-header&#34;&gt;
+	&lt;h1&gt;
+	  &lt;a class=&#34;nist-logo&#34; href=&#34;http://www.nist.gov/cps&#34; title=&#34;Go to nist.gov&#34;&gt;National Institute of Standards and Technology&lt;/a&gt;
+	&lt;/h1&gt;
+	&lt;div class=&#34;nist-links&#34;&gt;
+	  &lt;a class=&#34;nist-links-button&#34; href=&#34;http://www.nist.gov&#34;&gt;NIST Website&lt;/a&gt;
+	  &lt;a class=&#34;nist-links-button mobile-hide&#34; href=&#34;http://www.nist.gov/public_affairs/nandyou.cfm&#34;&gt;About NIST&lt;/a&gt;
+	  &lt;a class=&#34;nist-links-button mobile-hide&#34; href=&#34;https://github.com/usnistgov&#34;&gt;usnistgov on Github&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/header&gt;
     &lt;div class=&#34;navbar-affixed-top&#34; data-spy=&#34;affix&#34; data-offset-top=&#34;200&#34;&gt;
 
     &lt;div class=&#34;navbar navbar-default yamm&#34; role=&#34;navigation&#34; id=&#34;navbar&#34;&gt;
@@ -477,7 +564,7 @@
 	&lt;div class=&#34;row&#34;&gt;
 		&lt;div class=&#34;col-md-6 col-md-offset-3&#34;&gt;
 			&lt;p class=&#34;lead&#34;&gt;The 2017 Global City Teams Challenge (GCTC) Expo will bring together over 100 cities and communities around the world in partnership with more than 300 companies, universities, non-profits, and federal government agencies to share and exhibit their smart city projects and the impacts to their communities.&lt;/p&gt;
-			&lt;p&gt;SuperClusters will announce smart city blueprints that document real-world examples and best practices among smart city plans and solutions gleaned from cities around the world. Over 100 action clusters will exhibit and present their projects.&lt;/p&gt;
+			&lt;p&gt;SuperClusters will announce smart city blueprints that document real-world examples and best practices among smart city plans and solutions gleaned from cities around the world. Over 100 action clusters will exhibit and present their projects. Contact the organizer &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt; if you want to create a new action cluster to exhibit and speak at the event.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -489,17 +576,33 @@
 		&lt;div class=&#34;col-md-6&#34;&gt;
 			&lt;div style=&#34;background: #646469;overflow: hidden;padding: 20px 40px;color:#fff;&#34;&gt;
 				&lt;h2&gt;AUGUST 28-29, 2017&lt;/h2&gt;
-				&lt;p class=&#34;lead&#34; style=&#34;margin-bottom: 0;padding-bottom:0;&#34;&gt;&lt;a href=&#34;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none;color:#ffffff;&#34;&gt;THE WALTER E. WASHINGTON CONVENTION CENTER&lt;/a&gt;&lt;/p&gt;
+				&lt;p class=&#34;lead&#34; style=&#34;margin-bottom: 0;padding-bottom:0;&#34;&gt;
+					&lt;a href=&#34;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none;color:#ffffff;&#34;&gt;THE WALTER E. WASHINGTON CONVENTION CENTER&lt;/a&gt;
+				&lt;/p&gt;
 				&lt;p style=&#34;margin: 0;padding:0;&#34;&gt;&lt;small&gt;801 Mt. Vernon Place NW, Washington, DC, USA&lt;/small&gt;&lt;/p&gt;
 			&lt;/div&gt;
 			&lt;div style=&#34;overflow: hidden;padding: 40px;color:#181818;&#34;&gt;
 				&lt;p&gt;&lt;a class=&#34;customBtn&#34; href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with your name, title, and affiliation.&#34;&gt;RVSP Now&lt;/a&gt;&lt;/p&gt;
-				&lt;p&gt;&lt;strong&gt;Registration is free&lt;/strong&gt;. To register for the event, please click on the RSVP button above. Please RSVP with your name, title, and affiliation. For general questions regarding the Global City Teams Challenge and/or Expo, click &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
+				&lt;p&gt;&lt;strong&gt;Registration is free&lt;/strong&gt;. To register for the event, please click on the RSVP button above or email &lt;a href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with your name, title, and affiliation.&#34;&gt;GCTCExpo@energetics.com&lt;/a&gt;. Please RSVP with your name, title, and affiliation. For general questions regarding the Global City Teams Challenge and/or Expo, email &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;. &lt;/p&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;		
 	&lt;/div&gt;
 &lt;/div&gt;
+&lt;footer id=&#34;footer&#34;&gt;
 
+&lt;/footer&gt;
+
+&lt;!-- /#footer --&gt;
+&lt;div&gt;
+&lt;p style=&#34;color:#777;font-size:12px;line-height:110%;padding-top:20px;padding-left:50px;padding-right:50px;padding-bottom:10px;&#34;&gt;
+PLEASE NOTE: This is a collaborative website. NIST does not endorse the views expressed, or necessarily concur with the information presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. All the material on this website is in the public domain and is intended for unrestricted use by interested parties, including any text, diagrams, or images, unless indicated explicitly.
+&lt;br&gt;&lt;br&gt;Don&#39;t share anything on this site that you do not want to be public. Do not post any proprietary documents, information or data Anything placed on this site is considered public disclosure and it shall be deemed to have been disclosed on a non-confidential basis, without any restrictions on use by anyone, except that no valid copyright or patent right shall be deemed to have been waived by such disclosure. 
+&lt;br&gt;&lt;br&gt;Certain commercial equipment, instruments, materials, systems, software, and trade names may be identified throughout this site in order to specify or identify technologies adequately. Such identification is not intended to imply recommendation or endorsement by NIST or any other party, nor is it intended to imply that the systems or products identified are necessarily the best available for the purpose. All data and other information posted on this site is provided as a public service and is provided &#34;AS IS.&#34;  NIST MAKES NO WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND DATA ACCURACY.  
+&lt;br&gt;&lt;br&gt;By selecting external links, you will be leaving NIST webspace. Links to other websites are provided because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other websites that are more appropriate for your purpose.
+&lt;br&gt;&lt;a href=&#34;http://www.nist.gov/public_affairs/privacy.cfm#privpolicy&#34;&gt;Privacy Policy&lt;/a&gt; | &lt;a href=&#34;http://www.nist.gov/public_affairs/privacy.cfm#secnot&#34;&gt;Security Notice&lt;/a&gt; | &lt;a href=&#34;http://www.nist.gov/public_affairs/privacy.cfm#accesstate&#34;&gt;Accessibility Statement&lt;/a&gt; | &lt;a href=&#34;mailto:sgwikisupport@nist.gov?subject=Feedback%20on%20NistPagesTemplate%20Web%20Site&#34;&gt;Send feedback&lt;/a&gt;
+
+&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&#34;&gt;&lt;/script&gt;
 &lt;!-- Latest compiled and minified JavaScript --&gt;

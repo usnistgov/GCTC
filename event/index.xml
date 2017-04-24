@@ -75,8 +75,6 @@
 
 &lt;title&gt;The 2017 Global City Teams Challenge (GCTC) Expo&lt;/title&gt;
 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://pages.nist.gov/nist-header-footer/css/nist-combined.css&#34;&gt;
-  &lt;script src=&#34;https://pages.nist.gov/nist-header-footer/js/nist-header-footer.js&#34; type=&#34;text/javascript&#34; defer=&#34;defer&#34;&gt;&lt;/script&gt;
   
 &lt;link rel=&#34;stylesheet&#34; href=&#34;//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&#34;&gt;
   &lt;link rel=&#34;stylesheet&#34; href=&#34;//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&#34; integrity=&#34;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&#34; crossorigin=&#34;anonymous&#34;&gt;
@@ -117,14 +115,23 @@
 	
 	#cta { background: #C1B8AF;}
 	#cta .lead {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 300;}
-	.customBtn {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 700;font-size:74px;color:#fff;border-radius:2px;background:url(http://sites.energetics.com/temp/gtct/images/btn-icon.png) right center no-repeat #3E9FBA;padding:10px 120px 10px 40px;}
-	
-	
+	.customBtn {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 700;font-size:74px;color:#fff;border-radius:2px;background:url(http://sites.energetics.com/temp/gtct/images/btn-icon.png) right center no-repeat #3E9FBA;padding:10px 120px 10px 40px;}	
+		
+	#intro a {color:#fff;text-decoration:underline;}
 &lt;/style&gt;
 &lt;/head&gt;
 
 &lt;body&gt;
-
+    &lt;header class=&#34;nist-header&#34;&gt;
+	&lt;h1&gt;
+	  &lt;a class=&#34;nist-logo&#34; href=&#34;http://www.nist.gov/cps&#34; title=&#34;Go to nist.gov&#34;&gt;National Institute of Standards and Technology&lt;/a&gt;
+	&lt;/h1&gt;
+	&lt;div class=&#34;nist-links&#34;&gt;
+	  &lt;a class=&#34;nist-links-button&#34; href=&#34;http://www.nist.gov&#34;&gt;NIST Website&lt;/a&gt;
+	  &lt;a class=&#34;nist-links-button mobile-hide&#34; href=&#34;http://www.nist.gov/public_affairs/nandyou.cfm&#34;&gt;About NIST&lt;/a&gt;
+	  &lt;a class=&#34;nist-links-button mobile-hide&#34; href=&#34;https://github.com/usnistgov&#34;&gt;usnistgov on Github&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/header&gt;
     &lt;div class=&#34;navbar-affixed-top&#34; data-spy=&#34;affix&#34; data-offset-top=&#34;200&#34;&gt;
 
     &lt;div class=&#34;navbar navbar-default yamm&#34; role=&#34;navigation&#34; id=&#34;navbar&#34;&gt;
@@ -225,7 +232,7 @@
 	&lt;div class=&#34;row&#34;&gt;
 		&lt;div class=&#34;col-md-6 col-md-offset-3&#34;&gt;
 			&lt;p class=&#34;lead&#34;&gt;The 2017 Global City Teams Challenge (GCTC) Expo will bring together over 100 cities and communities around the world in partnership with more than 300 companies, universities, non-profits, and federal government agencies to share and exhibit their smart city projects and the impacts to their communities.&lt;/p&gt;
-			&lt;p&gt;SuperClusters will announce smart city blueprints that document real-world examples and best practices among smart city plans and solutions gleaned from cities around the world. Over 100 action clusters will exhibit and present their projects.&lt;/p&gt;
+			&lt;p&gt;SuperClusters will announce smart city blueprints that document real-world examples and best practices among smart city plans and solutions gleaned from cities around the world. Over 100 action clusters will exhibit and present their projects. Contact the organizer &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt; if you want to create a new action cluster to exhibit and speak at the event.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -237,17 +244,33 @@
 		&lt;div class=&#34;col-md-6&#34;&gt;
 			&lt;div style=&#34;background: #646469;overflow: hidden;padding: 20px 40px;color:#fff;&#34;&gt;
 				&lt;h2&gt;AUGUST 28-29, 2017&lt;/h2&gt;
-				&lt;p class=&#34;lead&#34; style=&#34;margin-bottom: 0;padding-bottom:0;&#34;&gt;&lt;a href=&#34;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none;color:#ffffff;&#34;&gt;THE WALTER E. WASHINGTON CONVENTION CENTER&lt;/a&gt;&lt;/p&gt;
+				&lt;p class=&#34;lead&#34; style=&#34;margin-bottom: 0;padding-bottom:0;&#34;&gt;
+					&lt;a href=&#34;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none;color:#ffffff;&#34;&gt;THE WALTER E. WASHINGTON CONVENTION CENTER&lt;/a&gt;
+				&lt;/p&gt;
 				&lt;p style=&#34;margin: 0;padding:0;&#34;&gt;&lt;small&gt;801 Mt. Vernon Place NW, Washington, DC, USA&lt;/small&gt;&lt;/p&gt;
 			&lt;/div&gt;
 			&lt;div style=&#34;overflow: hidden;padding: 40px;color:#181818;&#34;&gt;
 				&lt;p&gt;&lt;a class=&#34;customBtn&#34; href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with your name, title, and affiliation.&#34;&gt;RVSP Now&lt;/a&gt;&lt;/p&gt;
-				&lt;p&gt;&lt;strong&gt;Registration is free&lt;/strong&gt;. To register for the event, please click on the RSVP button above. Please RSVP with your name, title, and affiliation. For general questions regarding the Global City Teams Challenge and/or Expo, click &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;here&lt;/a&gt;. &lt;/p&gt;
+				&lt;p&gt;&lt;strong&gt;Registration is free&lt;/strong&gt;. To register for the event, please click on the RSVP button above or email &lt;a href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with your name, title, and affiliation.&#34;&gt;GCTCExpo@energetics.com&lt;/a&gt;. Please RSVP with your name, title, and affiliation. For general questions regarding the Global City Teams Challenge and/or Expo, email &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;. &lt;/p&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;		
 	&lt;/div&gt;
 &lt;/div&gt;
+&lt;footer id=&#34;footer&#34;&gt;
 
+&lt;/footer&gt;
+
+&lt;!-- /#footer --&gt;
+&lt;div&gt;
+&lt;p style=&#34;color:#777;font-size:12px;line-height:110%;padding-top:20px;padding-left:50px;padding-right:50px;padding-bottom:10px;&#34;&gt;
+PLEASE NOTE: This is a collaborative website. NIST does not endorse the views expressed, or necessarily concur with the information presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. All the material on this website is in the public domain and is intended for unrestricted use by interested parties, including any text, diagrams, or images, unless indicated explicitly.
+&lt;br&gt;&lt;br&gt;Don&#39;t share anything on this site that you do not want to be public. Do not post any proprietary documents, information or data Anything placed on this site is considered public disclosure and it shall be deemed to have been disclosed on a non-confidential basis, without any restrictions on use by anyone, except that no valid copyright or patent right shall be deemed to have been waived by such disclosure. 
+&lt;br&gt;&lt;br&gt;Certain commercial equipment, instruments, materials, systems, software, and trade names may be identified throughout this site in order to specify or identify technologies adequately. Such identification is not intended to imply recommendation or endorsement by NIST or any other party, nor is it intended to imply that the systems or products identified are necessarily the best available for the purpose. All data and other information posted on this site is provided as a public service and is provided &#34;AS IS.&#34;  NIST MAKES NO WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND DATA ACCURACY.  
+&lt;br&gt;&lt;br&gt;By selecting external links, you will be leaving NIST webspace. Links to other websites are provided because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other websites that are more appropriate for your purpose.
+&lt;br&gt;&lt;a href=&#34;http://www.nist.gov/public_affairs/privacy.cfm#privpolicy&#34;&gt;Privacy Policy&lt;/a&gt; | &lt;a href=&#34;http://www.nist.gov/public_affairs/privacy.cfm#secnot&#34;&gt;Security Notice&lt;/a&gt; | &lt;a href=&#34;http://www.nist.gov/public_affairs/privacy.cfm#accesstate&#34;&gt;Accessibility Statement&lt;/a&gt; | &lt;a href=&#34;mailto:sgwikisupport@nist.gov?subject=Feedback%20on%20NistPagesTemplate%20Web%20Site&#34;&gt;Send feedback&lt;/a&gt;
+
+&lt;/p&gt;
+&lt;/div&gt;
 
 &lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&#34;&gt;&lt;/script&gt;
 &lt;!-- Latest compiled and minified JavaScript --&gt;

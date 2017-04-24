@@ -74,3 +74,9 @@ ul#expoNav {
 }
 
 div#govListing {line-height:26px;word-spacing:8px;}
+
+#superclusters img{    
+	max-width: 350px;
+    vertical-align: top;
+    display: block;
+}
