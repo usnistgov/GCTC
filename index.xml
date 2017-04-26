@@ -7,8 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2016 - 2017, Global City Team Challenge all rights reserved.</copyright>
-    <lastBuildDate>Mon, 17 Apr 2017 12:43:33 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 26 Apr 2017 09:44:06 -0400</lastBuildDate>
     <atom:link href="https://pages.nist.gov/GCTC/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>participation guide</title>
+      <link>https://pages.nist.gov/GCTC/about/participation-guide/</link>
+      <pubDate>Wed, 26 Apr 2017 09:44:06 -0400</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/about/participation-guide/</guid>
+      <description>
+
+&lt;h3 id=&#34;global-city-teams-challenge-gctc-participation-guide-how-to-create-an-action-cluster-and-exhibit-speak-at-the-expo&#34;&gt;Global City Teams Challenge (GCTC) Participation Guide - How to create an action cluster and exhibit/speak at the Expo&lt;/h3&gt;
+
+&lt;p&gt;To create an action cluster, each team must complete and submit a project worksheet. The worksheet template can be downloaded &lt;a href=&#34;https://drive.google.com/file/d/0B8nL0SuAAnfXWnFHLUdTRVpNMEE/view?usp=sharing&#34;&gt;here&lt;/a&gt; and a fictitious example can be downloaded &lt;a href=&#34;https://drive.google.com/file/d/0B8nL0SuAAnfXdmhXajNmSHVZUW8/view?usp=sharing&#34;&gt;here&lt;/a&gt;. The submitted worksheet will be reviewed and accepted once verified to meet all the requirements. Complete and email the worksheet to &lt;a href=&#34;mailto:gctcinfo@nist.gov&#34;&gt;gctcinfo@nist.gov&lt;/a&gt;. GCTC organizers will then review the worksheet and send feedback to the team lead. The requirements to form an action cluster are as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Each team (i.e. action cluster) needs to have at least 2 entities, at least one of them being a municipal government participant which will deploy the smart city solution. (At least one city official should be listed as a team member in the worksheet and participate in the team.) In most of the cases, an action cluster is composed of more than 2 entities, including multiple technology providers and sometimes multiple cities and communities.&lt;/li&gt;
+&lt;li&gt;Once the team is approved and registered as an action cluster, the information on the worksheet will be published on the GCTC web site, either in summary or in full. The contact information of the team lead will be made public, but the contact information of the municipal partner will not be made public.&lt;/li&gt;
+&lt;li&gt;At the GCTC Expo, it is highly encouraged that the municipal government partner participates in the team presentation and exhibit. Each team should demonstrate the feasibility of their project at the Expo by exhibiting prototypes, pilots, and/or preliminary results. The priorities of speaking opportunities will be given to the action clusters joined by one or more municipal partners. Note that the action clusters with no municipal participation at the Expo may not receive a speaking opportunity depending on the level of demand.&lt;/li&gt;
+&lt;li&gt;Optional: Teams are encouraged to have multiple municipal partners and technology providers in an action cluster.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://pages.nist.gov/GCTC/event/gctc-expo-2017/&#34;&gt;GCTC 2017 Expo&lt;/a&gt; will be the largest smart city event hosted by the US federal government. Anyone can attend the event, but the opportunity to exhibit and speak at the GCTC Expo is offered to the registered action clusters. Here are a few important points on the participation of action clusters.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Each action cluster is offered an exhibit space free of charge (8x8 or 10x10, exact size TBD). (Note that the space is provided free of charge, but you will need to cover the cost to build your booth. Details will be provided to the team lead.)&lt;/li&gt;
+&lt;li&gt;Each action cluster is eligible for a speaking slot. If there is excessive demand, priority will be given to the action clusters that are joined by city official(s) as part of the presentation and the exhibit.&lt;/li&gt;
+&lt;li&gt;The event has no registration fee and open to all registered attendees. Participating action clusters should encourage as many of their contacts to attend the Expo as possible.&lt;/li&gt;
+&lt;li&gt;Limited travel support will be made available to city officials speaking as a member of action cluster or SuperCluster up to a ceiling (exact amount TBD) and will be offered to one city official per action cluster.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In this year&amp;rsquo;s Expo, several SuperClusters will be highlighted as well as action clusters. For those who are not familiar with SuperClusters, they are alliances of action clusters and relevant additional stakeholders grouped into sectors. Currently, there are five official SuperClusters; (1) transportation (2) city data platform (3) public safety (4) energy/water/waste (5) public WiFi and two additional SuperClusters under construction (Healthcare and Data Governance). Each SuperCluster will be given a dedicated exhibit space and a plenary speaking slot. With the given exhibit space, each action cluster has a choice to set up their own booth (unaffiliated), join their space with a SuperCluster of choice (affiliated), or do both. If you feel that your action cluster is closely aligned with a SuperCluster and want to join your exhibit space with a specific SuperCluster, please reach out to the SuperCluster chairs to place your space as part of the SuperCluster Pavilion. (The contact info of the chairs can be found &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1a697VZZElvLgYISq0ukHhLsK556HQPcdIt_IG6gTPfM/edit?usp=sharing&#34;&gt;here&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/img/gctc-structure.png&#34; alt=&#34;GCTC Structure&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that an independent exhibit space and a presentation slot are given to Layers 1-3. Individual entities in Layer 4 can be part of a SuperCluster exhibit/presentation, but no independent space/presentation slot is provided.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>expo presentations</title>
@@ -41,7 +77,7 @@
     </item>
     
     <item>
-      <title>exhibit</title>
+      <title>exhibits</title>
       <link>https://pages.nist.gov/GCTC/event/gctc-expo-2017/exhibit/</link>
       <pubDate>Mon, 17 Apr 2017 12:43:14 -0400</pubDate>
       
@@ -280,11 +316,11 @@
       <guid>https://pages.nist.gov/GCTC/super-clusters/</guid>
       <description>
 
-&lt;p&gt;&lt;span style=&#34;color: rgb(40, 40, 40); font-size: 2.1em; word-spacing: 0.5px;&#34;&gt;Transportation SuperCluster (TSC)&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;transportation-supercluster-tsc&#34;&gt;Transportation SuperCluster (TSC)&lt;/h2&gt;
 
 &lt;p&gt;This supercluster was formed and is managed by forward looking municipalities interested in preparing their infrastructure for new technologies that look set to provide better, more equitable services at lower cost. It explores the opportunities provided by first and last mile vehicles including shared, low speed and autonomous. It explores the opportunities for building vibrant communities around transfer points and mobility hubs and it addresses how these vehicles and hubs can play a role in the last mile delivery of packages and other freight. To support these opportunities the supercluster works with teams developing new and advanced transportation models and environmental sensors that allow both the prediction of probable outcomes and the measurement of actual outcomes of introducing these technologies. Finally the supercluster works with teams implementing a smart citySDK to ensure the portability and interchangeability of solutions and propose regulatory and policy changes that support the safe deployment of these technologies.&lt;/p&gt;
 
-&lt;h3 id=&#34;co-chars&#34;&gt;Co-Chars:&lt;/h3&gt;
+&lt;h3 id=&#34;co-chairs&#34;&gt;Co-Chairs:&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Wilfred Pinfold, CEO, Urban Systems&lt;/strong&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/04/19/Wilfred_Pinfold.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -308,7 +344,7 @@
 
 &lt;h2 id=&#34;public-safety-supercluster-pssc&#34;&gt;Public Safety SuperCluster (PSSC)&lt;/h2&gt;
 
-&lt;p&gt;The Public Safety SuperCluster (PSSC) of the US Ignite-sponsored Global City Teams Challenge is a public-private partnership dedicated to identifying technologies, processes and strategies from among GCTC members to enhance public safety and resilience within smart connected communities, and improve the preparedness, response and recovery of modern society from the complex challenges, hazards and risks that threaten local and regional stability. The broad goal of the PSSC is to develop, integrate and pilot technology applications and test new operating procedures and employment methods in collaboration with first responders, public safety officials, and government agencies, to improve situational awareness before, during, and after an incident or civil emergency in order to protect human life, maintain community functions and infrastructure, and ensure public safety.  Moreover, the PSSC aims to improve policies and procedures for integration of advanced communications methods and decision systems to enhance interagency planning and coordination of resources within smart and connected communities. The PSSC focuses specific attention on the integration of current and future Internet of Things (IoT) technologies to build resilience and sustainability into the technology ecosystem that comprises smart, connected communities.  The PSSC was launched in 2016 by GCTC member communities engaged in developing public-safety focused technologies, and is currently open to membership by all communities, private sector enterprises, non-governmental organizations, and government agencies (at all levels), who share an interes in addressing current and future challenges in public safety, disaster preparedness, and community resilience through the development and integration of advanced technologies.&lt;/p&gt;
+&lt;p&gt;The Public Safety SuperCluster (PSSC) of the US Ignite-sponsored Global City Teams Challenge is a public-private partnership dedicated to identifying technologies, processes and strategies from among GCTC members to enhance public safety and resilience within smart connected communities, and improve the preparedness, response and recovery of modern society from the complex challenges, hazards and risks that threaten local and regional stability. The broad goal of the PSSC is to develop, integrate and pilot technology applications and test new operating procedures and employment methods in collaboration with first responders, public safety officials, and government agencies, to improve situational awareness before, during, and after an incident or civil emergency in order to protect human life, maintain community functions and infrastructure, and ensure public safety.  Moreover, the PSSC aims to improve policies and procedures for integration of advanced communications methods and decision systems to enhance interagency planning and coordination of resources within smart and connected communities. The PSSC focuses specific attention on the integration of current and future Internet of Things (IoT) technologies to build resilience and sustainability into the technology ecosystem that comprises smart, connected communities.  The PSSC was launched in 2016 by GCTC member communities engaged in developing public-safety focused technologies, and is currently open to membership by all communities, private sector enterprises, non-governmental organizations, and government agencies (at all levels), who share an interest in addressing current and future challenges in public safety, disaster preparedness, and community resilience through the development and integration of advanced technologies.&lt;/p&gt;
 
 &lt;h3 id=&#34;chair-1&#34;&gt;Chair:&lt;/h3&gt;
 
@@ -354,7 +390,7 @@
 
 &lt;p&gt;By collecting, analyzing, and reporting this information in aggregate, the Public Wi-Fi SuperCluster aims to publish a blueprint for municipalities of any kind - whether large or small, urban or rural - to successfully deploy public Wi-Fi by learning from those who have done it already.&lt;/p&gt;
 
-&lt;h3 id=&#34;co-chairs&#34;&gt;Co-chairs:&lt;/h3&gt;
+&lt;h3 id=&#34;co-chairs-1&#34;&gt;Co-chairs:&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;David Witkowski, Executive Director, Wireless Communications Initiative, Joint Venture Silicon Valley&lt;/strong&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/04/19/David%20Witkowski_Jacket_1920_1920-1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -370,23 +406,23 @@
     
     <item>
       <title>About GCTC</title>
-      <link>https://pages.nist.gov/GCTC/about/</link>
+      <link>https://pages.nist.gov/GCTC/about/the-gctc/</link>
       <pubDate>Mon, 03 Apr 2017 10:58:28 -0400</pubDate>
       
-      <guid>https://pages.nist.gov/GCTC/about/</guid>
+      <guid>https://pages.nist.gov/GCTC/about/the-gctc/</guid>
       <description>
 
 &lt;h2 id=&#34;learn-about-the-global-city-teams-challenge&#34;&gt;Learn about the Global City Teams Challenge&lt;/h2&gt;
 
-&lt;p&gt;Internet of Things (IoT) and Cyber-Physical Systems (CPS) involve connecting smart devices and systems—in diverse sectors such as transportation, energy, manufacturing, and healthcare—in fundamentally new ways. These technologies will enable cities and communities to improve services, promote economic growth, and enhance the quality of life. With 54 percent of the world&amp;rsquo;s population now living in cities, the development of &amp;ldquo;smart cities&amp;rdquo; and &amp;ldquo;smart communities&amp;rdquo; is becoming a major focus around the globe.&lt;/p&gt;
+&lt;p&gt;Internet of Things (IoT) and Cyber-Physical Systems (CPS) involve connecting smart devices and systems—in diverse sectors such as transportation, energy, manufacturing, and healthcare—in fundamentally new ways. These technologies will enable cities and communities to improve services, promote economic growth, and enhance the quality of life.&lt;/p&gt;
 
-&lt;p&gt;Because many of today&amp;rsquo;s smart city/community development efforts are isolated and customized projects, NIST, launched the Global City Teams Challenge (GCTC) to encourage collaboration and the development of standards. GCTC’s long-term goal is &amp;ldquo;to establish and demonstrate replicable, scalable, and sustainable models for incubation and deployment of interoperable, standard-based IoT solutions and demonstrate their measurable benefits in Smart Communities/Cities.&amp;rdquo; To put it simply, this program will help communities benefit from the experience of others to improve efficiency and lower costs.&lt;/p&gt;
+&lt;p&gt;Because many of today’s smart city/community development efforts are isolated and customized projects, the National Institute of Standards and Technology (NIST) launched the Global City Teams Challenge (GCTC) to encourage collaboration and the development of standards. GCTC’s long-term goal is “to establish and demonstrate replicable, scalable, and sustainable models for incubation and deployment of interoperable, standard-based solutions using advanced technologies such as IoT and CPS, and demonstrate their measurable benefits in communities and cities.” To put it simply, this program will help communities benefit from the experience of others to improve efficiency and lower costs.&lt;/p&gt;
 
-&lt;p&gt;NIST, along with its partners, acts as a matchmaker and incubator —facilitating, advising, encouraging, nurturing, and publicizing the action clusters and their projects. Since the programs launched in September 2014, GCTC has recruited and incubated over 160 with participation from over 150 cities and 400 companies/organizations from around the world.&lt;/p&gt;
+&lt;p&gt;NIST, along with its partners, acts as a matchmaker and incubator —facilitating, advising, encouraging, nurturing, and publicizing the action clusters and their projects. Since the programs launched in September 2014, GCTC has recruited and incubated over 160 with participation from over 150 cities and 400 companies/organizations from around the world.&lt;/p&gt;
 
-&lt;p&gt;For further information, contact the organizer, Dr. Sokwoo Rhee (&lt;a href=&#34;mailto:sokwoo.rhee@nist.gov&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;For further information, contact the organizer, Sokwoo Rhee (&lt;a href=&#34;mailto:sokwoo.rhee@nist.gov&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Dr. Sokwoo Rhee, Associate Director, Cyber-Physical Systems Program, NIST&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sokwoo Rhee, Associate Director, Cyber-Physical Systems Program, NIST&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/04/19/Sokwoo%20Rhee-1.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
@@ -450,6 +486,8 @@
 	.customBtn {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 700;font-size:74px;color:#fff;border-radius:2px;background:url(http://sites.energetics.com/temp/gtct/images/btn-icon.png) right center no-repeat #3E9FBA;padding:10px 120px 10px 40px;}	
 		
 	#intro a {color:#fff;text-decoration:underline;}
+	
+	#dcConvention:hover{opacity:0.8;}
 &lt;/style&gt;
 &lt;/head&gt;
 
@@ -573,8 +611,8 @@
 		&lt;div class=&#34;col-md-6&#34;&gt;
 			&lt;img src=&#34;http://sites.energetics.com/temp/gtct/images/AdobeStock_22332317.jpg&#34; alt=&#34;THE WALTER E. WASHINGTON CONVENTION CENTER&#34; class=&#34;img-responsive&#34;&gt;
 		&lt;/div&gt;
-		&lt;div class=&#34;col-md-6&#34;&gt;
-			&lt;div style=&#34;background: #646469;overflow: hidden;padding: 20px 40px;color:#fff;&#34;&gt;
+		&lt;div class=&#34;col-md-6&#34; id=&#34;dcConvention&#34;&gt;
+			&lt;div style=&#34;cursor: pointer;background: #646469;overflow: hidden;padding: 20px 40px;color:#fff;&#34; onclick=&#34;window.href=&#39;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#39;;&#34;&gt;
 				&lt;h2&gt;AUGUST 28-29, 2017&lt;/h2&gt;
 				&lt;p class=&#34;lead&#34; style=&#34;margin-bottom: 0;padding-bottom:0;&#34;&gt;
 					&lt;a href=&#34;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none;color:#ffffff;&#34;&gt;THE WALTER E. WASHINGTON CONVENTION CENTER&lt;/a&gt;
@@ -583,7 +621,7 @@
 			&lt;/div&gt;
 			&lt;div style=&#34;overflow: hidden;padding: 40px;color:#181818;&#34;&gt;
 				&lt;p&gt;&lt;a class=&#34;customBtn&#34; href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with your name, title, and affiliation.&#34;&gt;RVSP Now&lt;/a&gt;&lt;/p&gt;
-				&lt;p&gt;&lt;strong&gt;Registration is free&lt;/strong&gt;. To register for the event, please click on the RSVP button above or email &lt;a href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with your name, title, and affiliation.&#34;&gt;GCTCExpo@energetics.com&lt;/a&gt;. Please RSVP with your name, title, and affiliation. For general questions regarding the Global City Teams Challenge and/or Expo, email &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;. &lt;/p&gt;
+				&lt;p&gt;&lt;strong&gt;Registration is free&lt;/strong&gt;. To register for the event, please click on the RSVP button above or email &lt;a href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with the name, title, affiliation, and email address for all registrants.&#34;&gt;GCTCExpo@energetics.com&lt;/a&gt;. Please RSVP with the name, title, affiliation, and email address for all registrants. For general questions regarding the Global City Teams Challenge and/or Expo, email &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;. &lt;/p&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;		
 	&lt;/div&gt;
@@ -607,6 +645,26 @@ PLEASE NOTE: This is a collaborative website. NIST does not endorse the views ex
 &lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&#34;&gt;&lt;/script&gt;
 &lt;!-- Latest compiled and minified JavaScript --&gt;
 &lt;script src=&#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&#34; integrity=&#34;sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+
+  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
+
+ 
+
+  ga(&#39;create&#39;, &#39;UA-98010590-1&#39;, &#39;auto&#39;);
+
+  ga(&#39;send&#39;, &#39;pageview&#39;);
+
+ 
+
+&lt;/script&gt;
+
 &lt;/body&gt;
 &lt;/html&gt;
 </description>

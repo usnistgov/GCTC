@@ -1,5 +1,7 @@
 /* your styles go here */
 
+img {max-width:100%;}
+
 .nist-header__search input[type=text]{font-size:17.6px;}
 
 .box-image-text .image {
@@ -79,4 +81,13 @@ div#govListing {line-height:26px;word-spacing:8px;}
 	max-width: 350px;
     vertical-align: top;
     display: block;
+}
+
+#content li {margin:15px;padding-left:10px;}
+
+.introWrap .col-sm-8 p:first-of-type {
+    border-top: 0;
+    border-bottom: 0;
+    padding: 5px 0;
+    line-height: 1.8;
 }

@@ -41,7 +41,7 @@
     </item>
     
     <item>
-      <title>exhibit</title>
+      <title>exhibits</title>
       <link>https://pages.nist.gov/GCTC/event/gctc-expo-2017/exhibit/</link>
       <pubDate>Mon, 17 Apr 2017 12:43:14 -0400</pubDate>
       
@@ -118,6 +118,8 @@
 	.customBtn {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 700;font-size:74px;color:#fff;border-radius:2px;background:url(http://sites.energetics.com/temp/gtct/images/btn-icon.png) right center no-repeat #3E9FBA;padding:10px 120px 10px 40px;}	
 		
 	#intro a {color:#fff;text-decoration:underline;}
+	
+	#dcConvention:hover{opacity:0.8;}
 &lt;/style&gt;
 &lt;/head&gt;
 
@@ -241,8 +243,8 @@
 		&lt;div class=&#34;col-md-6&#34;&gt;
 			&lt;img src=&#34;http://sites.energetics.com/temp/gtct/images/AdobeStock_22332317.jpg&#34; alt=&#34;THE WALTER E. WASHINGTON CONVENTION CENTER&#34; class=&#34;img-responsive&#34;&gt;
 		&lt;/div&gt;
-		&lt;div class=&#34;col-md-6&#34;&gt;
-			&lt;div style=&#34;background: #646469;overflow: hidden;padding: 20px 40px;color:#fff;&#34;&gt;
+		&lt;div class=&#34;col-md-6&#34; id=&#34;dcConvention&#34;&gt;
+			&lt;div style=&#34;cursor: pointer;background: #646469;overflow: hidden;padding: 20px 40px;color:#fff;&#34; onclick=&#34;window.href=&#39;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#39;;&#34;&gt;
 				&lt;h2&gt;AUGUST 28-29, 2017&lt;/h2&gt;
 				&lt;p class=&#34;lead&#34; style=&#34;margin-bottom: 0;padding-bottom:0;&#34;&gt;
 					&lt;a href=&#34;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none;color:#ffffff;&#34;&gt;THE WALTER E. WASHINGTON CONVENTION CENTER&lt;/a&gt;
@@ -251,7 +253,7 @@
 			&lt;/div&gt;
 			&lt;div style=&#34;overflow: hidden;padding: 40px;color:#181818;&#34;&gt;
 				&lt;p&gt;&lt;a class=&#34;customBtn&#34; href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with your name, title, and affiliation.&#34;&gt;RVSP Now&lt;/a&gt;&lt;/p&gt;
-				&lt;p&gt;&lt;strong&gt;Registration is free&lt;/strong&gt;. To register for the event, please click on the RSVP button above or email &lt;a href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with your name, title, and affiliation.&#34;&gt;GCTCExpo@energetics.com&lt;/a&gt;. Please RSVP with your name, title, and affiliation. For general questions regarding the Global City Teams Challenge and/or Expo, email &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;. &lt;/p&gt;
+				&lt;p&gt;&lt;strong&gt;Registration is free&lt;/strong&gt;. To register for the event, please click on the RSVP button above or email &lt;a href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with the name, title, affiliation, and email address for all registrants.&#34;&gt;GCTCExpo@energetics.com&lt;/a&gt;. Please RSVP with the name, title, affiliation, and email address for all registrants. For general questions regarding the Global City Teams Challenge and/or Expo, email &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;. &lt;/p&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;		
 	&lt;/div&gt;
@@ -275,6 +277,26 @@ PLEASE NOTE: This is a collaborative website. NIST does not endorse the views ex
 &lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&#34;&gt;&lt;/script&gt;
 &lt;!-- Latest compiled and minified JavaScript --&gt;
 &lt;script src=&#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&#34; integrity=&#34;sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+
+  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
+
+ 
+
+  ga(&#39;create&#39;, &#39;UA-98010590-1&#39;, &#39;auto&#39;);
+
+  ga(&#39;send&#39;, &#39;pageview&#39;);
+
+ 
+
+&lt;/script&gt;
+
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
