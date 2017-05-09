@@ -36,7 +36,17 @@
       <pubDate>Mon, 17 Apr 2017 12:43:19 -0400</pubDate>
       
       <guid>https://pages.nist.gov/GCTC/event/gctc-expo-2017/logistics/</guid>
-      <description>&lt;p&gt;Coming Soon&amp;hellip;&lt;/p&gt;
+      <description>&lt;p&gt;The Global City Teams Challenge Expo 2017 will be held at The Walter E. Washington Convention Center in Washington D.C. For more information on the convention center, nearby hotels, parking information, and more, click on the link below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;customBtn2&#34; href=&#34;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#34; target=&#34;_blank&#34;&gt;GCTC Convention Center Site&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/05/04/_0030_exterior-jhph-J2I2063-hires.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;For directions to the convention center, click on the link below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&#34;customBtn2&#34; href=&#34;http://www.dcconvention.com/Venues/ConventionCenter/DirectionsAndParking.aspx&#34; target=&#34;_blank&#34;&gt;Directions&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -56,7 +66,7 @@
       <pubDate>Mon, 17 Apr 2017 12:41:52 -0400</pubDate>
       
       <guid>https://pages.nist.gov/GCTC/event/gctc-expo-2017/agenda/</guid>
-      <description>&lt;p&gt;Coming Soon&amp;hellip;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/05/03/20170501%20Agenda%20Short%20V4%20SR-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -66,10 +76,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pages.nist.gov/GCTC/event/gctc-expo-2017/</guid>
-      <description>&lt;!doctype html&gt;
-&lt;html lang=&#34;en&#34;&gt;
-&lt;head&gt;
-&lt;meta charset=&#34;utf-8&#34;&gt;
+      <description>&lt;meta charset=&#34;utf-8&#34;&gt;
 &lt;meta http-equiv=&#34;X-UA-Compatible&#34; content=&#34;IE=edge&#34;&gt;
 &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1&#34;&gt;
 
@@ -118,12 +125,12 @@
 	.customBtn {font-family: &#39;Roboto Condensed&#39;, sans-serif;font-weight: 700;font-size:74px;color:#fff;border-radius:2px;background:url(http://sites.energetics.com/temp/gtct/images/btn-icon.png) right center no-repeat #3E9FBA;padding:10px 120px 10px 40px;}	
 		
 	#intro a {color:#fff;text-decoration:underline;}
-	
+	#intro .container, #intro .row {height: auto; position: relative;}
 	#dcConvention:hover{opacity:0.8;}
 &lt;/style&gt;
-&lt;/head&gt;
 
-&lt;body&gt;
+
+
     &lt;header class=&#34;nist-header&#34;&gt;
 	&lt;h1&gt;
 	  &lt;a class=&#34;nist-logo&#34; href=&#34;http://www.nist.gov/cps&#34; title=&#34;Go to nist.gov&#34;&gt;National Institute of Standards and Technology&lt;/a&gt;
@@ -194,7 +201,7 @@
 
             &lt;div class=&#34;collapse clearfix&#34; id=&#34;search&#34;&gt;
 
-                &lt;form class=&#34;navbar-form&#34; role=&#34;search&#34;&gt;
+                
                     &lt;div class=&#34;input-group&#34;&gt;
                         &lt;input type=&#34;text&#34; class=&#34;form-control&#34; placeholder=&#34;Search&#34;&gt;
                         &lt;span class=&#34;input-group-btn&#34;&gt;
@@ -203,7 +210,7 @@
 
                 &lt;/span&gt;
                     &lt;/div&gt;
-                &lt;/form&gt;
+                
 
             &lt;/div&gt;
             &lt;!--/.nav-collapse --&gt;
@@ -234,7 +241,7 @@
 	&lt;div class=&#34;row&#34;&gt;
 		&lt;div class=&#34;col-md-6 col-md-offset-3&#34;&gt;
 			&lt;p class=&#34;lead&#34;&gt;The 2017 Global City Teams Challenge (GCTC) Expo will bring together over 100 cities and communities around the world in partnership with more than 300 companies, universities, non-profits, and federal government agencies to share and exhibit their smart city projects and the impacts to their communities.&lt;/p&gt;
-			&lt;p&gt;SuperClusters will announce smart city blueprints that document real-world examples and best practices among smart city plans and solutions gleaned from cities around the world. Over 100 action clusters will exhibit and present their projects. Contact the organizer &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt; if you want to create a new action cluster to exhibit and speak at the event.&lt;/p&gt;
+			&lt;p&gt;Over 100 action clusters will exhibit and present their projects. SuperClusters will announce smart city blueprints that document real-world examples and best practices among smart city plans and solutions gleaned from cities around the world. Visit &lt;a href=&#34;https://pages.nist.gov/GCTC/about/participation-guide/&#34;&gt;GCTC Participation Guide &lt;/a&gt; if you want to create a new action cluster to exhibit and speak at the event.&lt;/p&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
@@ -244,16 +251,18 @@
 			&lt;img src=&#34;http://sites.energetics.com/temp/gtct/images/AdobeStock_22332317.jpg&#34; alt=&#34;THE WALTER E. WASHINGTON CONVENTION CENTER&#34; class=&#34;img-responsive&#34;&gt;
 		&lt;/div&gt;
 		&lt;div class=&#34;col-md-6&#34; id=&#34;dcConvention&#34;&gt;
-			&lt;div style=&#34;cursor: pointer;background: #646469;overflow: hidden;padding: 20px 40px;color:#fff;&#34; onclick=&#34;window.href=&#39;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#39;;&#34;&gt;
+			&lt;div style=&#34;cursor: pointer;background: #646469;overflow: hidden;padding: 20px 40px;color:#fff;&#34;&gt;
+				&lt;a href=&#34;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none;color:#ffffff;&#34;&gt;
 				&lt;h2&gt;AUGUST 28-29, 2017&lt;/h2&gt;
 				&lt;p class=&#34;lead&#34; style=&#34;margin-bottom: 0;padding-bottom:0;&#34;&gt;
-					&lt;a href=&#34;http://www.dcconvention.com/Events/NIST_-_Global_City_Teams_Challenge_(GCTC)_2017_Exp.aspx&#34; target=&#34;_blank&#34; style=&#34;text-decoration: none;color:#ffffff;&#34;&gt;THE WALTER E. WASHINGTON CONVENTION CENTER&lt;/a&gt;
+					THE WALTER E. WASHINGTON CONVENTION CENTER
 				&lt;/p&gt;
 				&lt;p style=&#34;margin: 0;padding:0;&#34;&gt;&lt;small&gt;801 Mt. Vernon Place NW, Washington, DC, USA&lt;/small&gt;&lt;/p&gt;
+				&lt;/a&gt;
 			&lt;/div&gt;
 			&lt;div style=&#34;overflow: hidden;padding: 40px;color:#181818;&#34;&gt;
-				&lt;p&gt;&lt;a class=&#34;customBtn&#34; href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with your name, title, and affiliation.&#34;&gt;RVSP Now&lt;/a&gt;&lt;/p&gt;
-				&lt;p&gt;&lt;strong&gt;Registration is free&lt;/strong&gt;. To register for the event, please click on the RSVP button above or email &lt;a href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;body=Please RSVP with the name, title, affiliation, and email address for all registrants.&#34;&gt;GCTCExpo@energetics.com&lt;/a&gt;. Please RSVP with the name, title, affiliation, and email address for all registrants. For general questions regarding the Global City Teams Challenge and/or Expo, email &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;. &lt;/p&gt;
+				&lt;p&gt;&lt;a class=&#34;customBtn&#34; href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;amp;body=Please RSVP with the name, title, affiliation, and email address for all registrants.&#34;&gt;RVSP Now&lt;/a&gt;&lt;/p&gt;
+				&lt;p&gt;&lt;strong&gt;Registration is free&lt;/strong&gt;. To register for the event, please click on the RSVP button above or email &lt;a href=&#34;mailto:GCTCExpo@energetics.com?subject=RSVP | 2017 Global City Teams Challenge (GCTC) Expo&amp;amp;body=Please RSVP with the name, title, affiliation, and email address for all registrants.&#34;&gt;GCTCExpo@energetics.com&lt;/a&gt;. Please RSVP with the name, title, affiliation, and email address for all registrants. For general questions regarding the Global City Teams Challenge and/or Expo, email &lt;a href=&#34;mailto:sokwoo.rhee@nist.gov?subject=General question about the 2017 Global City Teams Challenge (GCTC) Expo&#34;&gt;sokwoo.rhee@nist.gov&lt;/a&gt;. &lt;/p&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;		
 	&lt;/div&gt;
@@ -279,27 +288,15 @@ PLEASE NOTE: This is a collaborative website. NIST does not endorse the views ex
 &lt;script src=&#34;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&#34; integrity=&#34;sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
 &lt;script&gt;
 
-  (function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+&lt;script&gt;
+(function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
 
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-
-  })(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
-
- 
-
-  ga(&#39;create&#39;, &#39;UA-98010590-1&#39;, &#39;auto&#39;);
-
-  ga(&#39;send&#39;, &#39;pageview&#39;);
-
- 
-
-&lt;/script&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
-</description>
+ga(&#39;create&#39;, &#39;UA-98010590-1&#39;, &#39;auto&#39;);
+ga(&#39;send&#39;, &#39;pageview&#39;);
+&lt;/script&gt;</description>
     </item>
     
   </channel>
