@@ -7,8 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2016 - 2017, Global City Team Challenge all rights reserved.</copyright>
-    <lastBuildDate>Wed, 26 Apr 2017 09:44:06 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 10 May 2017 13:26:55 +0000</lastBuildDate>
     <atom:link href="https://pages.nist.gov/GCTC/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>agenda</title>
+      <link>https://pages.nist.gov/GCTC/event/gctc-expo-2017/agenda/</link>
+      <pubDate>Wed, 10 May 2017 13:26:55 +0000</pubDate>
+      
+      <guid>https://pages.nist.gov/GCTC/event/gctc-expo-2017/agenda/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/05/10/20170505%20Agenda%20Short-rev2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>participation guide</title>
@@ -99,16 +109,6 @@
       
       <guid>https://pages.nist.gov/GCTC/event/gctc-expo-2017/exhibit/</guid>
       <description>&lt;p&gt;Coming Soon&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>agenda</title>
-      <link>https://pages.nist.gov/GCTC/event/gctc-expo-2017/agenda/</link>
-      <pubDate>Mon, 17 Apr 2017 12:41:52 -0400</pubDate>
-      
-      <guid>https://pages.nist.gov/GCTC/event/gctc-expo-2017/agenda/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://pages.nist.gov/GCTC/GCTC/uploads/2017/05/03/20170501%20Agenda%20Short%20V4%20SR-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

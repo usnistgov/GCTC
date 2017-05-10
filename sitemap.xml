@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://pages.nist.gov/GCTC/event/gctc-expo-2017/agenda/</loc>
+    <lastmod>2017-05-10T13:26:55+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://pages.nist.gov/GCTC/about/participation-guide/</loc>
     <lastmod>2017-04-26T09:44:06-04:00</lastmod>
   </url>
@@ -24,11 +29,6 @@
   <url>
     <loc>https://pages.nist.gov/GCTC/event/gctc-expo-2017/exhibit/</loc>
     <lastmod>2017-04-17T12:43:14-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pages.nist.gov/GCTC/event/gctc-expo-2017/agenda/</loc>
-    <lastmod>2017-04-17T12:41:52-04:00</lastmod>
   </url>
   
   <url>
@@ -84,7 +84,7 @@
   
   <url>
     <loc>https://pages.nist.gov/GCTC/event/</loc>
-    <lastmod>2017-04-17T12:43:33-04:00</lastmod>
+    <lastmod>2017-05-10T13:26:55+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -94,7 +94,7 @@
   
   <url>
     <loc>https://pages.nist.gov/GCTC/</loc>
-    <lastmod>2017-04-26T09:44:06-04:00</lastmod>
+    <lastmod>2017-05-10T13:26:55+00:00</lastmod>
     <priority>0</priority>
   </url>
   
