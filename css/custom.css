@@ -67,7 +67,7 @@ ul#expoNav {
     height: auto;
 }
 #expoNav li a {
-    margin: 5px 22px;
+    margin: 5px 12px;
     padding: 3px;
     text-decoration: none;
     background: transparent;
@@ -90,4 +90,60 @@ div#govListing {line-height:26px;word-spacing:8px;}
     border-bottom: 0;
     padding: 5px 0;
     line-height: 1.8;
+}
+
+#btnTransportation {background:url(../images/transportation-icon-071217.png) no-repeat 50% 0;}
+#btnPublichHealth {background:url(../images/Public-health-icon-071217.png) no-repeat 50% 0;}
+#btnEnergyWater {background:url(../images/energy-environment-icon-071217.png) no-repeat 50% 0;}
+#btnInfrasctructure{background:url(../images/infrastructure-icon-071217.png) no-repeat 50% 0;}
+#btnDataTech{background:url(../images/data-tech-icon-071217.png) no-repeat 50% 0;}
+#btnUrban{background:url(../images/urban-planning-icon-071217.png) no-repeat 50% 0;}
+
+#btnTransportation, 
+#btnPublichHealth,
+#btnEnergyWater,
+#btnInfrasctructure, 
+#btnDataTech,
+#btnUrban{
+    width: 130px;
+    height: 170px;
+    background-size: 100px 100px;
+    border: 0;
+    margin: 0 25px;
+    padding-top: 110px;
+    vertical-align: bottom;
+    line-height: 1.1;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+@media (max-width: 1024px) {
+	#btnTransportation, 
+	#btnPublichHealth,
+	#btnEnergyWater,
+	#btnInfrasctructure, 
+	#btnDataTech,
+	#btnUrban{		
+		margin: 0 10px;
+		
+	}
+	
+}
+
+@media (max-width: 768px) {
+	#btnTransportation, 
+	#btnPublichHealth,
+	#btnEnergyWater,
+	#btnInfrasctructure, 
+	#btnDataTech,
+	#btnUrban{		
+		margin: 0 5px;
+		width: 95px;
+		height: 170px;
+		background-size: 70px 70px;
+		padding-top:40px;
+		
+	}
+	
 }
