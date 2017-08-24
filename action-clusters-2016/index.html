@@ -155,10 +155,9 @@
     text-align: center;
 }
 
-.Sector span {
+.Sector span, .IDnum span {
     display: none;
 }
-
 
 @media (max-width: 1024px) {
 	#btnTransportation, 
@@ -351,6 +350,7 @@
 						<table id="searchable-table" cellpadding="5" cellspacing="0" border="0" width="100%"  class="cards">
 		<thead>
 			<tr>
+				<th>ID</th>
 				<th class="Sector">Sector</th>				
 				<th class="ActionCluster">Action Cluster</th>				
 				<th class="Year">Year</th>
@@ -373,6 +373,7 @@
 				<th></th>
 				<th></th>
 				<th></th>
+				<th></th>
 				
 			</tr>
 		</tfoot>
@@ -380,7 +381,8 @@
 	
 		<script id="datatable-template" type="text/x-handlebars-template">
 		{{#each elements}}
-            <tr>				
+            <tr>
+<td class="IDnum"><span>{{ID}}</span></td>			
 <td class="Sector" data-title="Sector:"><span>{{Sector}}</span></td>
 <td class="ActionCluster" data-title="Action-Cluster:"><strong>Action Cluster:</strong> <strong>{{Action-Cluster}}</strong></td>
 <td class="Year" data-title="Year:"><strong>Year:</strong> {{Year}}</td>

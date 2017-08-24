@@ -72,9 +72,11 @@ jQuery.extend( jQuery.fn.dataTableExt.oSort, {
 
 var oTable;
 
+/*
 function myPillFilter(data) {
 	 yadcf.exFilterColumn(oTable, [[1, data]]);
 	}
+	*/
 	
 function loadDataTable() {	
 	

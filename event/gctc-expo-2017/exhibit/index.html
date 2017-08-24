@@ -12,8 +12,6 @@
   <meta name="author" content="" />
   <meta name="keywords" content="">
 
-  
-
   <meta name="generator" content="Hugo 0.19" />
   
   <link href="https://pages.nist.gov/cpspwg/static/css/nist_github_header.css" type="text/css" rel="stylesheet">
@@ -155,7 +153,7 @@
     text-align: center;
 }
 
-.Sector span {
+.Sector span, .IDnum span {
     display: none;
 }
 
@@ -387,7 +385,7 @@
 						  
                         </div>
 						
-						<div>
+						<div style="margin-bottom:30px;">
 							<button id="btnTransportation">Transportation</button>
 							<button id="btnPublichHealth">Public Safety</button>
 							<button id="btnEnergyWater">Energy, Water, &amp; Environment</button>
@@ -396,12 +394,17 @@
 							<button id="btnUrban">Other</button>							
 						</div>
 
-						
+						<!-- 
+						<div style="float:right;display:inline;">
+							<button><a href="/GCTC/uploads/" style="font-weight: bold;text-transform: uppercase;font-size: 20px;">Exhibit Floor Map</a></button>
+						</div>
+						-->
 						<h2 id="sectorHead">All Sectors <span> </span></h2>
 						
 						<table id="searchable-table" cellpadding="5" cellspacing="0" border="0" width="100%"  class="cards">
 		<thead>
 			<tr>
+				<th>ID</th>
 				<th class="Sector">Sector</th>				
 				<th class="ActionCluster">Action Cluster</th>				
 				<th class="Year">Year</th>
@@ -409,13 +412,18 @@
 				<th class="Members">Members</th>
 				<th class="TeamLead">Team Lead Name</th>
 				<th class="Description">Description</th>
-				<th class="Website">External Website</th>				
+				<th class="Website">External Website</th>
+				<th class="Booth">Booth Number</th>
+				
+				
 			</tr>
 		</thead>
 		<tbody id="content">
 		</tbody>
 		<tfoot id="selectColumns">
 			<tr>
+				<th></th>
+				<th></th>
 				<th></th>
 				<th></th>
 				<th></th>
@@ -431,22 +439,25 @@
 	
 		<script id="datatable-template" type="text/x-handlebars-template">
 		{{#each elements}}
-            <tr>				
-<td class="Sector" data-title="Sector:"><span>{{Sector}}</span></td>
-<td class="ActionCluster" data-title="Action-Cluster:"><strong>Action Cluster:</strong> <strong>{{Action-Cluster}}</strong></td>
-<td class="Year" data-title="Year:"><strong>Year:</strong> {{Year}}</td>
-<td class="MuniGov" data-title="Municipal-Governments:"><strong>Municipal Governments</strong> {{Municipal-Governments}}</td>
-<td class="Members" data-title="Members:"><strong>Members:</strong> {{Members}}</td>
-<td class="TeamLead" data-title="Team-Lead-Name:"><strong>Team Lead:</strong> {{Team-Lead-Name}}</td>
-<td class="Description" data-title="Description:"><strong>{{Descriptor}}</strong> {{Description}}</td>
-<td class="Website" data-title="External-Web-Site:">
-	<span class="WebsiteURL">{{enhance External-Web-Site}}</span>
-</td>
-</tr>
-{{/each}}
-</script> 
+            <tr id="{{ID}}">				
+				<td class="IDnum"><span>{{ID}}</span></td>
+				<td class="Sector" data-title="Sector:"><span>{{Sector}}</span></td>
+				<td class="ActionCluster" data-title="Action-Cluster:"><strong>Action Cluster:</strong> <strong>{{Action-Cluster}}</strong></td>
+				<td class="Year" data-title="Year:"><strong>Year:</strong> {{Year}}</td>
+				<td class="MuniGov" data-title="Municipal-Governments:"><strong>Municipal Governments</strong> {{Municipal-Governments}}</td>
+				<td class="Members" data-title="Members:"><strong>Members:</strong> {{Members}}</td>
+				<td class="TeamLead" data-title="Team-Lead-Name:"><strong>Team Lead:</strong> {{Team-Lead-Name}}</td>
+				<td class="Description" data-title="Description:"><strong>{{Descriptor}}</strong> {{Description}}</td>
+				<td class="Website" data-title="External-Web-Site:">
+					<span class="WebsiteURL">{{enhance External-Web-Site}}</span>
+				</td>
+				<td class="Booth"><strong>Booth Number:</strong> {{Booth}}</td>
+				
+			</tr>
+		{{/each}}
+		</script> 
 	
-	<script src="/GCTC/js/datatable-tabletop-load-exhibits.js"></script> 
+	<script src="/GCTC/js/datatable-tabletop-load-exhibits.js"></script>	
 	<script type="text/javascript">
 
 Handlebars.registerHelper('cleanConcat', function() {
@@ -537,6 +548,37 @@ $('#btnUrban').on('click', function () {
     }); 	
 	
 
+//scroll to anchor point on page load
+function scrollOnLoad() {
+
+  try {
+		//take HREF and split at anchor
+		var $_elem = $('#' + $(location).attr('href').split('#')[1]);
+		//find class of anchor element
+		var $_others = $('.' + $_elem.attr('class'));
+		//measure window height and element height
+		//if the window height is smaller that twice the element height, then use regular offset
+		//if not, use calculated window height 
+		var wHeight = ($(window).height() < ($_elem.height() * 2)) ? 0 : $(window).height() - ($_elem.height() * 2);
+		var offset = $_elem.offset();
+		var offsetTop = offset.top - wHeight;
+
+		//console.log(wHeight);
+
+		$(window).load(function () {
+			$('body, html').scrollTop(0);
+			$('body, html').delay(500).animate({ opacity: 1, scrollTop: offsetTop }, 'slow', function () {
+				$_others.not($_elem).animate({ opacity: '.3' }).delay(5000).animate({ opacity: '1' }).stop();
+			});
+		});
+
+	} catch (err) {
+
+		return false;
+
+	}
+}
+	
 </script>
 
 

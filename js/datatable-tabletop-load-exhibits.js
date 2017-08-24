@@ -72,9 +72,11 @@ jQuery.extend( jQuery.fn.dataTableExt.oSort, {
 
 var oTable;
 
+/*
 function myPillFilter(data) {
 	 yadcf.exFilterColumn(oTable, [[1, data]]);
 	}
+	*/
 	
 function loadDataTable() {	
 	
@@ -92,64 +94,10 @@ function loadDataTable() {
 		
     });
 	
-/*
-yadcf.init(oTable, 
-	[
-		{
-			column_number: 0,
-			filter_type: "text",
-	        text_data_delimiter: ",",
-			filter_default_label: "Name",
-			select_type_options: {
-            width: '180px'}
-		}, 
-		{
-			column_number: 1,
-			select_type_options: {
-            width: '50px'},
-			filter_default_label: "Select"
-			
-		}, 
-		{
-			column_number: 2,
-			filter_type: "multi_select",
-			select_type: "select2",			
-			select_type_options: {
-            width: '80px'},
-			filter_default_label: "Select"
-		}, 
-		{
-			column_number: 3,
-			filter_type: "multi_select",
-			select_type: "select2",
-			select_type_options: {
-            width: '180px'}
-		}, 
-		{
-			column_number: 4, 
-			filter_type: "multi_select",
-			select_type: "select2",
-			select_type_options: {
-            width: '140px'}
-		},
-		{
-			column_number: 5,
-			width:"50px",
-			filter_type: "multi_select",
-			select_type: "select2",
-			select_type_options: {
-            width: '280px'}
-		}
-		
-	]
-);	
-*/
-	
-	
+
 	
 // Close loadDataTable
 };
-
 
 
 // Use Handlebars to load data from Tabletop to page
@@ -168,6 +116,8 @@ function loadToDOM(tabletop_data, tabletop) {
     }, this);
 
     loadDataTable();
+	
+	//function scrollToHash(hashName) { location.hash = "#" + hashName; }
 }
 
 
@@ -183,3 +133,4 @@ function initializeTabletopObject(){
 
 // Load Tabletop
 initializeTabletopObject();
+
