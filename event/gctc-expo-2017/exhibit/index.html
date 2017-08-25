@@ -8,8 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>exhibits</title>
-  
-  <!-- <base href="https://boryyytoe.github.io/GCTC/">-->
 
   <meta name="author" content="" />
   <meta name="keywords" content="">
@@ -121,11 +119,6 @@
 	.WebsiteURL {font-weight:bold;}
 	.WebsiteURL a {font-weight:normal;}
 	
-	.Sector span, .IDnum span {
-    display: none;
-}
-
-	
 		
 	@media (min-width: 1080px){
 	 .cards tbody td {width: 1000px;}
@@ -160,7 +153,9 @@
     text-align: center;
 }
 
-
+.Sector span, .IDnum span {
+    display: none;
+}
 
 
 @media (max-width: 1024px) {
@@ -192,9 +187,9 @@
 	}
 	
 }
+	
 
-
-
+	
 </style>
 
   <body>
@@ -399,14 +394,12 @@
 							<button id="btnUrban">Other</button>							
 						</div>
 
-						
+						<!-- 
 						<div style="float:right;display:inline;">
-							<button><a href="/GCTC/uploads/Exhibitor-Floor-Plan-V3.pdf" target="_blank" style="font-weight: bold;text-transform: uppercase;font-size: 20px;">Exhibit Floor Map</a></button>
-							 &nbsp; <button><a href="/GCTC/uploads/Exhibitor-Booth-List.pdf" target="_blank" style="font-weight: bold;text-transform: uppercase;font-size: 20px;">Exhibit Booth List</a></button>
+							<button><a href="/GCTC/uploads/" style="font-weight: bold;text-transform: uppercase;font-size: 20px;">Exhibit Floor Map</a></button>
 						</div>
-						
+						-->
 						<h2 id="sectorHead">All Sectors <span> </span></h2>
-						<button type="button" id="showAll">Show All</button>
 						
 						<table id="searchable-table" cellpadding="5" cellspacing="0" border="0" width="100%"  class="cards">
 		<thead>
@@ -447,7 +440,7 @@
 		<script id="datatable-template" type="text/x-handlebars-template">
 		{{#each elements}}
             <tr id="{{ID}}">				
-				<td class="IDnum"><span>id{{ID}}</span></td>
+				<td class="IDnum"><span>{{ID}}</span></td>
 				<td class="Sector" data-title="Sector:"><span>{{Sector}}</span></td>
 				<td class="ActionCluster" data-title="Action-Cluster:"><strong>Action Cluster:</strong> <strong>{{Action-Cluster}}</strong></td>
 				<td class="Year" data-title="Year:"><strong>Year:</strong> {{Year}}</td>
@@ -464,8 +457,7 @@
 		{{/each}}
 		</script> 
 	
-	<script src="/GCTC/js/datatable-tabletop-load-exhibits.js"></script>
-	<!--<script src="file://eng-prd-file01/home/CButh/1GithubSites/GCTC/js/datatable-tabletop-load-exhibits.js"></script> -->
+	<script src="/GCTC/js/datatable-tabletop-load-exhibits.js"></script>	
 	<script type="text/javascript">
 
 Handlebars.registerHelper('cleanConcat', function() {
@@ -531,37 +523,33 @@ Handlebars.registerHelper('wrapURL', function(str) {
 }());
 
 $('#btnTransportation').on('click', function () {
-        oTable.columns(1).search("Transportation" ).draw();
+        oTable.columns(0).search("Transportation" ).draw();
 		$("#sectorHead").html("Transportation");
     }); 
 $('#btnPublichHealth').on('click', function () {
-        oTable.columns(1).search("Public Safety" ).draw();
+        oTable.columns(0).search("Public Safety" ).draw();
 		$("#sectorHead").html("Public Safety");
     }); 
 $('#btnEnergyWater').on('click', function () {
-        oTable.columns(1).search("Energy, Water & Environment" ).draw();
+        oTable.columns(0).search("Energy, Water & Environment" ).draw();
 		$("#sectorHead").html("Energy, Water & Environment");
     }); 
 $('#btnInfrasctructure').on('click', function () {
-        oTable.columns(1).search("City Data Platform/Dashboard" ).draw();
+        oTable.columns(0).search("City Data Platform/Dashboard" ).draw();
 		$("#sectorHead").html("City Data Platform/Dashboard");
     }); 
 $('#btnDataTech').on('click', function () {
-        oTable.columns(1).search("Public Wi-Fi/Broadband" ).draw();
+        oTable.columns(0).search("Public Wi-Fi/Broadband" ).draw();
 		$("#sectorHead").html("Public Wi-Fi/Broadband");
     }); 	
 $('#btnUrban').on('click', function () {
-        oTable.columns(1).search("Other" ).draw();
+        oTable.columns(0).search("Other" ).draw();
 		$("#sectorHead").html("Other");
     }); 	
 	
-$('#showAll').click(function() {
-    //oTable.search('').draw();
-    //$('#myInputTextField1, #myInputTextField2').val('');
-	window.location.href = window.location.href.split('?')[0];
-});
+
 //scroll to anchor point on page load
-/* function scrollOnLoad() {
+function scrollOnLoad() {
 
   try {
 		//take HREF and split at anchor
@@ -590,9 +578,7 @@ $('#showAll').click(function() {
 
 	}
 }
-*/
-
-
+	
 </script>
 
 
