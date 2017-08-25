@@ -68,6 +68,34 @@ jQuery.extend( jQuery.fn.dataTableExt.oSort, {
 });
 
 
+var DataTablesLinkify = function(DataTable) {
+    this.dataTable = DataTable;
+    this.url = location.protocol+'//'+location.host+location.pathname;
+    this.link = function() {
+        return this.url +
+            '?dtsearch='+this.dataTable.search() +
+            '&dtpage='+this.dataTable.page();
+            //more params like current sorting column could be added here
+    }
+    //based on http://stackoverflow.com/a/901144/1407478
+    this.getParam = function(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+    this.restore = function() {
+        var page = this.getParam('dtpage'), 
+            search = this.getParam('dtsearch');
+        if (search) this.dataTable.search(search).draw(false);
+        if (page) this.dataTable.page(parseInt(page)).draw(false);
+        //more params to take care of could be added here
+    }
+    this.restore();
+    return this;
+};
+
+
 // Load up the DataTable
 
 var oTable;
@@ -115,7 +143,8 @@ function loadToDOM(tabletop_data, tabletop) {
 	// Close each statement
     }, this);
 
-    loadDataTable();
+    loadDataTable(),
+	linkify = DataTablesLinkify(oTable);
 	
 	//function scrollToHash(hashName) { location.hash = "#" + hashName; }
 }
