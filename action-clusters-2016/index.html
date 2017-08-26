@@ -463,27 +463,27 @@ Handlebars.registerHelper('wrapURL', function(str) {
 }());
 
 $('#btnTransportation').on('click', function () {
-        oTable.columns(0).search("Transportation" ).draw();
+        oTable.columns(1).search("Transportation" ).draw();
 		$("#sectorHead").html("Transportation");
     }); 
 $('#btnPublichHealth').on('click', function () {
-        oTable.columns(0).search("Public Safety" ).draw();
+        oTable.columns(1).search("Public Safety" ).draw();
 		$("#sectorHead").html("Public Safety");
     }); 
 $('#btnEnergyWater').on('click', function () {
-        oTable.columns(0).search("Energy, Water & Environment" ).draw();
+        oTable.columns(1).search("Energy, Water & Environment" ).draw();
 		$("#sectorHead").html("Energy, Water & Environment");
     }); 
 $('#btnInfrasctructure').on('click', function () {
-        oTable.columns(0).search("City Data Platform/Dashboard" ).draw();
+        oTable.columns(1).search("City Data Platform/Dashboard" ).draw();
 		$("#sectorHead").html("City Data Platform/Dashboard");
     }); 
 $('#btnDataTech').on('click', function () {
-        oTable.columns(0).search("Public Wi-Fi/Broadband" ).draw();
+        oTable.columns(1).search("Public Wi-Fi/Broadband" ).draw();
 		$("#sectorHead").html("Public Wi-Fi/Broadband");
     }); 	
 $('#btnUrban').on('click', function () {
-        oTable.columns(0).search("Other" ).draw();
+        oTable.columns(1).search("Other" ).draw();
 		$("#sectorHead").html("Other");
     }); 		
 	
