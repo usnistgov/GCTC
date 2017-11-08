@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>exhibits</title>
+  <meta name="author" content="" />
+  <meta name="keywords" content="">
+
+  <meta name="generator" content="Hugo 0.19" />  
+  <link href="https://pages.nist.gov/cpspwg/static/css/nist_github_header.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:100,400,400i,700,900" rel="stylesheet">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
+  <link href="https://pages.nist.gov/GCTC/css/animate.css" rel="stylesheet">  
+  <link href="https://pages.nist.gov/GCTC/css/style.default.css" rel="stylesheet" id="theme-stylesheet">  
+  <link href="https://pages.nist.gov/cpspwg/static/css/nist_github_header.css" type="text/css" rel="stylesheet">
+  <link href="../../../css/custom.css" rel="stylesheet">
+  <link rel="shortcut icon" href="https://pages.nist.gov/GCTC/img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="https://pages.nist.gov/GCTC/img/apple-touch-icon.png" />
+  <link rel="alternate" href="https://pages.nist.gov/index.xml" type="application/rss+xml" title="Global City Team Challenge">
+
+  
+  <meta property="og:title" content="exhibits" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/GCTC/event/gctc-kickoff-2018/exhibit//" />
+  <meta property="og:image" content="img/logo.png" />
+  
+  <link href="../../../css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="../../../css/jquery.dataTables.yadcf.css" rel="stylesheet">
+
+<script src="../../../js/handlebars-v4.0.10.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script src="../../../js/tabletop.js"></script>
+
+<script src="../../../js/underscore.js"></script>
+
+</head>
+
+  
+  <link href="../../../css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="../../../css/jquery.dataTables.yadcf.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../../../js/tabletop.js"></script>
+<script src="../../../js/handlebars-v4.0.5.js"></script>
+<script src="../../../js/underscore.js"></script>
+<script src="../../../js/jquery.dataTables.min.js"></script>
+<script src="../../../js/jquery.dataTables.yadcf.js"></script>
+
+
+<style type="text/css">
+	td.Description {white-space: pre-line;}
+	 
+    .cards tbody tr {
+        float: left;
+        margin: 10px;
+        border: 1px solid #aaa;
+        box-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+        background-color: white;
+    }
+    .cards tbody td {
+        display: block;
+        width: 790px;
+        overflow: hidden;
+        text-align: left;
+    }
+	
+	#searchable-table_filter,
+	.cards thead {display:none;}
+	
+	table.dataTable tbody th, table.dataTable tbody td {padding:6px 20px;}
+	table.dataTable tbody tr { padding: 10px 0;}
+	
+	label {margin-bottom:0; vertical-align: bottom;}
+	
+	.dataTables_wrapper .dataTables_info {
+    float: none;
+    display: inline-block;
+    vertical-align: bottom;
+	margin-right: 10px;
+	}
+	
+	.dataTables_wrapper .dataTables_length {
+    float: none;
+    display: inline-block;
+    vertical-align: bottom;
+	}
+	
+	.paginationWrap {
+    border-top: 1px solid #ccc;
+    padding: 5px 0 20px 0;
+    margin: 15px auto;
+	}
+	
+	.hide {display:none;}
+	
+	.WebsiteURL {font-weight:bold;}
+	.WebsiteURL a {font-weight:normal;}
+	
+	.Sector span, .IDnum span {
+    display: none;
+}
+
+	
+		
+	@media (min-width: 1080px){
+	 .cards tbody td {width: 1000px;}
+	}
+		
+	@media (max-width: 768px){
+	 .cards tbody td {width: 86vw;}
+	}
+	
+	#btnTransportation {background:url(../../../images/transportation-icon-071217.png) no-repeat 50% 0;}
+#btnPublichHealth {background:url(../../../images/Public-health-icon-071217.png) no-repeat 50% 0;}
+#btnEnergyWater {background:url(../../../images/energy-environment-icon-071217.png) no-repeat 50% 0;}
+#btnInfrasctructure{background:url(../../../images/city-data-platform-icon-071717.png) no-repeat 50% 0;}
+#btnDataTech{background:url(../../../images/data-tech-icon-071217.png) no-repeat 50% 0;}
+#btnUrban{background:url(../../../images/Other-Icon_v1-071717.png) no-repeat 50% 0;}
+
+#btnTransportation, 
+#btnPublichHealth,
+#btnEnergyWater,
+#btnInfrasctructure, 
+#btnDataTech,
+#btnUrban{
+    width: 130px;
+    height: 170px;
+    background-size: 100px 100px;
+    border: 0;
+    margin: 0 25px;
+    padding-top: 110px;
+    vertical-align: bottom;
+    line-height: 1.1;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 1024px) {
+	#btnTransportation, 
+	#btnPublichHealth,
+	#btnEnergyWater,
+	#btnInfrasctructure, 
+	#btnDataTech,
+	#btnUrban{		
+		margin: 0 10px;
+		
+	}
+	
+}
+
+@media (max-width: 768px) {
+	#btnTransportation, 
+	#btnPublichHealth,
+	#btnEnergyWater,
+	#btnInfrasctructure, 
+	#btnDataTech,
+	#btnUrban{		
+		margin: 0 5px;
+		width: 95px;
+		height: 170px;
+		background-size: 70px 70px;
+		padding-top:40px;
+		
+	}
+	
+}
+
+
+
+</style>
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          <header class="nist-header">
+	<h1>
+	  <a class="nist-logo" href="http://www.nist.gov/cps" title="Go to nist.gov">National Institute of Standards and Technology</a>
+	</h1>
+	<div class="nist-links">
+	  <a class="nist-links-button" href="http://www.nist.gov">NIST Website</a>
+	  <a class="nist-links-button mobile-hide" href="http://www.nist.gov/public_affairs/nandyou.cfm">About NIST</a>
+	  <a class="nist-links-button mobile-hide" href="https://github.com/usnistgov">usnistgov on Github</a>
+	</div>
+</header>
+
+    <div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
+
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
+
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="https://pages.nist.gov/GCTC/">
+                    <img src="https://pages.nist.gov/GCTC/img/GCTC_logo_344x80.png" alt="exhibits logo" class="hidden-xs hidden-sm">
+                    <img src="https://pages.nist.gov/GCTC/img/GCTC_logo-small.png" alt="exhibits logo" class="visible-xs visible-sm">
+                    <span class="sr-only">exhibits - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fa fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/GCTC/">Home</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      
+                        <li><a href="/GCTC/about/the-gctc">The GCTC</a></li>
+                      
+                        <li><a href="/GCTC/about/participation-guide">Participation Guide</a></li>
+                      
+                        <li><a href="/GCTC/about/partners/">Partners</a></li>
+                      
+                    </ul>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      
+                        <li><a href="/GCTC/event/gctc-expo-2017">GCTC EXPO 2017</a></li><li><a href="/GCTC/event/gctc-kickoff-2018">GCTC Kickoff 2018</a></li>
+                      
+                    </ul>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/GCTC/super-clusters/">SuperClusters</a>
+                    
+                  </li>
+                  
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Action Clusters <span class="caret"></span></a>                    
+                    <ul class="dropdown-menu">                      
+                        <li><a href="/GCTC/action-clusters/">2017</a></li>                      
+                        <li><a href="/GCTC/action-clusters-2016/">2016</a></li>                      
+                    </ul>                    
+                  </li>
+<li class="dropdown"><a href="/GCTC/news/">News</a> </li>
+                  
+                </ul>
+				<ul id="expoNav" class="nav navbar-nav navbar-right" style="clear:both;">
+                  
+				  <li class="dropdown">
+                    
+                    <a href="/GCTC/event/gctc-kickoff-2018/">Expo Home</a>
+                    
+                  </li>
+				  
+                  <li class="dropdown">
+                    
+                    <a href="/GCTC/event/gctc-kickoff-2018/agenda">Agenda</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/GCTC/event/gctc-kickoff-2018/speakers">Speakers</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/GCTC/event/gctc-kickoff-2018/exhibit">Exhibits</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/GCTC/event/gctc-kickoff-2018/logistics">Logistics</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/GCTC/event/gctc-kickoff-2018/index.html#cta">Registration</a>
+                    
+                  </li>
+                  
+                  <li class="dropdown">
+                    
+                    <a href="/GCTC/event/gctc-kickoff-2018/press">Press</a>
+                    
+                  </li>
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">
+
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+
+                    <button type="submit" class="btn btn-template-main"><i class="fa fa-search"></i></button>
+
+                </span>
+                    </div>
+                </form>
+
+            </div>
+            
+
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+
+        </header>
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>exhibits</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+						
+                        <div>
+                          <p>Exhibitors - Please contact Gale Guerrieri at <a href="mailto:meetingsguru@gmail.com">meetingsguru@gmail.com</a> for questions related to exhibitor requirements and packages.</p>
+						  
+                        </div>
+						
+						<div style="margin-bottom:30px;">
+							<button id="btnTransportation">Transportation</button>
+							<button id="btnPublichHealth">Public Safety</button>
+							<button id="btnEnergyWater">Energy, Water, &amp; Environment</button>
+							<button id="btnInfrasctructure">City Data Platform/Dashboard</button>
+							<button id="btnDataTech">Public Wi-Fi/Broadband</button>
+							<button id="btnUrban">Other</button>							
+						</div>
+
+						
+						<div style="float:right;display:inline;">
+							<button><a href="/GCTC/uploads/Exhibitor-Floor-Plan-V3.pdf" target="_blank" style="font-weight: bold;text-transform: uppercase;font-size: 20px;">Exhibit Floor Map</a></button>
+							 &nbsp; <button><a href="/GCTC/uploads/Exhibitor-Booth-List.pdf" target="_blank" style="font-weight: bold;text-transform: uppercase;font-size: 20px;">Exhibit Booth List</a></button>
+						</div>
+						
+						<h2 id="sectorHead">All Sectors <span> </span></h2>
+						<button type="button" id="showAll">Show All</button>
+						
+						<table id="searchable-table" cellpadding="5" cellspacing="0" border="0" width="100%"  class="cards">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th class="Sector">Sector</th>				
+				<th class="ActionCluster">Action Cluster</th>				
+				<th class="Year">Year</th>
+				<th class="MuniGov">Municipal Governments</th>
+				<th class="Members">Members</th>
+				<th class="TeamLead">Team Lead Name</th>
+				<th class="Description">Description</th>
+				<th class="Website">External Website</th>
+				<th class="Booth">Booth Number</th>
+				
+				
+			</tr>
+		</thead>
+		<tbody id="content">
+		</tbody>
+		<tfoot id="selectColumns">
+			<tr>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				<th></th>
+				
+			</tr>
+		</tfoot>
+	</table>
+	
+		<script id="datatable-template" type="text/x-handlebars-template">
+		{{#each elements}}
+            <tr id="{{ID}}">				
+				<td class="IDnum"><span>id{{ID}}</span></td>
+				<td class="Sector" data-title="Sector:"><span>{{Sector}}</span></td>
+				<td class="ActionCluster" data-title="Action-Cluster:"><strong>Action Cluster:</strong> <strong>{{Action-Cluster}}</strong></td>
+				<td class="Year" data-title="Year:"><strong>Year:</strong> {{Year}}</td>
+				<td class="MuniGov" data-title="Municipal-Governments:"><strong>Municipal Governments</strong> {{Municipal-Governments}}</td>
+				<td class="Members" data-title="Members:"><strong>Members:</strong> {{Members}}</td>
+				<td class="TeamLead" data-title="Team-Lead-Name:"><strong>Team Lead:</strong> {{Team-Lead-Name}}</td>
+				<td class="Description" data-title="Description:"><strong>{{Descriptor}}</strong> {{Description}}</td>
+				<td class="Website" data-title="External-Web-Site:">
+					<span class="WebsiteURL">{{enhance External-Web-Site}}</span>
+				</td>
+				<td class="Booth"><strong>Booth Number:</strong> {{Booth}}</td>
+				
+			</tr>
+		{{/each}}
+		</script> 
+	
+	
+	<script type="text/javascript">
+	var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1QZycMk96Dp2mSdexAQXeb-lvqCiEcwHL3SgKQK_Df6U/pubhtml';
+	var templates = [
+		{
+			"templatesource": "#datatable-template",
+			"templatehtml": "#searchable-table tbody",
+			"sheet": "Exhibits"
+		}
+	];
+	
+	var DataTablesLinkify = function(DataTable) {
+		this.dataTable = DataTable;
+		this.url = location.protocol+'//'+location.host+location.pathname;
+		this.link = function() {
+			return this.url +
+				'?dtsearch='+this.dataTable.search() +
+				'&dtpage='+this.dataTable.page();
+				//more params like current sorting column could be added here
+		}
+		//based on http://stackoverflow.com/a/901144/1407478
+		this.getParam = function(name) {
+			name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+			var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+				results = regex.exec(location.search);
+			return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+		this.restore = function() {
+			var page = this.getParam('dtpage'), 
+				search = this.getParam('dtsearch');
+			if (search) this.dataTable.search(search).draw(false);
+			if (page) this.dataTable.page(parseInt(page)).draw(false);
+			//more params to take care of could be added here
+		}
+		this.restore();
+		return this;
+	};
+	
+	var oTable;
+	
+	function loadDataTable() {	
+		
+		// Load Datatables after Tabletop is loaded
+		oTable = $('#searchable-table').DataTable({        
+			
+			dom: "Bf<'paginationWrap'irlp>",		
+			order:[[0, "asc"]],
+			oLanguage: {
+				"sLengthMenu": "_MENU_ records per page"
+			},
+			iDisplayLength: 25,		
+			fixedColumns: true
+			
+			
+		});
+
+	};
+	
+	// Use Handlebars to load data from Tabletop to page
+	function loadToDOM(tabletop_data, tabletop) {
+		// Loop through templates
+		_.each(templates, function(element, num_templates) {
+			// Grab HTML of template and compile with Handlebars
+			var template_html = element['templatehtml'];    
+			var source = $(element["templatesource"] + "").html();
+			var sheet = element["sheet"];
+			var handlebarscompile = Handlebars.compile(source);
+
+			// Render the templates onto page
+			$(template_html).append(handlebarscompile( tabletop.sheets(sheet) ));
+		// Close each statement
+		}, this);
+
+		loadDataTable(),
+		linkify = DataTablesLinkify(oTable);
+		
+		//function scrollToHash(hashName) { location.hash = "#" + hashName; }
+	}
+
+
+	// Pull data from Google spreadsheet via Tabletop
+	function initializeTabletopObject(){
+		Tabletop.init({
+			key: public_spreadsheet_url,
+			callback: loadToDOM,
+			simpleSheet: true,
+			debug: false
+		});
+	}
+
+	// Load Tabletop
+	initializeTabletopObject();
+	
+	</script>
+
+	
+	
+	
+	
+	<script type="text/javascript">
+
+Handlebars.registerHelper('cleanConcat', function() {
+        var argument        = null;
+        var data            = null;
+        var cleanedString   = '';
+        var cleanedStrings  = [];
+
+        for ( var i = 0; i < arguments.length; ++i ) {
+            argument = arguments[ i ];
+
+            
+            
+            if ( typeof argument === 'object' && argument.name === 'cleanConcat' ) {
+                data = argument.data.root;
+
+                for ( var prop in data ) {
+
+                    
+                    
+                    cleanedString = data[ prop ].toLowerCase().replace( /\s/g, '-' );
+                    cleanedStrings.push( cleanedString );
+                }
+                return cleanedStrings.join( '-' );
+            }
+        }
+    });
+	
+Handlebars.registerHelper('breaklines', function(text) {
+    text = Handlebars.Utils.escapeExpression(text);
+    text = text.replace(/(\r\n|\n|\r)/gm, '<br>');
+    return new Handlebars.SafeString(text);
+});	
+
+Handlebars.registerHelper('wrapURL', function(str) {
+    str = Handlebars.Utils.escapeExpression(str);
+
+    var matches = str.match(/http\S+/);
+    var wrapped = matches.map(function(v, i, a) {
+        return '<a href="' + v + '">' + v + '</a>';
+    });
+
+    for (var i = 0; i < matches.length; i++) {
+        str = str.replace(matches[i], wrapped[i]);
+    }
+
+    return new Handlebars.SafeString(str)
+});
+
+
+(function(){
+    
+    var protocol = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim
+      , scheme   = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+			
+    
+
+    Handlebars.registerHelper('enhance', function(text) {
+	text = text.replace( protocol, '<a href="$1" target="_blank">$1</a>');
+	text = text.replace( scheme,   '$1<a href="http://$2" target="_blank">$2</a>' );
+	return new Handlebars.SafeString( text );
+    });
+}());
+
+$('#btnTransportation').on('click', function () {
+        oTable.columns(1).search("Transportation" ).draw();
+		$("#sectorHead").html("Transportation");
+    }); 
+$('#btnPublichHealth').on('click', function () {
+        oTable.columns(1).search("Public Safety" ).draw();
+		$("#sectorHead").html("Public Safety");
+    }); 
+$('#btnEnergyWater').on('click', function () {
+        oTable.columns(1).search("Energy, Water & Environment" ).draw();
+		$("#sectorHead").html("Energy, Water & Environment");
+    }); 
+$('#btnInfrasctructure').on('click', function () {
+        oTable.columns(1).search("City Data Platform/Dashboard" ).draw();
+		$("#sectorHead").html("City Data Platform/Dashboard");
+    }); 
+$('#btnDataTech').on('click', function () {
+        oTable.columns(1).search("Public Wi-Fi/Broadband" ).draw();
+		$("#sectorHead").html("Public Wi-Fi/Broadband");
+    }); 	
+$('#btnUrban').on('click', function () {
+        oTable.columns(1).search("Other" ).draw();
+		$("#sectorHead").html("Other");
+    }); 	
+	
+$('#showAll').click(function() {
+    //oTable.search('').draw();
+    //$('#myInputTextField1, #myInputTextField2').val('');
+	window.location.href = window.location.href.split('?')[0];
+});
+
+</script>
+
+
+                    </div>
+
+                </div>
+                
+
+            </div>
+            
+
+            
+        </div>
+        
+
+        <footer id="footer">
+
+</footer>
+
+
+<div>
+<p style="color:#777;font-size:12px;line-height:110%;padding-top:20px;padding-left:50px;padding-right:50px;padding-bottom:10px;">
+PLEASE NOTE: This is a collaborative website. NIST does not endorse the views expressed, or necessarily concur with the information presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. All the material on this website is in the public domain and is intended for unrestricted use by interested parties, including any text, diagrams, or images, unless indicated explicitly.
+<br><br>Don't share anything on this site that you do not want to be public. Do not post any proprietary documents, information or data Anything placed on this site is considered public disclosure and it shall be deemed to have been disclosed on a non-confidential basis, without any restrictions on use by anyone, except that no valid copyright or patent right shall be deemed to have been waived by such disclosure. 
+<br><br>Certain commercial equipment, instruments, materials, systems, software, and trade names may be identified throughout this site in order to specify or identify technologies adequately. Such identification is not intended to imply recommendation or endorsement by NIST or any other party, nor is it intended to imply that the systems or products identified are necessarily the best available for the purpose. All data and other information posted on this site is provided as a public service and is provided "AS IS."  NIST MAKES NO WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND DATA ACCURACY.  
+<br><br>By selecting external links, you will be leaving NIST webspace. Links to other websites are provided because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other websites that are more appropriate for your purpose.
+<br><a href="http://www.nist.gov/public_affairs/privacy.cfm#privpolicy">Privacy Policy</a> | <a href="http://www.nist.gov/public_affairs/privacy.cfm#secnot">Security Notice</a> | <a href="http://www.nist.gov/public_affairs/privacy.cfm#accesstate">Accessibility Statement</a> | <a href="mailto:sgwikisupport@nist.gov?subject=Feedback%20on%20NistPagesTemplate%20Web%20Site">Send feedback</a>
+
+</p>
+</div>
+
+</div><!-- /all -->
+    
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-98010590-1', 'auto');
+ga('send', 'pageview');
+</script>
+  </body>
+</html>
