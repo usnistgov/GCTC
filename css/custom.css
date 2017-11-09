@@ -118,11 +118,6 @@ div#govListing {line-height:26px;word-spacing:8px;}
 .news article:after {content:"";clear:both;display:block;}
 .news article {border-bottom:1px solid #eeeeee;}
 
-.homepage .bar {padding:0 0 60px 0;}
-.introWrap p {    
-    line-height: 1.8;
-}
-
 
 @media (max-width: 1024px) {
 	#btnTransportation, 
