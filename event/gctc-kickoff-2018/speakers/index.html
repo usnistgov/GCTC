@@ -7,7 +7,7 @@
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>exhibits</title>
+  <title>Speakers</title>
   
   <!-- <base href="https://boryyytoe.github.io/GCTC/">-->
 
@@ -274,11 +274,29 @@
 		var source   = $("#cat-template").html();
 		var template = Handlebars.compile(source);
 
-		$.each( tabletop.sheets("Speakers").all(), function(i, cat) {
-		  var html = template(cat);
-		  $("#content").append(html);
-		});
-	}    
+			$.each( tabletop.sheets("Speakers").all(), function(i, cat) {
+			  var html = template(cat);
+			  $("#content").append(html);
+			});
+			
+			var userAgent, ieReg, ie;
+			userAgent = window.navigator.userAgent;
+			ieReg = /msie|Trident.*rv[ :]*11\./gi;
+			ie = ieReg.test(userAgent);
+
+			if(ie) {
+
+			  $(".inlineBlock").each(function () {	    
+				var $container = $(this),
+					imgUrl = $container.find("img").prop("src");
+				if (imgUrl) {	
+				  $container.find(".pic").css("backgroundImage", 'url(' + imgUrl + ')').addClass("custom-object-fit");
+				}	
+			  });
+			}
+		}
+
+			
 	</script>
 
     <footer id="footer"></footer>
@@ -308,5 +326,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-98010590-1', 'auto');
 ga('send', 'pageview');
 </script>
+
+
   </body>
 </html>
