@@ -12,42 +12,17 @@
   <meta name="author" content="" />
   <meta name="keywords" content="">
 
-  
-
-  <meta name="generator" content="Hugo 0.19" />
-  
+    <meta name="generator" content="Hugo 0.19" />
   <link href="https://pages.nist.gov/cpspwg/static/css/nist_github_header.css" type="text/css" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:100,400,400i,700,900" rel="stylesheet">
-
-  
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  
-  <link href="https://pages.nist.gov/GCTC/css/animate.css" rel="stylesheet">
-
-  
-  
-    <link href="https://pages.nist.gov/GCTC/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
-  
-
-
-  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:100,400,400i,700,900" rel="stylesheet">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
+  <link href="https://pages.nist.gov/GCTC/css/animate.css" rel="stylesheet">  
+  <link href="https://pages.nist.gov/GCTC/css/style.default.css" rel="stylesheet" id="theme-stylesheet">  
   <link href="https://pages.nist.gov/cpspwg/static/css/nist_github_header.css" type="text/css" rel="stylesheet">
-  <link href="https://pages.nist.gov/GCTC/css/custom.css" rel="stylesheet">
-
-  
-    
-
-  
+  <link href="../../css/custom.css" rel="stylesheet">
   <link rel="shortcut icon" href="https://pages.nist.gov/GCTC/img/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="https://pages.nist.gov/GCTC/img/apple-touch-icon.png" />
-  
-
-  <link href="https://pages.nist.gov/GCTC/css/owl.carousel.css" rel="stylesheet">
-  <link href="https://pages.nist.gov/GCTC/css/owl.theme.css" rel="stylesheet">
-
   <link rel="alternate" href="https://pages.nist.gov/index.xml" type="application/rss+xml" title="Global City Team Challenge">
 
   
@@ -55,9 +30,16 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="/GCTC/about/partners//" />
   <meta property="og:image" content="img/logo.png" />
+<link href="../../css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="../../css/jquery.dataTables.yadcf.css" rel="stylesheet">
+<script src="../../js/handlebars-v4.0.10.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../../js/tabletop.js"></script>
+<script src="../../js/underscore.js"></script>  
   
-  
-
+<style type="text/css">
+    .inlineBlock {display:inline-block;vertical-align: top;max-width: 220px;}
+</style>
 </head>
 
 
@@ -191,8 +173,98 @@
 
 
         <div id="content">
-            
+		
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 id="us-federal-government-partners">US Federal Government Partners</h3>
+						<div id="Partners" class="handlebars"></div>						
+								<script id="cat-template" type="text/x-handlebars-template">
+									
+									{{#if Government-Partners}}
+										<a class="inlineBlock" href="{{Government-Partners-URL}}" target="_blank"><img src="images/{{Government-Partners}}"></a>
+									{{/if}}
 
+								</script>							
+							
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h3 id="us-federal-government-partners">Non-Governmental Organization (NGO) Partners</h3>
+						<div id="NGPartners" class="handlebars"></div>						
+								<script id="cat-template2" type="text/x-handlebars-template">
+									
+									{{#if Non-Governmental-Partners}}
+										<a class="inlineBlock" href="{{Non-Governmental-Partners-URL}}" target="_blank"><img src="images/{{Non-Governmental-Partners}}"></a>
+									{{/if}}
+
+								</script>							
+							
+					</div>
+				</div>
+
+			</div>
+			
+						<script type="text/javascript">
+							
+							
+							$(document).ready( function() {
+							
+							var a, b;
+							var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1PKmJzZ6GxKtSDE4dtLZmIOhC3Ar927qMH0b3PgLkUZc/pubhtml';
+							
+								function init(){
+								
+									a = Tabletop({
+											key: public_spreadsheet_url,
+											callback: showInfo,
+											parseNumbers: true,
+											orderby: 'ID',
+											reverse: false
+										});									
+									b = Tabletop({
+											key: public_spreadsheet_url,
+											callback: showInfo2
+										});
+									
+								}
+								/*
+								Tabletop.init( { key: public_spreadsheet_url,
+												 callback: showInfo,
+												 parseNumbers: true,
+												 orderby: 'ID',
+												 reverse: false} );*/											 
+												 
+							
+								function showInfo(data, tabletop) {
+									var source   = $("#cat-template").html();
+									var template = Handlebars.compile(source);
+
+									$.each( tabletop.sheets("GovtPartners").all(), function(i, cat) {
+									  var html = template(cat);
+									  $("#Partners").append(html);
+									});
+								}    
+								
+								function showInfo2(data, tabletop) {
+									var source   = $("#cat-template2").html();
+									var template = Handlebars.compile(source);
+
+									$.each( tabletop.sheets("Non-GovtPartners").all(), function(i, cat) {
+									  var html = template(cat);
+									  $("#NGPartners").append(html);
+									});
+								}
+								
+								window.addEventListener('DOMContentLoaded', init)
+							});
+
+							
+							</script>
+		
+            
+<!--
             <div class="container">
 
                 <div class="row">
@@ -202,9 +274,7 @@
                         <div>
                           
 
-<style type="text/css">
-    .inlineBlock {display:inline-block;vertical-align: top;}
-</style>
+
 
 <h3 id="us-federal-government-partners">US Federal Government Partners</h3>
 
@@ -243,7 +313,7 @@
                 
 
             </div>
-            
+-->
 
             
         </div>
@@ -268,7 +338,8 @@ PLEASE NOTE: This is a collaborative website. NIST does not endorse the views ex
     </div>
     
 
-    
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -278,20 +349,6 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-98010590-1', 'auto');
 ga('send', 'pageview');
 </script>
-
-<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
-
-
-<script src="https://pages.nist.gov/GCTC/js/front.js"></script>
-
-<script src="https://pages.nist.gov/GCTC/js/owl.carousel.min.js"></script>
-
 
   </body>
 </html>

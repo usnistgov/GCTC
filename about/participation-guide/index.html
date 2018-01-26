@@ -12,42 +12,17 @@
   <meta name="author" content="" />
   <meta name="keywords" content="">
 
-  
-
-  <meta name="generator" content="Hugo 0.19" />
-  
+    <meta name="generator" content="Hugo 0.19" />
   <link href="https://pages.nist.gov/cpspwg/static/css/nist_github_header.css" type="text/css" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:100,400,400i,700,900" rel="stylesheet">
-
-  
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  
-  <link href="https://pages.nist.gov/GCTC/css/animate.css" rel="stylesheet">
-
-  
-  
-    <link href="https://pages.nist.gov/GCTC/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
-  
-
-
-  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:100,400,400i,700,900" rel="stylesheet">  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
+  <link href="https://pages.nist.gov/GCTC/css/animate.css" rel="stylesheet">  
+  <link href="https://pages.nist.gov/GCTC/css/style.default.css" rel="stylesheet" id="theme-stylesheet">  
   <link href="https://pages.nist.gov/cpspwg/static/css/nist_github_header.css" type="text/css" rel="stylesheet">
-  <link href="/GCTC/css/custom.css" rel="stylesheet">
-
-  
-    
-
-  
+  <link href="../../css/custom.css" rel="stylesheet">
   <link rel="shortcut icon" href="https://pages.nist.gov/GCTC/img/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="https://pages.nist.gov/GCTC/img/apple-touch-icon.png" />
-  
-
-  <link href="https://pages.nist.gov/GCTC/css/owl.carousel.css" rel="stylesheet">
-  <link href="https://pages.nist.gov/GCTC/css/owl.theme.css" rel="stylesheet">
-
   <link rel="alternate" href="https://pages.nist.gov/index.xml" type="application/rss+xml" title="Global City Team Challenge">
 
   
@@ -56,7 +31,12 @@
   <meta property="og:url" content="/GCTC/about/participation-guide//" />
   <meta property="og:image" content="img/logo.png" />
   
-  
+<link href="../../css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="../../css/jquery.dataTables.yadcf.css" rel="stylesheet">
+<script src="../../js/handlebars-v4.0.10.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../../js/tabletop.js"></script>
+<script src="../../js/underscore.js"></script>
 
 </head>
 
@@ -191,8 +171,65 @@
 
 
         <div id="content">
-            
 
+		<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div id="ParticipationGuide" class="handlebars"></div>
+						
+							<script id="cat-template" type="text/x-handlebars-template">
+								<article>
+									<h2>{{enhance Header}}</h2>
+									<h3>{{enhance Subheading}}</h3>
+									<p>{{{Body}}}</p>
+									
+									<p><img src="images/{{Image}}"></p>
+									<div>{{enhance Footer}}</div>
+								</article>
+							</script>
+
+							<script type="text/javascript">
+							var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1PKmJzZ6GxKtSDE4dtLZmIOhC3Ar927qMH0b3PgLkUZc/pubhtml';
+							
+							$(document).ready( function() {
+								Tabletop.init( { key: public_spreadsheet_url,
+												 callback: showInfo,
+												 parseNumbers: true,
+												 orderby: 'ID',
+												 reverse: true} );
+								});
+
+								function showInfo(data, tabletop) {
+								var source   = $("#cat-template").html();
+								var template = Handlebars.compile(source);
+
+								$.each( tabletop.sheets("Participation").all(), function(i, cat) {
+								  var html = template(cat);
+								  $("#ParticipationGuide").append(html);
+								});
+							}    
+							(function(){
+								// defines markup enhancement regex
+								var protocol = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim,		
+									scheme   = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+										
+								/*
+								 * plain text or existing markup, provides enhancements of plain text 
+								 * Registers a Helper method with handlebars which, given a string of
+								 * URLs, converting them to their respective anchor tag equivilents.=
+								 */
+								Handlebars.registerHelper('enhance', function(text) {
+								text = text.replace( protocol, '<a href="$1" target="_blank">$1</a>');
+								text = text.replace( scheme,   '$1<a href="http://$2" target="_blank">$2</a>' );	
+								return new Handlebars.SafeString( text );
+								});
+							}());
+							</script>
+					</div>
+				</div>
+			</div>  
+		
+<!--
             <div class="container">
 
                 <div class="row">
@@ -201,39 +238,6 @@
 
                         <div>
                           
-<!--
-<h3 id="global-city-teams-challenge-gctc-participation-guide-how-to-create-an-action-cluster-and-exhibit-speak-at-the-expo">Global City Teams Challenge (GCTC) Participation Guide - How to create an action cluster and exhibit/speak at the Expo</h3>
-
-<p>To create an action cluster, each team must complete and submit a project worksheet. The worksheet template can be downloaded <a href="https://drive.google.com/file/d/0B8nL0SuAAnfXWnFHLUdTRVpNMEE/view?usp=sharing">here</a> and a fictitious example can be downloaded <a href="https://drive.google.com/file/d/0B8nL0SuAAnfXdmhXajNmSHVZUW8/view?usp=sharing">here</a>. The submitted worksheet will be reviewed and accepted once verified to meet all the requirements. Complete and email the worksheet to <a href="mailto:gctcinfo@nist.gov">gctcinfo@nist.gov</a>. GCTC organizers will then review the worksheet and send feedback to the team lead. <strong><em>To be considered for an exhibit space and speaking opportunity at the <a href="https://pages.nist.gov/GCTC/event/gctc-expo-2017/">GCTC Expo 2017</a>, a new action cluster must submit the worksheet as soon as possible.</em></strong>  The requirements to form an action cluster are as follows:</p>
-
-<ol>
-<li><p>Each team (i.e. action cluster) needs to have at least 2 entities, at least one of them being a municipal government participant which will deploy the smart city solution. (At least one city official should be listed as a team member in the worksheet and participate in the team.) In most of the cases, an action cluster is composed of more than 2 entities, including multiple technology providers and sometimes multiple cities and communities.</p></li>
-
-<li><p>Once the team is approved and registered as an action cluster, the information on the worksheet will be published on the GCTC web site, either in summary or in full. The contact information of the team lead will be made public, but the contact information of the municipal partner will not be made public.</p></li>
-
-<li><p>At the GCTC Expo, it is highly encouraged that the municipal government partner participates in the team presentation and exhibit. Each team should demonstrate the feasibility of their project at the Expo by exhibiting prototypes, pilots, and/or preliminary results. The priorities of speaking opportunities will be given to the action clusters joined by one or more municipal partners. Note that the action clusters with no municipal participation at the Expo may not receive a speaking opportunity depending on the level of demand.</p></li>
-
-<li><p>Optional: Teams are encouraged to have multiple municipal partners and technology providers in an action cluster.</p></li>
-</ol>
-
-<p>The <a href="https://pages.nist.gov/GCTC/event/gctc-expo-2017/">GCTC 2017 Expo</a> will be the largest smart city event hosted by the US federal government. Anyone can attend the event, but the opportunity to exhibit and speak at the GCTC Expo is offered to the registered action clusters. Here are a few important points on the participation of action clusters.</p>
-
-<ol>
-<li><p>Each action cluster is offered an exhibit space free of charge (8x8 or 10x10, exact size TBD). (Note that the space is provided free of charge, but you will need to cover the cost to build your booth. Details will be provided to the team lead.)</p></li>
-
-<li><p>Each action cluster is eligible for a speaking slot. If there is excessive demand, priority will be given to the action clusters that are joined by city official(s) as part of the presentation and build an exhibit booth.</p></li>
-
-<li><p>The event has no registration fee and open to all registered attendees. Participating action clusters should encourage as many of their contacts to attend the Expo as possible.</p></li>
-
-<li><p>Limited travel support will be made available to city officials speaking as a member of action cluster or SuperCluster up to a ceiling (exact amount TBD) and will be offered to one city official per action cluster.</p></li>
-</ol>
-
-<p>In this year&rsquo;s Expo, several SuperClusters will be highlighted as well as action clusters. For those who are not familiar with SuperClusters, they are alliances of action clusters and relevant additional stakeholders grouped into sectors. Currently, there are five official SuperClusters; (1) transportation (2) city data platform (3) public safety (4) energy/water/waste (5) public WiFi and two additional SuperClusters under construction (Healthcare and Data Governance). Each SuperCluster will be given a dedicated exhibit space and a plenary speaking slot. With the given exhibit space, each action cluster has a choice to set up their own booth (unaffiliated), join their space with a SuperCluster of choice (affiliated), or do both. If you feel that your action cluster is closely aligned with a SuperCluster and want to join your exhibit space with a specific SuperCluster, please reach out to the SuperCluster chairs to place your space as part of the SuperCluster Pavilion. (The contact info of the chairs can be found <a href="https://docs.google.com/spreadsheets/d/1a697VZZElvLgYISq0ukHhLsK556HQPcdIt_IG6gTPfM/edit?usp=sharing">here</a>.)</p>
-
-<p><img src="/GCTC/uploads/2017/04/27/20170425%20GCTC%202017%20Structure%20diagram.jpg" alt="" /></p>
-
-<p>Note that an independent exhibit space and a presentation slot are given to Layers 1-3. Individual entities in Layer 4 can be part of a SuperCluster exhibit/presentation, but no independent space/presentation slot is provided.</p>
--->
 <h3>Global City Teams Challenge (GCTC) &ndash; Smart and Secure Cities and Communities Challenge (SC3) </h3>
 <h4>Participation Guide - How to create an action cluster and exhibit/speak at the Expo</h4>
 <p>To create an action cluster, each team must complete and submit a project worksheet. The worksheet template can be downloaded <a href="https://drive.google.com/file/d/1kbQ1h3CEBkAb6q7nOvMZICh1r9_6Gpz4/view?usp=sharing">here</a> and a fictitious example can be downloaded <a href="https://drive.google.com/file/d/1liQ1eNlmRcXVYsIfxtIQJ7USZiYxW9Tu/view?usp=sharing">here</a>. The submitted worksheet will be reviewed and accepted once verified to meet all the requirements. Complete and email the worksheet to&nbsp;<a href="mailto:gctcinfo@nist.gov">gctcinfo@nist.gov</a>. GCTC-SC3 organizers will then review the worksheet and send feedback to the team lead.&nbsp;<strong><em>To be considered for an exhibit space and speaking opportunity at the GCTC-SC3 Expo 2018, </em></strong><strong><em>a new action cluster must submit the worksheet. Existing action clusters do not need to submit a new worksheet, but need to send a response to questions regarding <u>cybersecurity and privacy</u> listed in the worksheet.</em></strong> The requirements to form an action cluster are as follows:</p>
@@ -277,7 +281,7 @@
                 
 
             </div>
-            
+-->            
 
             
         </div>
@@ -303,6 +307,8 @@ PLEASE NOTE: This is a collaborative website. NIST does not endorse the views ex
     
 
     
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -312,20 +318,5 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-98010590-1', 'auto');
 ga('send', 'pageview');
 </script>
-
-<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
-
-
-<script src="https://pages.nist.gov/GCTC/js/front.js"></script>
-
-<script src="https://pages.nist.gov/GCTC/js/owl.carousel.min.js"></script>
-
-
   </body>
 </html>

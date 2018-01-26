@@ -20,34 +20,17 @@
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:100,400,400i,700,900" rel="stylesheet">
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
   
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  
-  <link href="https://pages.nist.gov/GCTC/css/animate.css" rel="stylesheet">
-
-  
-  
-    <link href="https://pages.nist.gov/GCTC/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
-  
-
-
-  
+  <link href="https://pages.nist.gov/GCTC/css/animate.css" rel="stylesheet"> 
+  <link href="https://pages.nist.gov/GCTC/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
   <link href="https://pages.nist.gov/cpspwg/static/css/nist_github_header.css" type="text/css" rel="stylesheet">
-  <link href="/GCTC/css/custom.css" rel="stylesheet">
+  <link href="../css/custom.css" rel="stylesheet">
 
-  
-    
-
-  
   <link rel="shortcut icon" href="https://pages.nist.gov/GCTC/img/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="https://pages.nist.gov/GCTC/img/apple-touch-icon.png" />
   
-
-  <link href="https://pages.nist.gov/GCTC/css/owl.carousel.css" rel="stylesheet">
-  <link href="https://pages.nist.gov/GCTC/css/owl.theme.css" rel="stylesheet">
-
   <link rel="alternate" href="https://pages.nist.gov/index.xml" type="application/rss+xml" title="Global City Team Challenge">
 
   
@@ -55,9 +38,42 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="/GCTC/super-clusters//" />
   <meta property="og:image" content="img/logo.png" />
+  <link href="../css/jquery.dataTables.min.css" rel="stylesheet">
+  <link href="../css/jquery.dataTables.yadcf.css" rel="stylesheet">
+
+<script src="../js/handlebars-v4.0.10.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script src="../js/tabletop.js"></script>
+
+<script src="../js/underscore.js"></script>
   
 <style type="text/css">
 .col-md-6 button {margin-top:5px;}
+
+.imageWrap {
+    display: table-cell;
+    width: 273px;
+    vertical-align: top;
+    overflow: hidden;
+    margin: 0 20px 20px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+	float: left;
+    height: 359px;
+}
+#superclusters .imageWrap img {
+    max-width: 250px;
+}
+.clusterBlock {
+    border: 1px solid #eee;
+    padding: 20px;
+    background: #f7f5f5;
+	margin:20px 0 40px 0;
+}
+#Superclusters > p{margin-bottom:40px;}
+button.placeholder {cursor:default;border:1px solid #ddd;}
+button.placeholder:hover {border-color:#ddd;outline:none;}
 </style>  
 
 </head>
@@ -194,7 +210,118 @@
 
         <div id="content">
             
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div id="Superclusters" class="handlebars"></div>
+							<script id="cat-template" type="text/x-handlebars-template">
+								
+								{{#if Header}}<p>{{enhance Header}}</p>{{/if}}
+								<div class="clusterBlock">								
+									<div class="row">
+										<div class="col-md-8">
+											<h2 style="margin-top:0;">{{Cluster-Title}}</h2>
+										</div>
+										<div class="col-md-4">
+											{{#if Blueprint}}
+											<button class="pull-right"><a href="{{Blueprint}}" target="_blank">Download The Blueprint</a></button>
+											{{else}}
+											<button class="pull-right placeholder">Blueprint Coming Soon</button>
+											{{/if}}
+										</div>
+									</div>
+									
+									<p>{{enhance Cluster-Main-Text}}</p>
+									<h3>{{Chair}}:</h3>
+									{{#if Chair1-Image}} 
+										<div class="imageWrap">
+										<img src="images/{{Chair1-Image}}"><br>											
+										{{#if Chair1-Name-Title-Company}} 
+											{{Chair1-Name-Title-Company}} 
+										{{/if}}
+										</div>
+										{{else}}
+										<p>To Be Elected by the Leadership Team</p>
+									{{/if}}
+									{{#if Chair2-Image}} 
+										<div class="imageWrap">
+										<img src="images/{{Chair2-Image}}"><br>											
+										{{#if Chair2-Name-Title-Company}} 
+											{{Chair2-Name-Title-Company}} 
+										{{/if}}
+										</div>
+									{{/if}}
+									{{#if Chair3-Image}} 
+										<div class="imageWrap">
+										<img src="images/{{Chair3-Image}}"><br>											
+										{{#if Chair3-Name-Title-Company}} 
+											{{Chair3-Name-Title-Company}} 
+										{{/if}}
+										</div>
+									{{/if}}
+									
+									{{#if Chair4-Image}} 
+										<div class="imageWrap">
+										<img src="images/{{Chair4-Image}}"><br>											
+										{{#if Chair4-Name-Title-Company}} 
+											{{Chair4-Name-Title-Company}} 
+										{{/if}}
+										</div>
+									{{/if}}
+										
+									
+									<h3 style="clear:left;">Leadership Team:</h3>
+									<p>{{enhance Leadership-Team}}</p>
+								</div>
+								
+								
+							</script>
+							<script type="text/javascript">
+							var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1PKmJzZ6GxKtSDE4dtLZmIOhC3Ar927qMH0b3PgLkUZc/pubhtml';
+							
+							$(document).ready( function() {
+								Tabletop.init( { key: public_spreadsheet_url,
+												 callback: showInfo,
+												 parseNumbers: true,
+												 orderby: 'ID',
+												 reverse: true} );
+								});
 
+								function showInfo(data, tabletop) {
+								var source   = $("#cat-template").html();
+								var template = Handlebars.compile(source);
+
+								$.each( tabletop.sheets("Superclusters").all(), function(i, cat) {
+								  var html = template(cat);
+								  $("#Superclusters").append(html);
+								});
+							}    
+							
+							(function(){
+								// defines markup enhancement regex
+								var protocol = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim,		
+									scheme   = /(^|[^\/])(www\.[\S]+(\b|$))/gim;
+										
+								/*
+								 * plain text or existing markup, provides enhancements of plain text 
+								 * Registers a Helper method with handlebars which, given a string of
+								 * URLs, converting them to their respective anchor tag equivilents.=
+								 */
+								Handlebars.registerHelper('enhance', function(text) {
+								text = text.replace( protocol, '<a href="$1" target="_blank">$1</a>');
+								text = text.replace( scheme,   '$1<a href="http://$2" target="_blank">$2</a>' );	
+								return new Handlebars.SafeString( text );
+								});
+							}());
+							</script>
+							
+							<script>
+							
+							</script>
+					</div>
+				</div>
+			</div>
+<!--
             <div class="container">
 
                 <div class="row">
@@ -400,7 +527,7 @@
 
             </div>
             
-
+-->
             
         </div>
         
@@ -424,6 +551,8 @@ PLEASE NOTE: This is a collaborative website. NIST does not endorse the views ex
     </div>
     
 
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -435,18 +564,6 @@ ga('create', 'UA-98010590-1', 'auto');
 ga('send', 'pageview');
 </script>
 
-<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
-
-
-<script src="https://pages.nist.gov/GCTC/js/front.js"></script>
-
-<script src="https://pages.nist.gov/GCTC/js/owl.carousel.min.js"></script>
 
 
   </body>
