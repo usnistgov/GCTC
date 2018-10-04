@@ -113,24 +113,28 @@
 	 .cards tbody td {width: 86vw;}
 	}
 	
-#btnTransportation {background:url(/GCTC/images/transportation-icon-071217.png) no-repeat 50% 0;}
+	#btnTransportation {background:url(/GCTC/images/transportation-icon-071217.png) no-repeat 50% 0;}
 #btnPublichHealth {background:url(/GCTC/images/Public-health-icon-071217.png) no-repeat 50% 0;}
-#btnEnergyWater {background:url(/GCTC/images/energy-environment-icon-071217.png) no-repeat 50% 0;}
-#btnInfrasctructure{background:url(/GCTC/images/city-data-platform-icon-071717.png) no-repeat 50% 0;}
-#btnDataTech{background:url(/GCTC/images/data-tech-icon-071217.png) no-repeat 50% 0;}
+#btnUtility {background:url(/GCTC/images/energy-environment-icon-071217.png) no-repeat 50% 0;}
+#btnData{background:url(/GCTC/images/city-data-platform-icon-071717.png) no-repeat 50% 0;}
+#btnWireless{background:url(/GCTC/images/data-tech-icon-071217.png) no-repeat 50% 0;}
+#btnAgr{background:url(/GCTC/images/Icons_AgricultureRural.png) no-repeat 50% 0;}
+#btnEducation{background:url(/GCTC/images/Icons_Education.png) no-repeat 50% 0;}
 #btnUrban{background:url(/GCTC/images/Other-Icon_v1-071717.png) no-repeat 50% 0;}
 
 #btnTransportation, 
 #btnPublichHealth,
-#btnEnergyWater,
-#btnInfrasctructure, 
-#btnDataTech,
+#btnUtility,
+#btnData,
+#btnWireless,
+#btnAgr,
+#btnEducation,
 #btnUrban{
     width: 130px;
     height: 170px;
     background-size: 100px 100px;
     border: 0;
-    margin: 0 25px;
+    margin: 0;
     padding-top: 110px;
     vertical-align: bottom;
     line-height: 1.1;
@@ -144,12 +148,14 @@
 
 @media (max-width: 1024px) {
 	#btnTransportation, 
-	#btnPublichHealth,
-	#btnEnergyWater,
-	#btnInfrasctructure, 
-	#btnDataTech,
-	#btnUrban{		
-		margin: 0 10px;
+#btnPublichHealth,
+#btnUtility,
+#btnData,
+#btnWireless,
+#btnAgr,
+#btnEducation,
+#btnUrban{		
+		margin: 0;
 		
 	}
 	
@@ -157,12 +163,14 @@
 
 @media (max-width: 768px) {
 	#btnTransportation, 
-	#btnPublichHealth,
-	#btnEnergyWater,
-	#btnInfrasctructure, 
-	#btnDataTech,
-	#btnUrban{		
-		margin: 0 5px;
+#btnPublichHealth,
+#btnUtility,
+#btnData,
+#btnWireless,
+#btnAgr,
+#btnEducation,
+#btnUrban{		
+		margin: 0;
 		width: 95px;
 		height: 170px;
 		background-size: 70px 70px;
@@ -171,6 +179,7 @@
 	}
 	
 }
+
 	
 </style>
 
@@ -312,7 +321,7 @@
                 <div class="row">
 
                     <div class="col-md-12">
-						<!--
+						
                         <div>
                           <p>There are more than 300 organizations participating in GCTC smart city technology projects, called Action Clusters. These participants include representatives from U.S. cities and states, major cities in other countries, government agencies, private companies, non-profits, universities, hospitals, and a variety of municipal-focused organizations. (More information to be added soon.)</p>
 						  
@@ -321,16 +330,21 @@
 						<div style="margin-bottom:30px;">
 							<button id="btnTransportation">Transportation</button>
 							<button id="btnPublichHealth">Public Safety</button>
-							<button id="btnEnergyWater">Energy, Water, &amp; Environment</button>
-							<button id="btnInfrasctructure">City Data Platform/Dashboard</button>							
-							<button id="btnUrban">Other</button>							
+							<button id="btnUtility">Utility</button>
+							<button id="btnData">Data</button>
+							<button id="btnWireless">Wireless</button>
+							<button id="btnAgr">Agriculture and Rural</button>
+							<button id="btnEducation">Education</button>
+							<button id="btnUrban">Other</button>
 						</div>
 						<div style="float:right;display:inline;">
 							<button><a href="/GCTC/action-clusters/">Click here to view  2017 Action Clusters</a></button>
 						</div>
 						
-						<h2 id="sectorHead" style="display:inline;">All Sectors</h2>
-						-->
+						<h2 id="sectorHead">All Sectors <span> </span></h2>
+						<button type="button" id="showAll">Show All</button>
+						
+
 						<table id="searchable-table" cellpadding="5" cellspacing="0" border="0" width="100%"  class="cards">
 		<thead>
 			<tr>
@@ -561,7 +575,7 @@ Handlebars.registerHelper('wrapURL', function(str) {
     });
 }());
 
-/*
+
 $('#btnTransportation').on('click', function () {
         oTable.columns(1).search("Transportation" ).draw();
 		$("#sectorHead").html("Transportation");
@@ -570,23 +584,36 @@ $('#btnPublichHealth').on('click', function () {
         oTable.columns(1).search("Public Safety" ).draw();
 		$("#sectorHead").html("Public Safety");
     }); 
-$('#btnEnergyWater').on('click', function () {
-        oTable.columns(1).search("Energy, Water & Environment" ).draw();
-		$("#sectorHead").html("Energy, Water & Environment");
+$('#btnUtility').on('click', function () {
+        oTable.columns(1).search("Utility" ).draw();
+		$("#sectorHead").html("Utility");
     }); 
-$('#btnInfrasctructure').on('click', function () {
-        oTable.columns(1).search("City Data Platform/Dashboard" ).draw();
-		$("#sectorHead").html("City Data Platform/Dashboard");
+$('#btnData').on('click', function () {
+        oTable.columns(1).search("Data" ).draw();
+		$("#sectorHead").html("Data");
     }); 
-$('#btnDataTech').on('click', function () {
-        oTable.columns(1).search("Public Wi-Fi/Broadband" ).draw();
-		$("#sectorHead").html("Public Wi-Fi/Broadband");
+$('#btnWireless').on('click', function () {
+        oTable.columns(1).search("Wireless" ).draw();
+		$("#sectorHead").html("Wireless");
     }); 	
+$('#btnAgr').on('click', function () {
+        oTable.columns(1).search("Agriculture and Rural" ).draw();
+		$("#sectorHead").html("Agriculture and Rural");
+	}); 
+$('#btnEducation').on('click', function () {
+        oTable.columns(1).search("Education" ).draw();
+		$("#sectorHead").html("Education");
+    }); 		
 $('#btnUrban').on('click', function () {
         oTable.columns(1).search("Other" ).draw();
 		$("#sectorHead").html("Other");
-    }); 		
-*/	
+    }); 	
+$('#showAll').click(function() {
+    //oTable.search('').draw();
+    //$('#myInputTextField1, #myInputTextField2').val('');
+	window.location.href = window.location.href.split('?')[0];
+});	
+
 
 </script>
 
