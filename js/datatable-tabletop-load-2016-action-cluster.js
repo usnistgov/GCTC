@@ -88,7 +88,7 @@ function loadDataTable() {
 		oLanguage: {
             "sLengthMenu": "_MENU_ records per page"
         },
-        iDisplayLength: 25,		
+        iDisplayLength: 100,		
 		fixedColumns: true
 		
 		
@@ -169,7 +169,8 @@ function loadToDOM(tabletop_data, tabletop) {
 	// Close each statement
     }, this);
 
-    loadDataTable();
+	loadDataTable();
+	$(".loader").hide();
 }
 
 

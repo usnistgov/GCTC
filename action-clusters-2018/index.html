@@ -23,40 +23,23 @@
   
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
   
   <link href="https://pages.nist.gov/GCTC/css/animate.css" rel="stylesheet">
 
-  
-  
-    <link href="https://pages.nist.gov/GCTC/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
-  
-
-
+  <link href="https://pages.nist.gov/GCTC/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
   
   <link href="https://pages.nist.gov/cpspwg/static/css/nist_github_header.css" type="text/css" rel="stylesheet">
-  <link href="https://pages.nist.gov/GCTC/css/custom.css" rel="stylesheet">
+  <link href="/GCTC/css/custom.css" rel="stylesheet">
 
-  
-    
-
-  
-  <link rel="shortcut icon" href="https://pages.nist.gov/GCTC/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/GCTC/img/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="https://pages.nist.gov/GCTC/img/apple-touch-icon.png" />
-  
-
-  <link href="https://pages.nist.gov/GCTC/css/owl.carousel.css" rel="stylesheet">
-  <link href="https://pages.nist.gov/GCTC/css/owl.theme.css" rel="stylesheet">
 
   <link rel="alternate" href="https://pages.nist.gov/index.xml" type="application/rss+xml" title="Global City Team Challenge">
-
   
   <meta property="og:title" content="Action Clusters" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="/GCTC/action-clusters//" />
   <meta property="og:image" content="img/logo.png" />
-  
-  
 
 </head>
 
@@ -254,10 +237,10 @@
                   
                   <li class="dropdown">
                     
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+                      <a href="/GCTC/event">Events</a>
                     <ul class="dropdown-menu">
                       
-                        <li><a href="/GCTC/event/gctc-expo-2017">GCTC EXPO 2017</a></li><li><a href="/GCTC/event/gctc-kickoff-2018">GCTC Kickoff 2018</a></li>
+                        <li><a href="/GCTC/event/gctc-expo-2019">GCTC Expo 2019</a></li><li><a href="/GCTC/event/gctc-kickoff-2018">GCTC Kickoff 2018</a></li><li><a href="/GCTC/event/gctc-expo-2017">GCTC EXPO 2017</a></li>
                       
                     </ul>
                     
@@ -273,7 +256,8 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Action Clusters <span class="caret"></span></a>                    
                     <ul class="dropdown-menu">                                              
 						<li><a href="/GCTC/action-clusters-2018/">2018</a></li><li><a href="/GCTC/action-clusters-2017/">2017</a></li>                      
-                        <li><a href="/GCTC/action-clusters-2016/">2016</a></li>                      
+						<li><a href="/GCTC/action-clusters-2016/">2016</a></li>
+						<li><a href="/GCTC/team-building-and-matchmaking/">Team Building &amp; Matchmaking</a></li>
                     </ul>                    
                   </li>
 <li class="dropdown"><a href="/GCTC/news/">News</a> </li>
@@ -361,7 +345,7 @@
 				<th class="Website">External Website</th>				
 			</tr>
 		</thead>
-		<tbody id="content">
+		<tbody id="content"><div class="loader">Loading...</div>
 		</tbody>
 		<tfoot id="selectColumns">
 			<tr>
@@ -468,7 +452,7 @@
 			oLanguage: {
 				"sLengthMenu": "_MENU_ records per page"
 			},
-			iDisplayLength: 25,		
+			iDisplayLength: 100,		
 			fixedColumns: true
 			
 			
@@ -493,7 +477,7 @@
 
 		loadDataTable(),
 		linkify = DataTablesLinkify(oTable);
-		
+		$(".loader").hide();
 		//function scrollToHash(hashName) { location.hash = "#" + hashName; }
 	}
 

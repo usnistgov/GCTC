@@ -20,7 +20,7 @@
   <link href="https://pages.nist.gov/GCTC/css/style.default.css" rel="stylesheet" id="theme-stylesheet">  
   <link href="https://pages.nist.gov/cpspwg/static/css/nist_github_header.css" type="text/css" rel="stylesheet">
   <link href="../../../css/custom.css" rel="stylesheet">
-  <link rel="shortcut icon" href="https://pages.nist.gov/GCTC/img/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/GCTC/img/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="https://pages.nist.gov/GCTC/img/apple-touch-icon.png" />
   <link rel="alternate" href="https://pages.nist.gov/index.xml" type="application/rss+xml" title="Global City Team Challenge">
 
@@ -242,10 +242,10 @@
                   
                   <li class="dropdown">
                     
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+                      <a href="/GCTC/event">Events</a>
                     <ul class="dropdown-menu">
                       
-                        <li><a href="/GCTC/event/gctc-expo-2017">GCTC EXPO 2017</a></li><li><a href="/GCTC/event/gctc-kickoff-2018">GCTC Kickoff 2018</a></li>
+                        <li><a href="/GCTC/event/gctc-expo-2019">GCTC Expo 2019</a></li><li><a href="/GCTC/event/gctc-kickoff-2018">GCTC Kickoff 2018</a></li><li><a href="/GCTC/event/gctc-expo-2017">GCTC EXPO 2017</a></li>
                       
                     </ul>
                     
@@ -261,7 +261,8 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Action Clusters <span class="caret"></span></a>                    
                     <ul class="dropdown-menu">                      
                         <li><a href="/GCTC/action-clusters-2018/">2018</a></li><li><a href="/GCTC/action-clusters-2017/">2017</a></li>                      
-                        <li><a href="/GCTC/action-clusters-2016/">2016</a></li>                      
+                        <li><a href="/GCTC/action-clusters-2016/">2016</a></li>
+                        <li><a href="/GCTC/team-building-and-matchmaking/">Team Building &amp; Matchmaking</a></li>
                     </ul>                    
                   </li>
 <li class="dropdown"><a href="/GCTC/news/">News</a> </li>
@@ -403,7 +404,7 @@
 				
 			</tr>
 		</thead>
-		<tbody id="content">
+		<tbody id="content"><div class="loader">Loading...</div>
 		</tbody>
 		<tfoot id="selectColumns">
 			<tr>
@@ -518,7 +519,7 @@
 
 		loadDataTable(),
 		linkify = DataTablesLinkify(oTable);
-		
+		$(".loader").hide();
 		//function scrollToHash(hashName) { location.hash = "#" + hashName; }
 	}
 

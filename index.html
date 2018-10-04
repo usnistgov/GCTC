@@ -3,14 +3,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-
-
-
-
-
-
-
-  
+ 
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,9 +12,6 @@
 
   <meta name="author" content="">
   <meta name="keywords" content="">
-
-  
-
   <meta name="generator" content="Hugo 0.19">
   
   <link href="https://pages.nist.gov/cpspwg/static/css/nist_github_header.css" type="text/css" rel="stylesheet">
@@ -43,13 +33,13 @@
 
   
   <link href="https://pages.nist.gov/cpspwg/static/css/nist_github_header.css" type="text/css" rel="stylesheet">
-  <link href="/GCTC/css/custom.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
 
   
     
 
   
-  <link rel="shortcut icon" href="https://pages.nist.gov/GCTC/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/GCTC/img/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="https://pages.nist.gov/GCTC/img/apple-touch-icon.png">
   
 
@@ -61,7 +51,7 @@
   
   <meta property="og:title" content="Global City Team Challenge">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="/GCTC//">
+  <meta property="og:url" content="/">
   <meta property="og:image" content="img/logo.png">
   
 	<style type="text/css">
@@ -69,27 +59,34 @@
 		.introWrap p {    
 			line-height: 1.8;
 		}
-	</style>
+    </style>
+    <script src="js/handlebars-v4.0.10.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    <script src="js/tabletop.js"></script>
+    
+    <script src="js/underscore.js"></script>
+    
 
 </head>
 
 
   <body>
 
-    <div id="all">
+
 
         <header>
 
               <header class="nist-header">
-	<h1>
-	  <a class="nist-logo" href="http://www.nist.gov/cps" title="Go to nist.gov">National Institute of Standards and Technology</a>
-	</h1>
-	<div class="nist-links">
-	  <a class="nist-links-button" href="http://www.nist.gov">NIST Website</a>
-	  <a class="nist-links-button mobile-hide" href="http://www.nist.gov/public_affairs/nandyou.cfm">About NIST</a>
-	  <a class="nist-links-button mobile-hide" href="https://github.com/usnistgov">usnistgov on Github</a>
-	</div>
-</header>
+                    <h1>
+                    <a class="nist-logo" href="http://www.nist.gov/cps" title="Go to nist.gov">National Institute of Standards and Technology</a>
+                    </h1>
+                    <div class="nist-links">
+                    <a class="nist-links-button" href="http://www.nist.gov">NIST Website</a>
+                    <a class="nist-links-button mobile-hide" href="http://www.nist.gov/public_affairs/nandyou.cfm">About NIST</a>
+                    <a class="nist-links-button mobile-hide" href="https://github.com/usnistgov">usnistgov on Github</a>
+                    </div>
+                </header>
 	
 	<div class="navbar-affixed-top" data-spy="affix" data-offset-top="200">
 
@@ -116,7 +113,7 @@
                   
                   <li class="dropdown">
                     
-                    <a href="/GCTC/">Home</a>
+                    <a href="">Home</a>
                     
                   </li>
                   
@@ -125,11 +122,11 @@
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       
-                        <li><a href="/GCTC/about/the-gctc">The GCTC</a></li>
+                        <li><a href="about/the-gctc">The GCTC</a></li>
                       
-                        <li><a href="/GCTC/about/participation-guide">Participation Guide</a></li>
+                        <li><a href="about/participation-guide">Participation Guide</a></li>
                       
-                        <li><a href="/GCTC/about/partners/">Partners</a></li>
+                        <li><a href="about/partners/">Partners</a></li>
                       
                     </ul>
                     
@@ -137,31 +134,31 @@
                   
                   <li class="dropdown">
                     
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="caret"></span></a>
+                      <a href="/GCTC/event">Events</a>
                     <ul class="dropdown-menu">
-                      
-                        <li><a href="/GCTC/event/gctc-expo-2017">GCTC EXPO 2017</a></li>
-						<li><a href="/GCTC/event/gctc-kickoff-2018">GCTC Kickoff 2018</a></li>
-                      
+                        <li><a href="event/gctc-expo-2019">GCTC EXPO 2019</a></li>
+                        <li><a href="event/gctc-kickoff-2018">GCTC Kickoff 2018</a></li>
+                        <li><a href="event/gctc-expo-2017">GCTC EXPO 2017</a></li>                      
                     </ul>
                     
                   </li>
                   
                   <li class="dropdown">
                     
-                    <a href="/GCTC/super-clusters/">SuperClusters</a>
+                    <a href="super-clusters/">SuperClusters</a>
                     
                   </li>
                   
                    <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Action Clusters <span class="caret"></span></a>                    
                     <ul class="dropdown-menu">                      
-                        <li><a href="/GCTC/action-clusters-2018/">2018</a></li>
-<li><a href="/GCTC/action-clusters-2017/">2017</a></li>                      
-                        <li><a href="/GCTC/action-clusters-2016/">2016</a></li>                      
+                        <li><a href="action-clusters-2018/">2018</a></li>
+<li><a href="action-clusters-2017/">2017</a></li>                      
+                        <li><a href="action-clusters-2016/">2016</a></li>
+                        <li><a href="team-building-and-matchmaking/">Team Building &amp; Matchmaking</a></li>
                     </ul>                    
                   </li>
-<li class="dropdown"><a href="/GCTC/news/">News</a> </li>
+<li class="dropdown"><a href="news/">News</a> </li>
                   
                 </ul>
             </div>
@@ -188,142 +185,118 @@
     
 
 </div>
+</header>
+<div id="Homepage" class="handlebars"><div class="loader">Loading...</div></div>
 
-
-
-
-        </header>
-
-        
-
-
-<section>
-    <div class="home-carousel">
-        <div class="dark-mask"></div>
-        <div class="container">
-            <div class="homepage owl-carousel">
-                
-                <div class="item">
-                    <div class="row">
-                        <div class="col-sm-6 col-sm-offset-3 text-center">
-                            <h1>SMART SECURE CITIES AND COMMUNITIES CHALLENGE</h1>
-                            
-                        </div>
-                        
-                    </div>
+    <script id="cat-template" type="text/x-handlebars-template">
+        <section>
+            <div class="home-carousel" style="background-image:url(img/{{Background-Image}});">
+                <div class="dark-mask"></div>
+                <div class="container">
+                    <div class="homepage">                            
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-sm-6 col-sm-offset-3 text-center">
+                                    <h1>{{Heading1}}</h1>
+                                </div>                                    
+                            </div>
+                        </div>                            
+                    </div>                        
                 </div>
-                
             </div>
-            
-        </div>
-    </div>
-</section>
-
-
-
-
-        
-        ﻿
-
-
-<section>            
-        <div class="container">
-            <div class="introWrap">
-                
-                <div class="item">
-                    <div class="row">
-                        <div class="col-sm-8">
-                            
-                            <p>The Global City Teams Challenge (GCTC) program is a collaborative platform for the development of smart cities and communities, led by National Institute of Standards and Technology, a bureau of U.S. Department of Commerce, in partnership with other U.S. federal agencies including U.S. Department of Homeland Security Science and Technology Directorate (DHS S&amp;T), National Science Foundation, International Trade Administration, and National Telecommunications and Information Administration. It enables local governments, nonprofit organizations, academic institutions, technologists, and corporations from all over the world to form project teams, or “action clusters,” and “SuperClusters,” to work on groundbreaking Internet of Things (IoT) and Cyber-Physical Systems (CPS) applications within the city and community environment.</p>
-							<p>In its 2018 round, NIST and DHS S&amp;T will co-host the GCTC- <u><b>Smart and Secure Cities and Communities Challenge (SC3)</b></u> program and will encourage participating teams to have additional focus on cybersecurity and privacy as the first order concern, as well as all existing GCTC goals such as replicability, scalability and sustainability. </p>
+        </section>
+        <section>            
+            <div class="container">
+                <div class="introWrap">
+                    
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <p>{{{Body}}}</p>
+                            </div>                                
+                            <div class="col-sm-4">
+                                <h3>{{SidebarHeading}}</h3>
+                                <p>{{Sidebar}}</p>
+                            </div>                                
                         </div>
-                        
-                        <div class="col-sm-4">
-							<h3>Long-Term Goal</h3>
-                           <p>“To establish and demonstrate replicable, scalable, and sustainable models for incubation and deployment of interoperable, secure, standard-based solutions using advanced technologies such as Internet of Things (IoT) and Cyber-Physical Systems (CPS) and demonstrate their measurable benefits in cities and communities.”</p>
-                        </div>
-                        
-                    </div>
-                </div>
-                
+                    </div>                        
+                </div>                    
             </div>
-            
-        </div>    
-</section>
-
-
-
-
-		
-		
-
-
-<section class="bar background-white">
-    <div class="container">
+        </section>
+        <section class="bar background-white">
+            <div class="container">                
+                <div class="col-md-12">
+                    <div class="row">                
+                        <div class="col-md-4">
+                            <div class="box-simple">
+                                <div class="icon">
+                                    <i class="fa fa-info-circle"></i>
+                                </div>
+                                <h3>{{Column1Heading}}</h3>
+                                <p>{{Column1Text}}</p>
+                                <a class="customBtn4" href="{{Column1URL}}">{{Column1CTA}}</a>
         
-		
-		<div class="col-md-12">
-            <div class="row">
-		
-				<div class="col-md-4">
-                    <div class="box-simple">
-                        <div class="icon">
-                            <i class="fa fa-info-circle"></i>
-                        </div>
-                        <h3>Upcoming events</h3>
-                        <p>June 20-22, 2018<br>The Oregon Convention Center, Portland, OR, USA<br><br><a class="customBtn3" href="https://globaltechjam.com/">GCTC-SC3 Tech Jam Conference 2018</a></p>
-
+                            </div>
+                        </div>                
+                        <div class="col-md-4">
+                            <div class="box-simple">                                
+                                <div class="icon">
+                                    <i class="fa fa-sitemap"></i>
+                                </div>
+                                <h3>{{Column2Heading}}</h3>
+                                <p>{{Column2Text}}</p>
+                                <a class="customBtn4" href="{{Column2URL}}">{{Column2CTA}}</a>
+                            </div>
+                        </div>                
+                        <div class="col-md-4">
+                            <div class="box-simple">                                
+                                <div class="icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <h3>{{Column3Heading}}</h3>
+                                <p>{{Column3Text}}</p>
+                                <a class="customBtn4" href="{{Column3URL}}">{{Column3CTA}}</a>
+                            </div>
+                        </div>                
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <section>
+            <div class="container">                
+                <div class="col-md-12">
+                    <div class="row">
+                        <h2 class="text-center">Current and Past Municipal Action Clusters</h2>
+                        <div class="text-center">{{{Iframe}}}</div>
                     </div>
                 </div>
-		
-        
-		
-				<div class="col-md-4">
-                    <div class="box-simple">
-                        
-						<div class="icon">
-                            <i class="fa fa-sitemap"></i>
-                        </div>
-                        <h3>How to Participate</h3>
-                        <p>Learn how to create an action cluster and exhibit/speak at the GCTC-SC3 events<br><br> <a class="customBtn2" href="/GCTC/about/participation-guide/">Participation Guide</a></p>
-						
-                    </div>
-                </div>
-		
-        
-		
-				<div class="col-md-4">
-                    <div class="box-simple">
-						
-                        <div class="icon">
-                            <i class="fa fa-envelope"></i>
-                        </div>
-                        <h3>Updates</h3>
-                        <p>Sign up to receive updates on<br>GCTC-SC3 news and events<br><br><a class="customBtn2" href="mailto:gctcinfo@nist.gov?subject=Email%20signup%20to%20receive%20updates%20on%20GCTC">Sign Up</a></p>
-						
-                    </div>
-                </div>
-		
-			</div>
-		</div>
-		
-        
-    </div>
-</section><div style="text-align: center;">
-<h2>
-
-
-
-
-		
-		﻿Current and Past Municipal Action Clusters</h2></div></div>
+            </div>
+        </section>
+    </script>
+    <script type="text/javascript">
+    var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1PKmJzZ6GxKtSDE4dtLZmIOhC3Ar927qMH0b3PgLkUZc/pubhtml';
     
- <p align="center"></p>
-<p align="center"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1iV4Y_Owe76YfMemhrD1Rkn5vhXfS7VIk&amp;z=2" height="640" width="960"></iframe>   
+    $(document).ready( function() {
+        Tabletop.init( { key: public_spreadsheet_url,
+                            callback: showInfo,
+                            parseNumbers: true,
+                            orderby: 'ID',
+                            reverse: true} );
+        });
 
-</p>
-<div><br></div>
-<div><br>
+        function showInfo(data, tabletop) {
+        var source   = $("#cat-template").html();
+        var template = Handlebars.compile(source);
+
+        $.each( tabletop.sheets("Homepage").all(), function(i, cat) {
+            var html = template(cat);
+            $("#Homepage").append(html);
+            $(".loader").hide();
+        });
+    }    
+    </script>
+
+<div>
 
 <section class="bar background-gray no-mb">            
         <div class="container">
@@ -471,46 +444,20 @@
 </section>
 
 
-
-
-
-        
-
-
-
-
-        
-
-
-
-
-        
-
-
-
-
-        
-
-
-
-
-        <footer id="footer">
-
-</footer>
+<footer id="footer"></footer>
 
 
 <div>
-<p style="color:#777;font-size:12px;line-height:110%;padding-top:20px;padding-left:50px;padding-right:50px;padding-bottom:10px;">
-PLEASE NOTE: This is a collaborative website. NIST does not endorse the views expressed, or necessarily concur with the information presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. All the material on this website is in the public domain and is intended for unrestricted use by interested parties, including any text, diagrams, or images, unless indicated explicitly.
-<br><br>Don't share anything on this site that you do not want to be public. Do not post any proprietary documents, information or data Anything placed on this site is considered public disclosure and it shall be deemed to have been disclosed on a non-confidential basis, without any restrictions on use by anyone, except that no valid copyright or patent right shall be deemed to have been waived by such disclosure. 
-<br><br>Certain commercial equipment, instruments, materials, systems, software, and trade names may be identified throughout this site in order to specify or identify technologies adequately. Such identification is not intended to imply recommendation or endorsement by NIST or any other party, nor is it intended to imply that the systems or products identified are necessarily the best available for the purpose. All data and other information posted on this site is provided as a public service and is provided "AS IS."  NIST MAKES NO WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND DATA ACCURACY.  
-<br><br>By selecting external links, you will be leaving NIST webspace. Links to other websites are provided because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other websites that are more appropriate for your purpose.
-<br><a href="http://www.nist.gov/public_affairs/privacy.cfm#privpolicy">Privacy Policy</a> | <a href="http://www.nist.gov/public_affairs/privacy.cfm#secnot">Security Notice</a> | <a href="http://www.nist.gov/public_affairs/privacy.cfm#accesstate">Accessibility Statement</a> | <a href="mailto:sgwikisupport@nist.gov?subject=Feedback%20on%20NistPagesTemplate%20Web%20Site">Send feedback</a>
-
-</p>
+    <p style="color:#777;font-size:12px;line-height:110%;padding-top:20px;padding-left:50px;padding-right:50px;padding-bottom:10px;">
+    PLEASE NOTE: This is a collaborative website. NIST does not endorse the views expressed, or necessarily concur with the information presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. All the material on this website is in the public domain and is intended for unrestricted use by interested parties, including any text, diagrams, or images, unless indicated explicitly.
+    <br><br>Don't share anything on this site that you do not want to be public. Do not post any proprietary documents, information or data Anything placed on this site is considered public disclosure and it shall be deemed to have been disclosed on a non-confidential basis, without any restrictions on use by anyone, except that no valid copyright or patent right shall be deemed to have been waived by such disclosure. 
+    <br><br>Certain commercial equipment, instruments, materials, systems, software, and trade names may be identified throughout this site in order to specify or identify technologies adequately. Such identification is not intended to imply recommendation or endorsement by NIST or any other party, nor is it intended to imply that the systems or products identified are necessarily the best available for the purpose. All data and other information posted on this site is provided as a public service and is provided "AS IS."  NIST MAKES NO WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND DATA ACCURACY.  
+    <br><br>By selecting external links, you will be leaving NIST webspace. Links to other websites are provided because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other websites that are more appropriate for your purpose.
+    <br><a href="http://www.nist.gov/public_affairs/privacy.cfm#privpolicy">Privacy Policy</a> | <a href="http://www.nist.gov/public_affairs/privacy.cfm#secnot">Security Notice</a> | <a href="http://www.nist.gov/public_affairs/privacy.cfm#accesstate">Accessibility Statement</a> | <a href="mailto:sgwikisupport@nist.gov?subject=Feedback%20on%20NistPagesTemplate%20Web%20Site">Send feedback</a>
+    </p>
 </div>
 
-    </div>
+</div>
     
 
     
@@ -524,16 +471,16 @@ ga('create', 'UA-98010590-1', 'auto');
 ga('send', 'pageview');
 </script>
 
-<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
-
+-->
 
 <script src="https://pages.nist.gov/GCTC/js/front.js"></script>
 
-<script src="/GCTC/js/owl.carousel.min.js"></script>
+
 </body></html>
