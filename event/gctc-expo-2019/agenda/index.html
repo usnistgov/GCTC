@@ -188,14 +188,14 @@
                 <div class="row">
 
                     <div class="col-md-12">
-						<!-- <div><a class="customBtn2" href="/GCTC/uploads/2018/2018-GCTC-Kickoff-Agenda.pdf" target="_blank"><strong>Download Full Agenda and Search for Keywords Here</strong></a> <br><br></div> -->
+						<div><a class="customBtn2" href="/GCTC/uploads/2019/2019-GCTC-expo-Agenda.pdf" target="_blank"><strong>Download Full Agenda and Search for Keywords Here</strong></a> <br><br></div>
                         <div id="agenda"><div class="loader">Loading...</div></div>
-						<!-- <p><a class="customBtn2" href="/GCTC/uploads/2018/2018-GCTC-Kickoff-Agenda.pdf" target="_blank"><strong>Download Full Agenda and Search for Keywords Here</strong></a></p> -->
+						 <p><a class="customBtn2" href="/GCTC/uploads/2019/2019-GCTC-expo-Agenda.pdf" target="_blank"><strong>Download Full Agenda and Search for Keywords Here</strong></a></p>
 
                     </div>
 					<script id="cat-template" type="text/x-handlebars-template">						
                         {{#if AgendaFileName}}
-                            <img alt="Agenda-{{AgendaFileName}}" src="../../../images/gctc-kickoff-2019/agenda/{{AgendaFileName}}"><br>
+                            <img alt="Agenda-{{AgendaFileName}}" src="../../../images/gctc-expo-2019/agenda/{{AgendaFileName}}"><br>
                             
                         {{else}}
                         <div>{{alt}}</div>
@@ -213,11 +213,9 @@
 										 callback: showInfo,
 										 parseNumbers: true } );
 						});
-
 						function showInfo(data, tabletop) {
 						var source   = $("#cat-template").html();
 						var template = Handlebars.compile(source);
-
 						$.each( tabletop.sheets("Agenda").all(), function(i, cat) {
 						  var html = template(cat);
                           $("#agenda").append(html);
@@ -269,7 +267,6 @@ PLEASE NOTE: This is a collaborative website. NIST does not endorse the views ex
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
 ga('create', 'UA-98010590-1', 'auto');
 ga('send', 'pageview');
 </script>
