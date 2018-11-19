@@ -194,13 +194,13 @@
 						<div id="Logistics" class="handlebars"><div class="loader">Loading...</div></div>
                         <script id="cat-template" type="text/x-handlebars-template">
 							<div>
-								<p>{{Header}}</p>
+								<p>{{{Header}}}</p>
 								{{#if CTA-Text}}<p><a class="customBtn2" href="{{CTA-Link}}" target="_blank">{{CTA-Text}}</a></p>{{/if}}
 							</div>
-							<div><img src="../../../images/gctc-expo-2019/{{Image}}" alt="{{Image-Alt-Text}}" style="float:left;margin:10px 20px 20px 0;"> <p>{{Body}}</p> </div>
+							<div><img src="../../../images/gctc-kickoff-2018/{{Image}}" alt="{{Image-Alt-Text}}" style="float:left;margin:10px 20px 20px 0;"> <p>{{{Body}}}</p> </div>
 							<div>
 								<hr>
-								<p>{{Footer}}</p>
+								<p>{{{Footer}}}</p>
 								{{#if Directions-Text}}<p><a class="customBtn2" href="{{Directions-Link}}" target="_blank">{{Directions-Text}}</a></p>{{/if}}
 							</div>
 						</script>
@@ -213,11 +213,9 @@
 											 callback: showInfo,
 											 parseNumbers: true } );
 							});
-
 							function showInfo(data, tabletop) {
 							var source   = $("#cat-template").html();
 							var template = Handlebars.compile(source);
-
 							$.each( tabletop.sheets("Logistics").all(), function(i, cat) {
 							  var html = template(cat);
                               $("#Logistics").append(html);
@@ -229,6 +227,21 @@
                                 $('div#Logistics').html("<h2>Coming Soon</h2>");
                                 
                             }*/
+                            /*
+							$("#Logistics").filter(function () {
+							var html = $(this).html();
+							var emailPattern = /[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}/g;  
+                            
+							var matched_str = $(this).html().match(emailPattern);
+							if ( matched_str ) {
+							  var text = $(this).html();
+							  $.each(matched_str, function (index, value) {
+								  text = text.replace(value,"<a href='mailto:"+value+"'>"+value+"</a>");
+							  });
+							  $(this).html(text);
+							  return $(this)
+								}    
+                            });*/
                         }
 						</script>
 
@@ -270,7 +283,6 @@ PLEASE NOTE: This is a collaborative website. NIST does not endorse the views ex
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
 ga('create', 'UA-98010590-1', 'auto');
 ga('send', 'pageview');
 </script>
