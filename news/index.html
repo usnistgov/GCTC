@@ -117,9 +117,11 @@
                   </li>
                   
                   <li class="dropdown">
-                    
-                    <a href="/GCTC/super-clusters/">SuperClusters</a>
-                    
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SuperClusters<span class="caret"></span></a>                    
+					<ul class="dropdown-menu">
+						<li><a href="/GCTC/super-clusters/">SuperClusters</a></li>
+						<li><a href="/GCTC/smart-regions/">Smart Regions Collaborative</a></li>						
+					</ul>
                   </li>
                   
                    <li class="dropdown">
@@ -180,30 +182,32 @@
 				<div class="col-md-12">
 					<div id="News" class="handlebars"><div class="loader">Loading...</div></div>
                         <script id="cat-template" type="text/x-handlebars-template">
-							<article>
-                                <div class="row">
-                                    <div class="col-md-8">
-                                        <h2><a href="{{Title-URL}}">{{Title}}</a></h2>
-                                        <p>{{Blurb}}</p>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="imageWrap"><img alt="{{Image-Alt-Text}}" src="../images/news/{{Image}}"></div>
-                                        <p class="caption">{{Image-Caption}}</p>
-                                    </div>
-                                </div>
-								
-								
+							<article id="news-article-{{ID}}">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2><a href="{{Title-URL}}">{{Title}}</a></h2>
+                        <p>{{Blurb}}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="imageWrap"><img alt="{{Image-Alt-Text}}" src="../images/news/{{Image}}"></div>
+                        <p class="caption">{{Image-Caption}}</p>
+                    </div>
+                </div>								
 							</article>
 						</script>
 						<script type="text/javascript">
 						var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1PKmJzZ6GxKtSDE4dtLZmIOhC3Ar927qMH0b3PgLkUZc/pubhtml';
 						
 						$(document).ready( function() {
-							Tabletop.init( { key: public_spreadsheet_url,
-											 callback: showInfo,
-											 parseNumbers: true,
-											 orderby: 'ID',
-											 reverse: true} );
+                Tabletop.init( { key: public_spreadsheet_url,
+                  callback: showInfo,
+                  parseNumbers: true,
+                  orderby: 'ID',
+                  reverse: true
+                });
+
+                
+
 							});
 
 							function showInfo(data, tabletop) {
@@ -212,10 +216,20 @@
 
 							$.each( tabletop.sheets("News").all(), function(i, cat) {
 							  var html = template(cat);
-                              $("#News").append(html);
-                              $(".loader").hide();
+                $("#News").append(html);
+                $(".loader").hide();
+                
 							});
-						}    
+
+              var anchor = window.location.hash;
+              //var navbarHeight = $("#navbar").height();
+              //var desiredHeight = navbarHeight + $("#heading-breadcrumbs").height();
+                if ($(anchor).length > 0)
+                    $('html, body').animate({
+                    scrollTop: $(anchor).offset().top - 100
+                }, 1000);
+						}
+            
 						</script>
 				</div>
 			</div>

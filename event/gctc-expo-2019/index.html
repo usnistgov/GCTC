@@ -55,7 +55,7 @@
 	#hero #date, #hero #location {display: inline-block;font-size:35px;font-family: 'Roboto Condensed', sans-serif;font-weight: 300;color:#fff;text-align:center;line-height: 1;text-shadow:2px 2px 0px rgba(0,0,0,1.0), -1px -1px 22px rgba(0,0,0,0.5);}
 	#hero .wrap {margin:20px auto;width:50%;text-align: center;padding-left: 35px;}
 	 	
-	#intro {background-color:#3E9FBA;color:#fff;padding:40px 0;background-image:none;}
+	#intro {background-color:#3E9FBA;color:#fff;padding-top:40px; padding-bottom:40px;background-image:none;}
 	
 	.no-gutter > [class*='col-'] {
 		padding-right:0;
@@ -64,11 +64,37 @@
 	
 	#cta { background: #C1B8AF;}
 	#cta .lead {font-family: 'Roboto Condensed', sans-serif;font-weight: 300;}
-	.customBtn {font-family: 'Roboto Condensed', sans-serif;font-weight: 700;font-size:74px;color:#fff;border-radius:2px;background:url(../../images/gctc-kickoff-2018/images/btn-icon.png) right center no-repeat #3E9FBA;padding:10px 120px 10px 40px;}	
+	.customBtn {font-family: 'Roboto Condensed', sans-serif;font-weight: 700;font-size:74px;color:#fff;border-radius:2px;background:url(../../images/gctc-kickoff-2018/images/btn-icon.png) right center no-repeat #3E9FBA;padding:10px 40px;}	
 		
-	#intro a {color:#fff;text-decoration:underline;}
+	#intro a {color:#fff;text-decoration:underline;word-break: break-all;}
 	#intro .container, #intro .row {height: auto; position: relative;}
 	#dcConvention:hover{opacity:0.8;}
+
+
+  #Logos {text-align: center;}
+  #Logos a {
+      position: relative;    
+      height: 100px;
+      width: 100%;    
+      display: block;
+  }
+  #Logos img {
+      vertical-align: middle;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+  }
+  #Logos div[class*="col-"]{
+    float:none;
+    display:inline-block;
+  }
+  h3 {font-size: 180%;}
+  @media (max-width: 480px) {
+    .customBtn{font-size:180%;text-align: center;padding:0.1em 1.3em;}
+  }
 </style>
 </head>
 
@@ -141,9 +167,11 @@
                   </li>
                   
                   <li class="dropdown">
-                    
-                    <a href="/GCTC/super-clusters/">SuperClusters</a>
-                    
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SuperClusters<span class="caret"></span></a>                    
+					<ul class="dropdown-menu">
+						<li><a href="/GCTC/super-clusters/">SuperClusters</a></li>
+						<li><a href="/GCTC/smart-regions/">Smart Regions Collaborative</a></li>						
+					</ul>
                   </li>
                   
                    <li class="dropdown">
@@ -193,11 +221,23 @@
 
 </div>
 
-
-
-
-
 <div id="Expo2019" class="handlebars"><div class="loader">Loading...</div></div>
+<div class="container-fluid">
+  <div class="row">
+      <div id="Logos">
+          <div id="Heading1"></div>
+          <div id="Hosts"></div>
+          <div id="Heading2"></div>
+          <div id="Federal"></div>
+          <div id="Heading3"></div>
+          <div id="Partners"></div>
+      </div>
+
+      
+  </div>
+</div>
+<div id="Secondary"></div>
+
 <script id="cat-template" type="text/x-handlebars-template">
 <div class="container-fluid" id="hero" style="background-image:url(../../images/gctc-expo-2019/{{Background-Image}});">
 	<div class="row">
@@ -218,30 +258,56 @@
 		</div>
 	</div>
 </div>
-<div class="container-fluid" id="cta">
-	<div class="row no-gutter">
-		<div class="col-md-6">
-			<img src="../../images/gctc-expo-2019/{{Image}}" alt="{{Image-Alt-Text}}" class="img-responsive">
-		</div>
-		<div class="col-md-6" id="dcConvention">
-			<div style="cursor: pointer;background: #646469;overflow: hidden;padding: 20px 40px;color:#fff;">
-				<a href="{{Location-URL}}" target="_blank" style="text-decoration: none;color:#ffffff;">
-				<h2>{{Date}}</h2>
-				<p class="lead" style="margin-bottom: 0;padding-bottom:0;">
-					{{Location}}
-				</p>
-				<p style="margin: 0;padding:0;"><small>{{Address}}</small></p>
-				</a>
-			</div>
-			<div style="overflow: hidden;padding:10px 40px 40px 40px;color:#181818;">
-				<p><a class="customBtn" href="{{{CTA-URL}}}">{{CTA-Text}}</a></p>
-				<p>{{enhance Additional-Info}}</p>
-			</div>
-		</div>		
-	</div>
-</div>
-
 </script>
+
+
+
+<script id="secondary-template" type="text/x-handlebars-template">
+  <div class="container-fluid" id="cta">
+    <div class="row no-gutter">
+      <div class="col-md-6">
+        <img src="../../images/gctc-expo-2019/{{Image}}" alt="{{Image-Alt-Text}}" class="img-responsive">
+      </div>
+      <div class="col-md-6" id="dcConvention">
+        <div style="cursor: pointer;background: #646469;overflow: hidden;padding: 20px 40px;color:#fff;">
+          <a href="{{Location-URL}}" target="_blank" style="text-decoration: none;color:#ffffff;">
+          <h2>{{Date}}</h2>
+          <p class="lead" style="margin-bottom: 0;padding-bottom:0;">
+            {{Location}}
+          </p>
+          <p style="margin: 0;padding:0;"><small>{{Address}}</small></p>
+          </a>
+        </div>
+        <div style="overflow: hidden;padding:10px 40px 40px 40px;color:#181818;">
+          <p><a class="customBtn" href="{{{CTA-URL}}}">{{CTA-Text}}</a></p>
+          <p>{{enhance Additional-Info}}</p>
+        </div>
+      </div>		
+    </div>
+  </div>
+  </script>
+  
+  <script id="host-template" type="text/x-handlebars-template">    
+    <div class="col-xs-3 col-sm-2 col-md-2 col-lg-1"><a href="{{HostsURL}}" target="_blank"><img src="images/{{Hosts}}"></a></div>    
+  </script>
+  <script id="federal-template" type="text/x-handlebars-template">    
+    <div class="col-xs-3 col-sm-2 col-md-2 col-lg-1"><a href="{{FedURL}}" target="_blank"><img src="images/{{Fed}}"></a></div>    
+  </script>
+  <script id="partner-template" type="text/x-handlebars-template">    
+    {{#if Partners}}
+    <div class="col-xs-3 col-sm-2 col-md-2 col-lg-1"><a href="{{PartnersURL}}" target="_blank"><img src="images/{{Partners}}"></a></div>    
+    {{/if}}
+  </script>
+  <script id="headings1-template" type="text/x-handlebars-template">    
+    <h3>{{Heading1}}</h3>
+  </script>
+  <script id="headings2-template" type="text/x-handlebars-template">    
+    <h3>{{Heading2}}</h3>
+  </script>
+  <script id="headings3-template" type="text/x-handlebars-template">    
+    <h3>{{Heading3}}</h3>
+  </script>
+
 <script type="text/javascript">
 //var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1QZycMk96Dp2mSdexAQXeb-lvqCiEcwHL3SgKQK_Df6U/pubhtml';
 var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1UwN30VBwYZELK6xF4mWiGDkX1O6Hs5qwgn1r_b6ZwQo/pubhtml';
@@ -250,18 +316,70 @@ var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1UwN30VBwYZ
 $(document).ready( function() {
 	Tabletop.init( { key: public_spreadsheet_url,
 					 callback: showInfo,
-					 parseNumbers: true } );
+					 parseNumbers: true,
+           simpleSheet: false,
+           wanted:["Homepage","PartnerLogos", "HostsLogos", "FederalLogos","LogoHeadings"] } );
 	});
 
-	function showInfo(data, tabletop) {
-	var source   = $("#cat-template").html();
-	var template = Handlebars.compile(source);
+  function showInfo(data, tabletop) {
+  var source   = $("#cat-template").html();
+  var template = Handlebars.compile(source);
 
-	$.each( tabletop.sheets("Homepage").all(), function(i, cat) {
+  var hostSource   = $("#host-template").html();
+  var hostTemplate = Handlebars.compile(hostSource);
+
+  var federalSource   = $("#federal-template").html();
+  var federalTemplate = Handlebars.compile(federalSource);
+
+  var partnerSource   = $("#partner-template").html();
+  var partnerTemplate = Handlebars.compile(partnerSource);
+
+  var source3   = $("#secondary-template").html();
+  var template3 = Handlebars.compile(source3);
+
+  var headings   = $("#headings1-template").html();
+  var headings1Template = Handlebars.compile(headings);
+  var headings   = $("#headings2-template").html();
+  var headings2Template = Handlebars.compile(headings);
+  var headings   = $("#headings3-template").html();
+  var headings3Template = Handlebars.compile(headings);
+
+
+  $.each( tabletop.sheets("Homepage").all(), function(i, cat) {
 	  var html = template(cat);
       $("#Expo2019").append(html);
       $(".loader").hide();
 	});
+
+  $.each( tabletop.sheets("HostsLogos").all(), function(i, cat) {
+    var htmlHost = hostTemplate(cat);
+    $("#Hosts").append(htmlHost);
+  });
+
+  $.each( tabletop.sheets("FederalLogos").all(), function(i, cat) {
+    var htmlFedearl = federalTemplate(cat);
+    $("#Federal").append(htmlFedearl);
+  });
+
+  $.each( tabletop.sheets("PartnerLogos").all(), function(i, cat) {
+    var htmlPartners = partnerTemplate(cat);
+    $("#Partners").append(htmlPartners);
+  });
+
+  $.each( tabletop.sheets("Homepage").all(), function(i, cat) {
+	  var html3 = template3(cat);
+      $("#Secondary").append(html3);
+	});
+
+  $.each( tabletop.sheets("LogoHeadings").all(), function(i, cat) {
+    var htmlHeadings1 = headings1Template(cat);
+    var htmlHeadings2 = headings2Template(cat);
+    var htmlHeadings3 = headings3Template(cat);
+    $("#Heading1").append(htmlHeadings1);
+    $("#Heading2").append(htmlHeadings2);
+    $("#Heading3").append(htmlHeadings3);
+  });
+  
 	
 	if(window.location.hash) {
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -60,6 +60,11 @@
 		.introWrap p {    
 			line-height: 1.8;
 		}
+        ul#cats, 
+        ul#cats li{margin:0;padding:0;}
+        ul#cats li{list-style: none;border-bottom: 1px solid #ccc;padding:15px 0;}
+        .newsBlurb,.readmore {display: inline;}
+        
     </style>
     <script src="js/handlebars-v4.0.10.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -145,9 +150,11 @@
                   </li>
                   
                   <li class="dropdown">
-                    
-                    <a href="super-clusters/">SuperClusters</a>
-                    
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SuperClusters<span class="caret"></span></a>                    
+					<ul class="dropdown-menu">
+						<li><a href="super-clusters/">SuperClusters</a></li>
+						<li><a href="smart-regions/">Smart Regions Collaborative</a></li>
+					</ul>
                   </li>
                   
                    <li class="dropdown">
@@ -188,6 +195,7 @@
 </div>
 </header>
 <div id="Homepage" class="handlebars"><div class="loader">Loading...</div></div>
+<div id="newswrap"></div>
 
     <script id="cat-template" type="text/x-handlebars-template">
         <section>
@@ -258,7 +266,13 @@
                                 <p>{{Column3Text}}</p>
                                 <a class="customBtn4" href="{{Column3URL}}">{{Column3CTA}}</a>
                             </div>
-                        </div>                
+                        </div>                                        
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                        <h2>Recent News</h2>
+                        <ul id="cats"></ul>
+                        </div>
                     </div>
                 </div>                
             </div>
@@ -291,7 +305,8 @@
                 </div>
             </div>    
         </section>
-    </script>
+    </script>        
+    
     <script type="text/javascript">
     var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1PKmJzZ6GxKtSDE4dtLZmIOhC3Ar927qMH0b3PgLkUZc/pubhtml';
     
@@ -300,24 +315,40 @@
                             callback: showInfo,
                             parseNumbers: true,
                             orderby: 'ID',
-                            simpleSheet: true,
-                            reverse: true} );
+                            simpleSheet: false,
+                            reverse: true,
+                            wanted:["Homepage","News"]} );
         });
+
         function showInfo(data, tabletop) {
         var source   = $("#cat-template").html();
         var template = Handlebars.compile(source);
+
         $.each( tabletop.sheets("Homepage").all(), function(i, cat) {
             var html = template(cat);
             $("#Homepage").append(html);
             $(".loader").hide();
         });
+                
+        $.each( tabletop.sheets("News").all(), function(i, news) {
+          var cat_li = $('<li><h4><a href="/GCTC/news/index.html#news-article-'+news.ID+'"</a>' + news.Title + '</h4><p class="newsBlurb">'+ news.Blurb + '</p><a class="readmore" href="/news/index.html#news-article-'+news.ID+'">Read more</a></li>')
+          //cat_li.append(news.Blurb);
+          cat_li.appendTo("#cats");
+          if (i == 2){
+              return false;
+          }
+        });
+
+        $('.newsBlurb').each(function(){
+            var truncated = $(this).text().substr(0, 150);            
+            $(this).text(truncated+(truncated.length<150?'':'...'));
+        });
+        
     }    
+
     </script>
 
 <div>
-
-
-
 
 <footer id="footer"></footer>
 
@@ -341,6 +372,7 @@
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
 ga('create', 'UA-98010590-1', 'auto');
 ga('send', 'pageview');
 </script>
