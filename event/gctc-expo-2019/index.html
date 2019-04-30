@@ -74,7 +74,7 @@
   #Logos {text-align: center;}
   #Logos a {
       position: relative;    
-      height: 100px;
+      height: 130px;
       width: 100%;    
       display: block;
   }
@@ -86,10 +86,31 @@
       right: 0;
       bottom: 0;
       margin: auto;
+      max-height: 130px;
   }
   #Logos div[class*="col-"]{
     float:none;
     display:inline-block;
+  }
+  #Hosts, #Federal, #Partners {
+    position:relative;
+  }
+  div#Hosts::after, div#Federal::after, div#Partners::after {
+    display: block;
+    content: "";
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px solid #ebebeb;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    right:0;    
+  }
+  div#Federal {
+    height: 150px;
+  }
+  #Heading1, #Heading3 {
+      margin: 0 0 -10px 0;    
   }
   h3 {font-size: 180%;}
   @media (max-width: 480px) {
@@ -177,7 +198,7 @@
                    <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Action Clusters <span class="caret"></span></a>                    
                     <ul class="dropdown-menu">                      
-                        <li><a href="/GCTC/action-clusters-2018/">2018</a></li><li><a href="/GCTC/action-clusters-2017/">2017</a></li>                      
+                        <li><a href="/GCTC/action-clusters-2018-2019/">2018-2019</a></li><li><a href="/GCTC/action-clusters-2017/">2017</a></li>                      
                         <li><a href="/GCTC/action-clusters-2016/">2016</a></li>
                         <li><a href="/GCTC/team-building-and-matchmaking/">Team Building &amp; Matchmaking</a></li>
                     </ul>                    
