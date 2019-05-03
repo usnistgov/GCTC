@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
   
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
@@ -351,7 +352,7 @@
                     <div class="col-md-12">
 						
                         <div>
-                          <p>Exhibitors - Please contact Gale Guerrieri at <a href="mailto:meetingsguru@gmail.com">meetingsguru@gmail.com</a> for questions related to exhibitor requirements and packages.</p>
+                          <p>Exhibitors - See <a href="https://drive.google.com/file/d/1Q3o69ToFNMYADHQzEscqLX0KYQDY5NZs/view?usp=sharing" target="_blank"><b>Exhibit Instruction</b></a> on how to become an exhibitor. Please contact Gale Guerrieri at <a href="mailto:meetingsguru@gmail.com">meetingsguru@gmail.com</a> for questions related to exhibitor requirements and packages.</p>
 						  
                         </div>
 						
@@ -410,7 +411,7 @@
 				<td class="ActionCluster" data-title="Action-Cluster:">Exhibitor Name: <strong>{{Exhibitor-Name}}</strong></td>				
 				<td class="Description" data-title="Description:">Description: {{Description}}</td>
                 <td class="Booth">Booth Number: {{Booth}}</td>
-                <td class="Website" data-title="External-Web-Site:">
+                <td class="Website" data-title="External-Web-Site:">Website: 
 					<span class="WebsiteURL">{{enhance External-Web-Site}}</span>
 				</td>				
 			</tr>
