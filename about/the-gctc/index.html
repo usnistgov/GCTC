@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -37,7 +37,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="../../js/tabletop.js"></script>
 <script src="../../js/underscore.js"></script>
-
+<style type="text/css">
+.imageWrap {
+    display: table-cell;
+    width: 30%;
+    vertical-align: top;
+    overflow: hidden;
+    margin: 0 20px 20px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+    height: 359px;
+}
+img.organizerImg {
+    height: 270px;
+    object-fit: cover;
+    width: 100%;
+    object-position: 50% 0;
+}
+</style>
   
 
 </head>
@@ -182,14 +200,15 @@
 						<div id="AboutGCTC" class="handlebars"><div class="loader">Loading...</div></div>
                         
 							<script id="cat-template" type="text/x-handlebars-template">
+                                {{#if Header}}
 								<article>
 									<h2>{{Header}}</h2>
 									<p>{{{enhance Body}}}</p>
                                 </article>
-                                
-                                    <div class="col-md-6 organizerWrap">
-                                        <p><strong>{{Organizers}}</strong></p>
-                                        <div class="organizerImg"><img src="images/{{Image}}"></p>
+                                {{/if}}
+                                    <div class="imageWrap organizerWrap">
+                                        <img class="organizerImg" src="images/{{Image}}">
+                                        <p><strong>{{Organizers}}</strong></p>                                        
                                     </div>                                    
                                 
 								
@@ -197,6 +216,7 @@
 
 							<script type="text/javascript">
 							var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1PKmJzZ6GxKtSDE4dtLZmIOhC3Ar927qMH0b3PgLkUZc/pubhtml';
+                            //test spreadsheet: var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1jFjtEwBnQ7hRq8njB65qoieMQy9RQKxabpSodr-yMvY/pubhtml';
 							
 							$(document).ready( function() {
 								Tabletop.init( { key: public_spreadsheet_url,
