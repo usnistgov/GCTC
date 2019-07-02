@@ -73,6 +73,7 @@
     background: #f7f5f5;
 	margin:20px 0 40px 0;
 }
+.clusterBlock button.pull-right{margin-bottom: 5px;}
 #Superclusters > p{margin-bottom:40px;}
 button.placeholder {cursor:default;border:1px solid #ddd;}
 button.placeholder:hover {border-color:#ddd;outline:none;}
@@ -232,10 +233,12 @@ button.placeholder:hover {border-color:#ddd;outline:none;}
 										</div>
 										<div class="col-md-4">
 											{{#if Blueprint}}
-											<button class="pull-right"><a href="{{Blueprint}}" target="_blank">Download The Blueprint</a></button>
+											<button class="pull-right"><a href="{{Blueprint}}" target="_blank">{{BlueprintBTN}}</a></button>
 											{{else}}
 											<button class="pull-right placeholder">Blueprint Coming Soon</button>
 											{{/if}}
+											{{#if Blueprint2}}<button class="pull-right"><a href="{{Blueprint2}}" target="_blank">{{Blueprint2BTN}}</a></button>{{/if}}
+											{{#if Blueprint3}}<button class="pull-right"><a href="{{Blueprint3}}" target="_blank">{{Blueprint3BTN}}</a></button>{{/if}}
 										</div>
 									</div>
 									

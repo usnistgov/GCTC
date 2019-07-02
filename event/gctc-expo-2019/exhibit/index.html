@@ -412,7 +412,7 @@
 				<td class="Sector" data-title="Sector:"><span>{{Sector}}</span></td>
 				<td class="ActionCluster" data-title="Action-Cluster:">Exhibitor Name: <strong>{{Exhibitor-Name}}</strong></td>				
 				<td class="Description" data-title="Description:">Description: {{Description}}</td>
-                <td class="Booth">Booth Number: {{Booth}}</td>
+                <td class="Booth">Booth Number: <strong>{{Booth}}</strong></td>
                 <td class="Website" data-title="External-Web-Site:">
 Website: 					<span class="WebsiteURL">{{enhance External-Web-Site}}</span>
 				</td>				
@@ -472,8 +472,10 @@ Website: 					<span class="WebsiteURL">{{enhance External-Web-Site}}</span>
 				"sLengthMenu": "_MENU_ records per page",
 				"sEmptyTable": "Coming Soon"
 			},
-			iDisplayLength: 100,		
-			fixedColumns: true
+            lengthMenu:[ 10, 25, 50, 75, 100, 150 ],
+			iDisplayLength: 150,		
+			fixedColumns: true,
+            
 			
 			
 		});
