@@ -289,7 +289,7 @@ button.placeholder:hover {border-color:#ddd;outline:none;}
 										<div class="imageWrap">
 										<img src="images/{{Chair1-Image}}"><br>											
 										{{#if Chair1-Name-Title-Company}} 
-											{{mailTo Chair1-Name-Title-Company}} 
+											{{Chair1-Name-Title-Company}} 
 										{{/if}}
 										</div>
 										{{else}}
@@ -322,7 +322,7 @@ button.placeholder:hover {border-color:#ddd;outline:none;}
 									{{/if}}
 										
 									
-									<h3 style="clear:left;">Leadership Team:</h3>
+									<h3 style="clear:left;">Member Organizations:</h3>
 									<p>{{enhance Leadership-Team}}</p>
 									{{#if External-Web-Site}}
 									<h4 class="moreInfoHead">More Information</h4>
